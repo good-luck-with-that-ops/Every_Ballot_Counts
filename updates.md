@@ -15,3 +15,5 @@ The registry's [change log](../registry/#j7--change-log) records entry-level cha
 - **2026-10-27 (afternoon):** Read the ICE case-management justification, the AttainX order record and a GAO protest decision in full; upgraded several claims to primary-document sourcing and recorded a possible link to the USCIS data-lake contract recompete (marked as an inference).
 
 - **2026-10-27 (late afternoon):** Read the October 2025 SAVE privacy impact assessment (PIA-006(d)) in full and added what it says about SSN lookups, bulk upload, retention, queried systems and sharing to the SAVE entry.
+
+- **Oct 27, 2026 (third pass):** Re-checked 256 further document-supported claims against primary sources and corrected attributions, dates, quotes and amounts. See the J7 change log in the [registry](registry/).
