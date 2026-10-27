@@ -4,7 +4,7 @@ Independent research on federal election-data systems, contracts and data flows 
 
 Site: https://good-luck-with-that-ops.github.io/Every_Ballot_Counts/
 
-One-page overview: [PDF](Every_Ballot_Counts_Overview.pdf) · YouTube: https://www.youtube.com/@GoodLuckWithThat
+One-page overview: [PDF](Every_Ballot_Counts_Overview.pdf) · YouTube: https://www.youtube.com/channel/UCfIruAg3e9qwnm5K6aMrMQg
 
 Downloads (Google Drive): https://drive.google.com/drive/folders/1flNo25-HOs3o105u02uywLL_iw84vElx · Contact: amanda.everyballotcounts@gmail.com
 
