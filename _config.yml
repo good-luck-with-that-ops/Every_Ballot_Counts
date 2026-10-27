@@ -1,0 +1,9 @@
+title: Every Ballot Counts
+description: Independent research tracking federal election-data systems, contracts and data flows ahead of the Nov 3, 2026 midterms.
+url: https://good-luck-with-that-ops.github.io
+baseurl: /Every_Ballot_Counts
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude: [site_build, README.md]
