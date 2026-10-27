@@ -2,7 +2,7 @@
 title: Every Ballot Counts
 permalink: /
 ---
-# Every Ballot Counts
+<img src="{{ '/assets/brand/lockup.svg' | relative_url }}" alt="Every Ballot Counts" width="360">
 
 Independent, citizen research on the federal systems, contracts and data flows that touch election data ahead of the **Nov 3, 2026 midterms**. Everything here is built from public records: Federal Register notices, privacy assessments, procurement and USAspending records, court filings, hearings and news reports.
 
