@@ -88,13 +88,13 @@ One entry per federal system, contract vehicle or data feed that touches the ele
 ### USC-01 · SAVE (Systematic Alien Verification for Entitlements)
 Map flows: f1, f2, f3, f10, f23, f40
 - **Owner:** USCIS (D).
-- **What it holds:** A point-in-time verification service that queries federal records for authorized users, not a standalone database (D, Bartell decl.). 2025 overhaul added SSN lookups with SSA data (May 22, 2025, D) and bulk upload (D). 58M+ voter queries and 27 state agreements as of Feb 10, 2026 (D, Edlow testimony). A Jul 24, 2026 DHS memo says 10 states ran full rolls through it (D, report source #34). SSN lookups of U.S.-born citizens opened to election officials Aug 2025 (R, NPR).
+- **What it holds:** A point-in-time verification service that queries federal records for authorized users, not a standalone database (D, Bartell decl.). 2025 overhaul added SSN lookups with SSA data (May 22, 2025, D) and bulk upload (D). 58M+ voter queries and 27 state agreements as of Feb 10, 2026 (D, Edlow testimony). A Jul 24, 2026 DHS memo says 10 states ran full rolls through it (D, report source #34). SSN lookups of U.S.-born citizens opened to election officials in May 2025, with a last-four-digits option added Aug 15, 2025 (R, NPR, Sept 10, 2025).
 - **Vendor / vehicle:** FY26 "voter verification service" $70.7M (D per CMP note; PIID not recorded here, U). Vendor U. VIS (the system behind SAVE and E-Verify) draws from eCISCOR (D, eCISCOR PIA 2015).
 - **PIA / SORN:** SAVE SORN DHS/USCIS-004 reissued Oct 31, 2025, FR 2025-19735 (D): adds citizens by birth, SSA data, driver's-license sources, "voter verification" purpose. SORN bars use for "administrative (non-criminal) immigration enforcement" (D, Bartell ¶16). SAVE PIA 2020 describes the PCER microservice (D, baseline); any PIA update since is U.
 - **Inbound feeds:** [f1] state voter rolls in bulk by SSN/license no. (D). [f2] Numident (D). [f3] DMV/Nlets, "not live at the time of publication" (D). [f23] eCISCOR warehouse → VIS (D).
-- **Outbound feeds:** [f10] SAVE → FDNS referrals stopped after the LWV order, but pre-order referrals kept under the FDNS SORN (D, Bartell ¶¶12–14). [f40] SAVE-match leads to HSI's CBFCC: ~25,000 leads, ~15,000 sent by Jan 2026 (R, ProPublica Aug 14, 2026).
-- **Court mentions:** LWV v. DHS (D.D.C., filed Sept 30, 2025): modified SAVE vacated Jun 22, 2026, 2026 WL 1784297 (D). DHS v. LWV, No. 26A308, SCOTUS stay Sept 25, 2026 (D). LWV/EPIC/LULAC v. DHS, 1:26-cv-03602, filed Oct 15, 2026, seeks deletion (D). CNA v. Mullin ECF 46-1 ¶¶12–16 (D). US v. California complaint fn. 1: California list ran "independently of SAVE" (D). Maricopa SAVE suit, Oct 21, 25 citizens marked "not eligible" (R, unverified here).
-- **Status since Jan 20, 2025:** Apr 22, 2025 DHS/USCIS/DOGE "comprehensive optimization" announced (D, AILA posting). May 22, 2025 SSNs with SSA (D). Oct 31, 2025 SORN (D). Jun 22, 2026 vacatur (D). Sept 25, 2026 stay, SAVE revived (D). Apr 30, 2026 bulk CSV gained an optional "Custom Agency Reference" field (R, CGA).
+- **Outbound feeds:** [f10] SAVE → FDNS referrals stopped after the LWV order, but pre-order referrals kept under the FDNS SORN (D, Bartell ¶¶12–14). [f40] By Jan 2026, about 25,000 of the leads HSI was working came from SAVE flags; a further ~15,000 leads went to HSI's cross-border financial crimes unit (R, ProPublica Aug 14, 2026). Whether the 15,000 are SAVE-derived is not stated.
+- **Court mentions:** LWV v. DHS (D.D.C., filed Sept 30, 2025): modified SAVE vacated Jun 22, 2026, 2026 WL 1784297 (D). DHS v. LWV, No. 26A308, SCOTUS stay Sept 25, 2026 (D). LWV/EPIC/LULAC v. DHS, 1:26-cv-03602, filed Oct 15, 2026, seeks deletion (D). CNA v. Mullin ECF 46-1 ¶¶12–16 (D). US v. California complaint fn. 1: California list ran "independently of SAVE" (D). Arizona AG and Secretary of State v. Maricopa County Recorder, filed Oct 21, 2026: 25 citizens flagged by SAVE as "not eligible"; the Recorder agreed Oct 23 to reinstate them (R, Votebeat, KJZZ).
+- **Status since Jan 20, 2025:** Apr 22, 2025 DHS/USCIS/DOGE "comprehensive optimization" announced (D, AILA posting). May 22, 2025 SSNs with SSA (D). Oct 31, 2025 SORN (D). Jun 22, 2026 vacatur (D). Sept 25, 2026 stay, SAVE revived (D). Apr 30, 2026 bulk CSV gained an optional "Custom Agency Reference" field (R, secondary source; USCIS notice not yet read).
 - **Open questions / records (U):** Does the "SAVE → HSI flags shared (2025 deal)" channel really run through SAVE or through the data layer (USC-04/06)? Request: SAVE SOW and PIID for the $70.7M; SAVE PIA update since 2020; USCIS–SSA interconnection agreement; what the 10 states' full-roll runs returned; the "Custom Agency Reference" field's use.
 
 ### USC-02 · PCIS (Person Centric Identity Services: Identity Index, PCER, Identity Resolution Queue)
@@ -112,10 +112,10 @@ Map flows: f13, f14, f15, f16, f17, f18, f19, f53
 ### USC-03 · PCQS (Person Centric Query Service)
 Map flows: none on the map
 - **Owner:** USCIS (D).
-- **What it holds:** A query service that "provides a way to quickly identify citizenship status using only a name and date of birth" (D, wording from the 16 AGs' Oct 14, 2024 letter). State Department staff use PCQS, and eCISCOR is a data provider to it (D, eCISCOR PIA). That PCQS is the query front end of the PCIS layer is the project's reading (I).
+- **What it holds:** A query service that "provides a way to quickly identify citizenship status using only a name and date of birth" (D, wording from the 16 AGs' Oct 14, 2024 letter). State Department staff use PCQS, and eCISCOR is a data provider to it (D, eCISCOR PIA). PCQS predates PCIS, and the PCIS PIA says PCQS "will be subsumed into or replaced by PCIS" and that PCIS draws on PCQS data (D, PCIS PIA, Dec 2022). Whether PCQS now fronts PCIS is the project's reading (I). PCQS PIAs exist (2018 update).
 - **Vendor / vehicle:** U.
 - **PIA / SORN:** U (PCQS PIA not located).
-- **Inbound feeds:** eCISCOR (D). PCIS (I).
+- **Inbound feeds:** eCISCOR (D). PCIS (I; the PCIS PIA describes the flow in the other direction, PCQS into PCIS).
 - **Outbound feeds:** State Department users (D). Other agencies U.
 - **Court mentions:** None found (U).
 - **Status since Jan 20, 2025:** The AGs' Oct 14, 2024 letter objected to DHS's "refusal to grant access" to PCQS and to SAVE requiring a DHS identifier (D, letter text). The 2025 SAVE overhaul (SSN searches, SSA data) delivered most of what the letter asked (I).
@@ -141,7 +141,7 @@ Map flows: f21
 - **PIA / SORN:** None specific found (U).
 - **Inbound feeds:** [f21] from the lake (D).
 - **Outbound feeds:** Investigators and FDNS analysts (I). Downstream destinations U.
-- **Court mentions:** None names Senzing (D, absence). US v. California ¶¶33–43 says USCIS used unnamed "third-party software" with high/medium/low tiers; DHS disputed the characterization (R, Newsweek). Senzing is the strongest candidate (I); nothing ties it (U).
+- **Court mentions:** None names Senzing (D, absence). US v. California ¶¶33–43 says USCIS used unnamed "third-party software" with high/medium/low tiers; DHS disputed that USCIS used third-party software and said commercial third-party data and other government data were used to supplement public records (R, Newsweek). Senzing is one possible candidate (I); nothing ties it (U).
 - **Status since Jan 20, 2025:** Renewed Sept 30, 2026 (D). Comparable CBP tool: Tamr entity resolution, 70B06C22C00000067, $1.6M, Sept 2022 (D).
 - **Open questions / records (U):** SOWs for both Senzing orders. Data-source configurations. Do FDNS or OCDO run voter files through it? Name and contract of the "third-party software." Vendors are infrastructure; nothing implies a company knows of any use.
 
@@ -151,7 +151,7 @@ Map flows: f7, f8, f9, f10, f11, f12
 - **What it holds:** Fraud and national-security case records (FDNS-DS is the case system; specifics K, U here). Receives target lists treated as "presumptively valid," at 40 reviews per officer per day, ≤12 minutes each (D, CNA order; the quota is also in the New Yorker, R). Clears names against commercial databases (address, demographics, ad-tech) (D, CNA order). Creates TECS records, including for people known to be citizens (D, CNA order; whistleblower R).
 - **Vendor / vehicle:** TRSS social-media vetting pilot 70SBUR26P00000021, $2,756,396 (D). Solicitation 70SBUR26R00000015 (amended Sept 2): CLEAR Risk Inform/Batch, RTIA, Fivecast MATRIX; up to 100,000 government-provided records per batch; contractor output advisory (R, mirrored notice). LexisNexis (RELX) 70SBUR25F00000065, $5.4M, Mar 2025–Mar 2027 (D). Axon body cameras 70SBUR26F00000181, $159,675, Sept 1, 2026, not competed (D).
 - **PIA / SORN:** FDNS SORN holds pre-order SAVE referrals (D, Bartell). SORN number not confirmed (K lead: DHS/USCIS-006, verify). FDNS-DS PIA U.
-- **Inbound feeds:** [f7] target lists from the DHS HQ election team (D, CNA order). [f10] SAVE referrals, stopped (D). [f9] commercial data brokers (D). [f8] queries to state voter-lookup portals (R, whistleblower disclosure Sept 13–14, 2026).
+- **Inbound feeds:** [f7] target lists from the DHS HQ election team (D, CNA order). [f10] SAVE referrals, stopped (D). [f9] commercial data brokers (D). [f8] queries to state voter-lookup portals (R, allegation in a whistleblower disclosure to Sen. Padilla, publicized Sept 14, 2026).
 - **Outbound feeds:** [f11] TECS records (D). [f12] flagged people reach HSI under the Jul 23, 2025 USCIS–ICE MOA (D title; text not public).
 - **Court mentions:** CNA v. Mullin ECF 46-1 (Bartell, Sept 28), ECF 67, ECF 87 (Oct 21 PI order). "FDNS is not a SAVE user agency" (Bartell ¶15). LWV v. DHS (D).
 - **Status since Jan 20, 2025:** May 2, 2025 Delegation 15006 (D). Jul 23, 2025 fourth USCIS–ICE MOA (D title). Sept 5, 2025 rule, effective Oct 6 (D). Dec 5, 2025 Vetting Center (USC-08). Apr 2026 funding request for 200 special agents (R). Aug 31, 2026 surge (D, CNA order).
@@ -187,7 +187,7 @@ Map flows: none on the map
 - **Vendor / vehicle:** U.
 - **PIA / SORN:** U. Watch for a new SORN or PIA.
 - **Inbound feeds:** Federal citizenship and naturalization records, SSA, SAVE (D, EO text); actual feeds U.
-- **Outbound feeds:** Lists to election officials (D, EO text). DOJ said in Sept that a list before the midterms "We might. It's possible." (R).
+- **Outbound feeds:** Lists to election officials (D, EO text). DOJ said in Sept that a list before the midterms "We might. It's possible. I cannot say" (R, DOJ attorney at the Sept 25 hearing before Judge Xinis, answering about the portal and state citizenship lists; Democracy Docket).
 - **Court mentions:** The government's CNA opposition (ECF 46) relies on EO 14399 and dates it Mar 21, 2026; the project uses Mar 31 (check) (D).
 - **Status since Jan 20, 2025:** EO signed Mar 31, 2026; 90-day infrastructure deadline passed ~Jun 29, 2026 (D by arithmetic).
 - **Open questions / records (U):** Has any list been transmitted? Which system compiles it (SAVE, the lake, PCIS)? SSA feed under §4(c). EO date discrepancy.
@@ -205,8 +205,8 @@ Map flows: f37
 - **PIA / SORN:** ICM PIA (2016) (R). ICE-008 Search, Arrest and Seizure SORN modified Jul 2025, FR 2025-13609, now covers witnesses, bystanders and people "incidentally recorded," with biometric, geolocation and commercial data (D). ICM's own SORN U.
 - **Inbound feeds:** [f37] leads from RAVEn (D). Field entries by HSI agents, including the observer records in Hilton (R).
 - **Outbound feeds:** TECS lookouts via the Interface Hub (R). Planned Enterprise Lakehouse sharing with CBP ("lookout and seizure tracking"), DOJ, FBI CJIS, NLETS and OBIM (R). ICE requires "derived analytical data" to remain agency-owned (R).
-- **Court mentions:** Hilton v. Noem (D. Me.; some secondary sources give the caption as "Hilton v. Mullin," No. 69985): an HSI agent photographed observers in Maine (Jan 2026, "Operation Catch of the Day") and entered eight people into ICM; the government's filing (ECF 117, Sept 18) acknowledges one plaintiff's ICM entry "led to" a Mar 2026 border stop and continued enhanced screening (R via Biometric Update). Deposition testimony unsealed at ECF 132 (R, CGA). Plaintiffs made their own names public.
-- **Status since Jan 20, 2025:** Jul 2025 SORN modification (D). Jan 2026 observer entries (R). Jun 2026 modernization (D). Migration to an Enterprise Lakehouse underway (R).
+- **Court mentions:** Hilton v. Noem (D. Me.; some secondary sources give the caption as "Hilton v. Mullin," No. 69985): an HSI agent photographed observers in Maine (Jan 2026, "Operation Catch of the Day") and entered eight people into ICM; the government's filing (ECF 117, Sept 18) acknowledges one plaintiff's ICM entry "led to" a Mar 2026 border stop and continued enhanced screening (R via Biometric Update). Newly unsealed filings include agent deposition excerpts; other depositions remain sealed (R, Press Herald Oct 5, 2026). Docket entry cited by a secondary source: ECF 132, not independently verified. Plaintiffs made their own names public.
+- **Status since Jan 20, 2025:** Jul 2025 SORN modification (D). Jan 2026 observer entries (R). Jun 2026 modernization (D). ICE requires ICM data to be migrated to a new Enterprise Lakehouse; progress not reported (R).
 - **Open questions / records (U):** What happens to analytic products when source records are corrected or deleted? Pull Hilton docket exhibits (government declarations describing systems). ICM–TECS interface logs for election-related cases. Which BPA the modernization order sits under.
 
 ### ICE-02 · ICE Enterprise Lakehouse
@@ -215,9 +215,9 @@ Map flows: none on the map
 - **What it holds:** A planned combination of ICM case records, subjects, vehicles, reports and media with outside law-enforcement data (R).
 - **Vendor / vehicle:** U. Relationship to the DHS-wide Databricks lakehouse (DHS-03) is U (I: the department's common layer).
 - **PIA / SORN:** U.
-- **Inbound feeds:** ICM, outside law-enforcement data (R). **Outbound feeds:** CBP, DOJ, FBI CJIS, NLETS, OBIM (R, expected).
+- **Inbound feeds:** migrated ICM data (R); outside law-enforcement data (U, source not located). **Outbound feeds:** CBP, for lookout and seizure tracking (R, expected). The lakehouse "must interoperate" with DOJ, FBI CJIS, NLETS and OBIM (R); interoperability is not the same as sharing.
 - **Court mentions:** None found.
-- **Status since Jan 20, 2025:** ICM migration into it is a watch item, now documented as underway (R).
+- **Status since Jan 20, 2025:** ICE is requiring ICM data to be migrated into it (R); progress is a watch item (U).
 - **Open questions / records (U):** Vendor, ATO, requirements document and any J&A. Whether CISA's Databricks order (CIS-02) shares the platform. Retention and correction rules for derived data.
 
 ### ICE-03 · ImmigrationOS and ERO Enforcement Case Management (Palantir)
@@ -234,12 +234,12 @@ Map flows: none on the map
 ### ICE-04 · ELITE (Palantir targeting platform)
 Map flows: f36
 - **Owner:** ICE (D).
-- **What it holds:** A targeting platform. ICE officers can pull a "list of 20 million people" on their iPhones (R, 404 Media, May 12, 2026). FOIA records (Bates 057, Jul 6–7): voter data "pending Palantir entry into ELITE" (D); six states listed: Missouri, Michigan, New Mexico, Connecticut, Georgia, Kentucky (R via CGA); counts are records not unique persons (R).
+- **What it holds:** A targeting platform. A senior ICE official said agents have a "list of 20 million people" on their iPhones through Palantir tools (R, 404 Media, May 12, 2026); that this is ELITE is our inference (I). FOIA records (Bates 057, Jul 6–7): voter data "pending Palantir entry into ELITE" (D); six states listed: Missouri, Michigan, New Mexico, Connecticut, Georgia, Kentucky (R via CGA); reported counts are records, and no source gives unique persons (I).
 - **Vendor / vehicle:** Palantir (DHS LSJ covers all BPA orders). ELITE-specific order U.
 - **PIA / SORN:** U.
 - **Inbound feeds:** [f36] iLab output; "use U" (D/U). **Outbound feeds:** HSI leads and targeting (I).
 - **Court mentions:** The Oct 24 PCIS note lists ELITE among systems "named in litigation"; which filing U. FOIA production (Democracy Forward, Oct 1, 2026) is in the shared evidence base (D).
-- **Status since Jan 20, 2025:** Jul 2026 FOIA emails (D). Palantir to CNN: "Voter roll data has never been integrated into ELITE" (R). The two statements are unreconciled (U).
+- **Status since Jan 20, 2025:** Jul 2026 FOIA emails (D). A Palantir spokesperson told WIRED, per Biometric Update, that "voter roll data has never been integrated into ELITE" (R; original not yet read). The two statements are unreconciled (U).
 - **Open questions / records (U):** Was the "pending entry" completed? ELITE PIA/SORN. Palantir's July emails vs its denial.
 
 ### ICE-05 · RAVEn, RAVEn GO, Lead Tracking Tool, HORUS (HSI)
@@ -248,7 +248,7 @@ Map flows: f12, f30, f31, f32, f33, f34, f37, f38, f42, f51, f52
 - **What it holds:** Core analytics, the Lead Tracking Tool, RAVEn GO (mobile field interviews) and HORUS (face-image isolation and matching) (D, PIA). RAVEn GO record fields: agent; "criteria for interview and organizational affiliation indications"; date and location; citizenship; family citizenship; contacts; vehicle; photo ID number; photos; scars and tattoos; SSN; A-number; TECS case number (D, PIA pp. 52–53).
 - **Vendor / vehicle:** Booz Allen order 70CTD022FR0000002. Modification P00019 / J&A JA-26-0191 "Advanced Target Development" (posted ~Sept 2, 2026) adds five new tasks under PWS 4.1.10 "Data Science/Machine Learning Engineering" (D, J&A read Oct 26: J&A-26-0191, file 5.1.1-P00019_JA-26-0191_70CTD022FR0000002). Reporting (R, GovTribe via CGA) described the tasks as ML engineering, cross-dataset analytics, network identification, lead generation and threat prioritization and tied them to the HSI Innovation Lab; the redacted J&A does not show the task names or the Innovation Lab (U). Per the J&A (D): the support is for the Homeland Security Task Force National Coordination Cell under EO 14390 "Combating Cybercrime, Fraud, and Predatory Schemes Against American Citizens," to extract information on scam call-center networks (financial information, leadership, links to corrupt officials, "targeting lists of U.S. victims," recruitment); the order's original goal was "streamlining the ingestion of public, private sector, and authoritative U.S. Government data" for "cross-dataset exploration" to identify networks, generate leads and prioritize threats; basis RFO FAR 8.401(b) / GSAR 538.7104-3(b)(1)(iii), logical follow-on to a competed FSS order; Booz Allen offers proprietary technology at its own investment "unlike the current Government Furnished Equipment-based model," deployable within two weeks; a fragment names the White House National Security Council (context redacted). No voter or election language appears in the readable text (D). 2021 PWS public (D, dhs.gov).
 - **PIA / SORN:** DHS/ICE/PIA-055, appendix update Jun 2025 (D); earlier PIA Aug 2024 (D per TIP note). RAVEn SORN U; the PIA lists source-system SORNs (FinCEN .003, FBI-001, DHS/ALL-041, SSA 60-0059) (D).
-- **Inbound feeds:** [f12] TECS-flagged people (D). [f30] IRS addresses, receiving system unknown (R). [f31] Medicaid data, receiving system unknown (R). [f32] SSA Master Earnings File, annually (D). [f33] PRAC loan-level data including nationality (D). [f34] FinCEN Bank Secrecy Act reports, daily (D). [f38] DASS monitoring alerts (R). On-demand queries to NCIC and IDENT/HART (D). USDA NFC payroll (ICE employee data) (D).
+- **Inbound feeds:** [f12] TECS-flagged people (D). [f30] IRS addresses; IRS-to-ICE address sharing is documented, but no source ties it to RAVEn (R; receiving system unknown). [f31] Medicaid data; reporting ties it to a Palantir tool, possibly ELITE, not RAVEn (R; receiving system unknown). [f32] SSA Master Earnings File, annually (D). [f33] PRAC loan-level data including nationality (D). [f34] FinCEN Bank Secrecy Act reports, daily (D). [f38] possible alerts from TRSS CLEAR-based monitoring; not documented (I). On-demand queries to NCIC and IDENT/HART (D). USDA NFC payroll (ICE employee data) (D).
 - **Outbound feeds:** [f37] leads to ICM. [f42] HSI is a founding NFDC partner; flow U. [f51] lead lists drive field interviews, each contact logged (D). [f52] voter-fraud reports "for submission to VP Task Force" (HSI report Jun 16, 2026, D, FOIA).
 - **Court mentions:** The Oct 24 PCIS note lists RAVEn among systems "named in litigation"; which filing U. CNA v. Mullin ECF 87 findings on lists and AI enrichment (D).
 - **Status since Jan 20, 2025:** Jun 2025 PIA appendix update (D). Sept 2026 P00019 (R). Voter-data PIA gap noted Oct 21 (D).
@@ -267,7 +267,7 @@ Map flows: f35, f36, f49
 - **Vendor / vehicle:** U. Booz Allen P00019 adds five Innovation Lab tasks (R; see ICE-05). Sandia "Athena" used on NJ and PA rolls (R, ProPublica).
 - **PIA / SORN:** U.
 - **Inbound feeds:** [f35] voter rolls from the DHS HQ target-list compilation. **Outbound feeds:** [f36] to ELITE (use U). [f49] "California list (~20,000 names) to DOJ" (D, US v. California complaint, Oct 15, 2026).
-- **Court mentions:** CNA v. Mullin ECF 87; ECF 50-2. US v. California ¶¶33–43. Provenance conflict: the complaint says USCIS used unnamed "third-party software"; the map credits iLab. At the Ninth Circuit argument on Oct 25, DOJ counsel could not say which third parties provided the data (R). Treat the origin of the California list as U.
+- **Court mentions:** CNA v. Mullin ECF 87; ECF 50-2. US v. California ¶¶33–43. Provenance conflict: the complaint says USCIS used unnamed "third-party software"; the map credits iLab. At the Oct 25 Ninth Circuit argument, DOJ counsel struggled to explain what role an unidentified third party played in analyzing the data (R, Democracy Docket); the court rejected DOJ's request Oct 26 (R, CNN). Treat the origin of the California list as U.
 - **Status since Jan 20, 2025:** Aug 31, 2026 broadcast (D). Oct 15, 2026 complaint (D).
 - **Open questions / records (U):** iLab tool inventory; names and contracts of the AI tools; the provenance of the 48.2M.
 
@@ -277,7 +277,7 @@ Map flows: f40, f41
 - **What it holds:** The "Election Integrity Investigations" pipeline of Jun 15, 2026: roll acquisition → enrichment → leads → field validation → organizations (D, FOIA). CBFCC "facilitates the referral, coordination, and dissemination" of voter leads; the Identity and Benefit Fraud Unit (IBFU) took over from a "Tiger Team" ~Jul 2025 (D, ECF 46-2 ¶¶9–10).
 - **Vendor / vehicle:** U.
 - **PIA / SORN:** U.
-- **Inbound feeds:** [f40] ~25,000 SAVE-match leads, ~15,000 sent by Jan 2026 (R). **Outbound feeds:** [f41] field validation; organizations reviewed (D).
+- **Inbound feeds:** [f40] ~25,000 SAVE-flag leads; a further ~15,000 leads went to HSI's cross-border financial crimes unit (R, ProPublica). **Outbound feeds:** [f41] field validation; organizations reviewed (D).
 - **Court mentions:** CNA v. Mullin ECF 46-2 (acting Deputy Assistant Director declaration; name blank); ECF 87.
 - **Status since Jan 20, 2025:** Jul 2025 IBFU takeover (D). Mar 2026 ICE–DOJ data-sharing letter lets HSI use rolls for any "appropriate investigation of potential violations of federal election law" (R). Aug 31, 2026 surge (D).
 - **Open questions / records (U):** USCIS→CBFCC referral counts and criteria; IBFU referral criteria; the CBFCC's data holdings.
@@ -285,7 +285,7 @@ Map flows: f40, f41
 ### ICE-09 · ATrac ("Alien Tracker")
 Map flows: none on the map
 - **Owner:** ICE (R).
-- **What it holds:** Geospatial targeting using SSA, USCIS, FBI, ATF and USMS data; DOL, HHS and HUD data planned (R, 404 Media, Apr 2025).
+- **What it holds:** Geospatial targeting using FBI, ATF, USMS and SSA data (R, NYT via The Independent, Jun 2025); DOL, HHS, HUD and IRS data planned (R, 404 Media, Apr 2025).
 - **Vendor / vehicle, PIA / SORN, feeds, court:** U. No voter link shown (U).
 - **Status since Jan 20, 2025:** Reported Apr 2025 (R).
 - **Open questions / records (U):** PIA, vendor, current data sources.
@@ -293,10 +293,10 @@ Map flows: none on the map
 ### ICE-10 · DASS (continuous-monitoring analytics, Thomson Reuters Special Services)
 Map flows: f38
 - **Owner:** ICE/HSI (D).
-- **What it holds:** Continuous monitoring of up to 1M entities, with alerts, risk scoring and graph anomaly detection (R, kyberintel; J&A text not independently retrieved). A July 2026 reporting lead cites voter-fraud and national-security purposes (R, WIRED).
-- **Vendor / vehicle:** BPA 70CMSD26A00000008, $125M, five years through Sept 29, 2031 (R). Sole-source J&A-26-0099 dated Jul 14, 2026, withdrawn Aug 12, then competed with reportedly one bid (R). SAM notice 68e3b2668da549dea1b90593cb5a390b (D). Sept 29, 2026 TRSS orders: 70CMSD26FC0000057 $1.54M; …0060 $2.69M (SEVP); …0061 $2.47M; …0069 $503K, about $7.21M (aggregator values, not reconciled). Control: TRSS LEIDS ICE 2021, ~$25.2M. Likely the same $125M "CLEAR 'voter fraud'" contract in the report timeline (Jul 17; opened to bids Aug 18) (I).
+- **What it holds:** Continuous monitoring of up to 1M entities, with alerts, risk scoring and graph anomaly detection (R, Biometric Update, Aug 15, 2026, and GovConWire; J&A text not independently retrieved). The procurement text cites voter fraud, immigration fraud and national security (R, 404 Media, Jul 17, 2026).
+- **Vendor / vehicle:** BPA 70CMSD26A00000008, $125M, five years through Sept 29, 2031 (R). Sole-source J&A-26-0099 dated Jul 14, 2026 (number and date from the SAM notice, not from press), withdrawn Aug 12 (R), then competed with reportedly one bid (R, GovConWire citing OrangeSlices). SAM notice 68e3b2668da549dea1b90593cb5a390b (D). Sept 29, 2026 TRSS orders: 70CMSD26FC0000057 $1.54M; …0060 $2.69M (SEVP); …0061 $2.47M; …0069 $503K, about $7.21M (aggregator values, not reconciled). Control: TRSS LEIDS ICE 2021, ~$25.2M. Likely the same $125M "CLEAR 'voter fraud'" contract in the report timeline (Jul 17; ICE said it would compete the requirement, reported Aug 15–18, with a solicitation forecast of Aug 24) (I).
 - **PIA / SORN:** U.
-- **Inbound feeds:** Commercial and public data via TRSS CLEAR (I). **Outbound feeds:** [f38] alerts and risk scores into RAVEn leads (R).
+- **Inbound feeds:** Commercial and public data via TRSS CLEAR (I). **Outbound feeds:** [f38] possible alerts and risk scores into HSI lead systems; not documented, and Biometric Update says the TRSS data flow into ICE's Palantir systems is not established (I).
 - **Court mentions:** None found.
 - **Status since Jan 20, 2025:** Jul 14, 2026 J&A; Aug 12 withdrawn; Sept 2026 BPA and orders (R).
 - **Open questions / records (U):** Signed BPA, parent identifier, PWS, ordering guide; reconcile with the September calls. Do not equate ceiling or capacity with spending or enrollment.
@@ -315,18 +315,18 @@ Map flows: none on the map
 ### ICE-12 · Mobile Fortify (NEC) and "Mobile Identify"
 Map flows: f39, f48
 - **Owner:** ICE and CBP (R).
-- **What it holds:** A field face-scan app that queries IDENT (270M+ records), CBP's Traveler Verification Service, State's visa and passport photo database, NCIC, Nlets, TECS and SEACATS (R: 404 Media, WaPo, NPR, Wired, 2025–26). Photos are kept 15 years "regardless of immigration or citizenship status"; a person cannot refuse (R, DHS document, 404 Media Oct 31, 2025). A Privacy Threshold Analysis exists (R, Biometric Update, Dec 2025); no completed PIA (R, critics).
-- **Vendor / vehicle:** NEC, named in the DHS 2025 AI Use Case Inventory (R). No separate award identified; likely rides on the NEC enterprise license, $23.85M, Sept 30, 2024 (I; see DHS-01). Mobile Identify for local police: launched Nov 4, 2025, pulled from Google Play Dec 5, 2025 (R).
-- **PIA / SORN:** PTA only (R). "Mobile Query" appears in earlier working notes but in no primary record found; it may be another name (U).
-- **Inbound feeds:** [f48] queries to State photos plus TECS, NCIC, Nlets (R). **Outbound feeds:** [f39] captures retained; receiving system U (ATS per CBP-02, source U).
-- **Court mentions:** None found. Rep. Thompson: ICE told Congress a match is "definitive" and officers may disregard citizenship evidence (R).
+- **What it holds:** A field face-scan app that queries IDENT (270M+ records), CBP's Traveler Verification Service, State's visa and passport photo database, NCIC, Nlets, TECS and SEACATS (R: 404 Media, WaPo, NPR, Wired, 2025–26). Photos are kept 15 years "regardless of immigration or citizenship status"; a person cannot refuse (R, DHS document, 404 Media Oct 31, 2025). A Privacy Threshold Analysis (PTA) exists, approved May 12, 2025 and expiring May 12, 2028 (D, the PTA as published by Biometric Update, Dec 2025). No Mobile Fortify-specific PIA or SORN; the PTA relies on existing PIAs for ICE's EID and CBP's ATS (D).
+- **Vendor / vehicle:** NEC, named in the DHS 2025 AI Use Case Inventory (R). No separate award identified; likely rides on the NEC enterprise license, $23.85M, Sept 30, 2024 (I; see DHS-01). CBP's Mobile Identify for local police: reported Nov 4, 2025 as publicly released and Dec 5, 2025 as removed from Google Play (R; these are report dates).
+- **PIA / SORN:** PTA only; no Mobile Fortify-specific PIA or SORN (D). "Mobile Query" appears in earlier working notes but in no primary record found; it may be another name (U).
+- **Inbound feeds:** [f48] The PTA lists ATS/TVS, a biometric gallery and IDENT (D); queries to State photos, TECS, NCIC and Nlets are reported but not confirmed in a primary source (R). **Outbound feeds:** [f39] captures retained; receiving system U (ATS per CBP-02, source U).
+- **Court mentions:** None found. ICE told lawmakers that Mobile Fortify results are "definitive" and should be trusted over a birth certificate (R, 404 Media, Jan 19, 2026).
 - **Status since Jan 20, 2025:** First reported Jun 2025 (R); Oct 31, 2025 DHS document (R).
 - **Open questions / records (U):** The Mobile Fortify PTA/PIA; the list of galleries queried; the task order or modification adding mobile capability; whether passport photos of U.S. citizens are in the queried gallery.
 
 ### ICE-13 · Field capture peripherals: body cameras (Axon Evidence.com) and BITMAP devices (Parsons)
 Map flows: f39
 - **Owner:** ICE and USCIS (D).
-- **What it holds:** Body-worn camera footage in Axon's cloud (Evidence.com) (R/baseline). ICE expected every field officer equipped by end Aug 2026; footage released only when in the agency's "best interests" (R, AP Aug 7–8, 2026). BITMAP mobile biometric collection devices for ICE-HSI (D).
+- **What it holds:** Body-worn camera footage in Axon's cloud (Evidence.com) (R/baseline). ICE expected every field officer equipped by end Aug 2026; policy calls for expedited release of footage after a serious injury or death in custody when judged in the "best interests of the agency" (R, AP, Aug 8, 2026). BITMAP mobile biometric collection devices for ICE-HSI (D).
 - **Vendor / vehicle:** Axon: 70CMSW26FR0000046 $13.1M and …0045 $17.8M (Jul 17 and 20, 2026); PCI Guidehouse JV 70CMSW26C00000014 $1.8M body-camera PMO (Sept 18); 70CMSW25FR0000020 $67,500 Evidence.com engineering (Mar 12, 2025); USCIS 70SBUR26F00000181 $159,675 (Sept 1, 2026, not competed). Parsons: 70CMSD26P00000133 $40K and 70CMSD26P00000097 $99K, not competed (Sept 25 and 30, 2026) (D).
 - **PIA / SORN:** U (ICE-008 SAS SORN covers incidental recordings, see ICE-01).
 - **Feeds:** [f39] receiving system for captures U (IDENT/HART?). Link from Axon to any DHS analytics platform U.
@@ -345,7 +345,7 @@ Map flows: none on the map
 - **Vendor / vehicle:** ICE/HSI 70CMSD25P00000111: $3.75M awarded Sept 5, 2025 plus option 1 exercised Sept 1, 2026 $3.94M = $7.69M; one offer, "only one source"; runs to Sept 4, 2027 (D). Reporting says $9.2M signed Sept 9, 2025 (R; unreconciled). Stated purpose "child sexual exploitation cases and assaults against law enforcement officers" (D). Earlier ICE buys $224K (2020), $2.29M (2021), $1.10M (2024). CBP: NTC $225K (Feb 10, 2026), Border Patrol licenses Jun 2025 and Jul 2026 (D). FBI $150K (Jan 2026); USMS (Mar 2026); IRS (Mar 2026); DOJ Criminal Division "AI Federal Investigator Tool" $31.5K (Sept 30, 2026) (D).
 - **PIA / SORN:** ICE FRS PIA is referenced by RAVEn HORUS (D). Others U.
 - **Inbound / outbound feeds:** Probe photos in; candidate matches out (I). Whether run on protest footage is U.
-- **Court mentions:** None found. The NTC Counter Network Division previously monitored U.S. citizens, journalists, lawmakers (R, ~Jan 2022); Clearview is licensed for "counter-network analysis" (R, Feb 2026).
+- **Court mentions:** None found. The NTC Counter Network Division was reported to have run searches on journalists, congressional members and staff, and U.S. citizens' groups (R, Yahoo News, Dec 2021–Jan 2022). CBP's Feb 2026 Clearview contract (15 NTC licenses) cites "counter-network analysis" (R, FedScoop, Feb 11, 2026); this is CBP's contract, not ICE's.
 - **Status since Jan 20, 2025:** Sept 2025 award, largest yet (about 3.4× the 2021 buy); Feb 2026 CBP NTC; Sept 2026 option (D).
 - **Justification read Oct 26 (D, J&A-25-0183, FAR 6.302-1 only one responsible source, new FFP purchase order for the HSI Innovation Lab):** Notice of intent posted Aug 6, 2025. HSI has used Clearview "since June 2019." The vendor is described as "sole provider" of facial search of public online imagery with source attribution, compliance and audit tools, gallery enrollment and a "unified platform," over "50+ billion facial images." An authorized reseller exists and a NASA SEWP V RFI drew a market-research quote, but the J&A still concludes sole source; HSI later reduced its license count; the CO will request invoices for Clearview sales to other agencies to check price. Stated mission text is largely redacted. The file does not show the contract number; matching it to 70CMSD25P00000111 rests on timing, Sept 5, 2025 award (I). It ties Clearview to the Innovation Lab (ICE-07) (D). No voter or election language in the readable text (D).
 - **Open questions / records (U):** CBP SOW and CBP justification; NTC Counter Network Division election tasking; the redacted purpose and license counts; the reseller quote.
@@ -365,7 +365,7 @@ Map flows: f9
 Map flows: none on the map
 - **User:** ICE Intelligence, ICE Homeland Security Task Force, USCIS FDNS (D).
 - **What it holds:** Social-media and location analytics. Webloc is location data (K).
-- **Vendor / vehicle:** Pen-Link 70CMSD26FR0000187 $1.87M; …0185 $1.63M; …0181 $1.63M (Sept 25, 2026). ShadowDragon (via ETS) 70CMSD26FR0000166 $132,931 (Sept 21). Fivecast (via ETS) 70CMSD26FR0000093 $777,777 (Sept 15). Babel Street (via Flywheel Data) 70CTD026FR0000025 $10,300,000, 25 Insights licenses, "location and identity" APIs (May 20, 2026). Zignal (Sept 2025). FDNS social-media pilot uses Fivecast MATRIX (R).
+- **Vendor / vehicle:** Pen-Link 70CMSD26FR0000187 $1.87M; …0185 $1.63M; …0181 $1.63M (Sept 25, 2026). ShadowDragon (via ETS) 70CMSD26FR0000166 $132,931 (Sept 21). Fivecast (via ETS) 70CMSD26FR0000093 $777,777 (Sept 15). Babel Street (via Flywheel Data) 70CTD026FR0000025 $10,300,000, 25 Insights licenses, "location and identity" APIs (May 20, 2026). Zignal (Sept 2025). An FDNS social-media pilot using Fivecast MATRIX is reported by a secondary source but not yet verified (U).
 - **PIA / SORN:** ICE IIRS (ICE-006) SORN modified Jul 2025, FR 2025-13613 (D). Others U.
 - **Feeds, court:** U.
 - **Status since Jan 20, 2025:** Sept 2026 cluster is mostly fiscal-year-end (competing explanation).
@@ -409,7 +409,7 @@ Map flows: f48 (via Mobile Fortify)
 
 ### CBP-04 · Vehicle Biometric Capability Evaluation
 Map flows: none on the map
-- **Owner:** CBP (R). **What it holds:** A World Cup-period evaluation of vehicle-based biometrics; CBP also ran AI for "anomalous travel patterns" (R, GovCIO).
+- **Owner:** CBP (R). **What it holds:** A vehicle-based biometrics evaluation planned for FY2026 (R, GovCIO, Sept 16, 2025); CBP also said it would use AI to flag unusual travel activity ahead of the World Cup (R, MeriTalk, May 28, 2026).
 - **Vendor, PIA/SORN, feeds, court, status:** U.
 - **Open questions / records (U):** Primary source; vendor; retention; whether it leads to CBP-05.
 
@@ -430,10 +430,10 @@ Map flows: none on the map
 ### DHS-01 · HART / IDENT (OBIM) and the NEC enterprise facial matcher
 Map flows: f15, f39
 - **Owner:** DHS Office of Biometric Identity Management (OBIM) (D). Reports to the DHS CIO since Aug 2025 after a White House Homeland Security Council review began May 2025; DOGE "extended its operations to OBIM," though two sources said it got no direct system access (R, FedScoop May 20 and Aug 14, 2025).
-- **What it holds:** "More than 300 million profiles" of faces, fingerprints and irises; IDENT handles about 500K queries a day (R). HART is the delayed replacement; stated goal "accelerate the delivery of HART" and a "unified biometric experience for DHS" (R).
+- **What it holds:** "More than 300 million profiles" of faces, fingerprints and irises; IDENT handles nearly half a million queries a day (R, FedScoop, 2025). HART is the delayed replacement; a White House spokesperson described the goal as to "accelerate the delivery of HART" and a "unified biometric experience for DHS" (R, FedScoop, Aug 14, 2025).
 - **Vendor / vehicle:** NEC holds the DHS enterprise facial-matching license, $23.85M, Sept 30, 2024, following AIM maintenance $7.95M, Sept 30, 2023 (D). The DHS Palantir LSJ requires "integration with biometric and identity management systems, such as the [redacted]" (D; likely HART/IDENT, I).
 - **PIA / SORN:** DHS/OBIM/PIA-001 (IDENT); HART PIA "forthcoming" as of the Jun 2025 RAVEn PIA (D). SORN DHS/ALL-041 External Biometric Records, 83 FR 17829 (Apr 24, 2018) (D).
-- **Inbound feeds:** [f39] Mobile Fortify and body-cam captures; receiving system U (R). **Outbound feeds:** [f15] to PCIS (D). RAVEn on-demand queries (D). Mobile Fortify queries IDENT (R).
+- **Inbound feeds:** [f39] Mobile Fortify and body-cam captures; receiving system unknown (U). **Outbound feeds:** [f15] to PCIS (D). RAVEn on-demand queries (D). Mobile Fortify queries IDENT (R).
 - **Court mentions:** None found.
 - **Status since Jan 20, 2025:** May 2025 HSC review; Aug 2025 reporting change (R).
 - **Open questions / records (U):** HSC review output (May–Aug 2025); DOGE access logs or agreements for OBIM; HART PIA.
@@ -447,7 +447,7 @@ Map flows: f36, f37 (platform for ICM/ELITE); CIS-01
 - **Inbound / outbound feeds:** "daily data export to the analytical system" with a redacted partner (D, LSJ). Everything else U.
 - **Court mentions:** None names the BPA. Palantir blog Jun 9, 2025: "not a vendor on any master database project" (D, company statement).
 - **Status since Jan 20, 2025:** Feb 12, 2026 award; May 14, 2026 LSJ posted; Sept 2026 orders. Palantir Q3 earnings Mon Nov 2, 2026, 5 pm ET, the day before the election (D). Palantir's CTO was reported in June 2026 as a CISA director contender; the White House said "not accurate" (R).
-- **Posting lag (I):** the LSJ cites FAR 8.405-6(a)(2)(i)(B) for posting; the companion Carahsoft SSJ states a 14-day-after-award posting rule, and GSAR 538.7104-3(b)(3) (GSA class deviation RGO-2026-01, Jan 15, 2026) uses 14 days (30 for urgent awards) (D, fetch summary of RGO text). BPA awarded Feb 12, 2026 (USAspending) but LSJ posted May 14, 2026, about 91 days later. Explanations: BPA award date differs from the date the justification attached; a separate clock for BPAs; administrative lag; delayed posting by choice. Unresolved.
+- **Posting lag (I):** the LSJ cites FAR 8.405-6(a)(2)(i)(B) for posting; the companion Carahsoft SSJ states a 14-day-after-award posting rule, and GSAR 538.7104-3(b)(3) (GSA class deviation RGO-2026-01, Jan 15, 2026) uses 14 days (30 for urgent awards) (D, fetch summary of RGO text). BPA awarded Feb 12, 2026 (USAspending) but LSJ posted May 14, 2026, about 91 days later. FAR 8.405-6(a)(2)(i) itself sets a 14-day posting clock after establishing a BPA over the simplified acquisition threshold, and GSAR RGO-2026-01 applies to GSA contracting activities only, so a separate BPA clock is a weak explanation. Remaining explanations: BPA award date differs from the date the justification attached; administrative lag; delayed posting by choice. Unresolved.
 - **Open questions / records (U):** Unredacted LSJ (names redacted components, CISA?); order-level files; ATO boundaries; whether CISA's instance connects to others.
 
 ### DHS-03 · DHS-wide Databricks BPA 70RTAC26A00000010 ("enterprise data lakehouse")
@@ -466,7 +466,7 @@ Map flows: none; CIS-04
 - **What it holds:** A ~$2.66B five-period reseller BPA, $2,657,393,210, Jul 1, 2026–Jun 30, 2031, decentralized ordering; stated purposes include "data analytics, cybersecurity, collaboration, identity/access management" (D, SSJ posted Oct 20, 2026). OEM list (~70) includes Socure, Lucid, AvePoint, Cellebrite, Recorded Future, Hypori, Okta, SailPoint, Radiant Logic, Cloudera, Confluent, VAST Data, Elasticsearch, Splunk, ServiceNow, ThreatConnect, Qlik, Box, Mattermost (D).
 - **Vendor / vehicle:** Carahsoft. "All Brand Name requirements will be justified at the order level" (D); order-level brand-name justification for CISA's Socure order not found (U).
 - **PIA / SORN, feeds, court:** N/A or U.
-- **Status since Jan 20, 2025:** SSJ posted Oct 20, 2026; GovConWire Oct 21 (R).
+- **Status since Jan 20, 2025:** SSJ posted Oct 20, 2026 (D); GovConWire reported it in Oct 2026 and gives a ceiling of about $2.7B (R). FedScoop says the period runs to "July 2031"; the SSJ itself gives no period dates or value, which come from other documents.
 - **What the OEM list is (D):** Not a roster of everything Carahsoft sells. The SSJ says DHS "tailored the original requirement to only include OEMs that are solely distributed by Carahsoft" (§8) and that OEMs "rely exclusively on Carahsoft" (§6). The list is "including but not limited to"; DHS may add vendors later "if Carahsoft is the exclusive GSA MAS holder" for them, and on/off-boarding is allowed. No separate roster of exclusives exists in the project. Palantir and Databricks are absent (D): each has its own DHS-wide BPA (DHS-02, DHS-03) and Databricks is bought direct, so they fail the exclusivity test; absence is not evidence about anything else (I). Data/identity-relevant names on the list: Socure, Radiant Logic, Cloudera, Confluent, VAST Data, Elasticsearch, Cribl, Splunk, Qlik, Cellebrite, Recorded Future, Hypori (D; OCR column order is scrambled, so check pairings against the PDF).
 - **Posting lag (I):** SSJ §9 says DHS will post "within 14 days after award"; the BPA period began Jul 1, 2026 and the SSJ was posted Oct 20, 2026 (about 111 days after the period start). The award date itself is not stated in the SSJ (U). Same open question as DHS-02.
 - **Open questions / records (U):** Order-level justification for 70RCSJ26FC0000042 (it exceeds the simplified acquisition threshold); the Carahsoft-held OEM roster by order.
@@ -474,7 +474,7 @@ Map flows: none; CIS-04
 ### DHS-05 · HSIN (Homeland Security Information Network)
 Map flows: none on the map
 - **Owner:** DHS (D).
-- **What it holds:** The documented federal sharing channel for World Cup security (R). Hackers breached "HSIN servers and a SharePoint system used for collaboration" in late May to early June 2026; DHS called it "a specific, unclassified legacy information sharing environment" (R, Nextgov, Jun 30, 2026).
+- **What it holds:** Reported to support World Cup and America250 security coordination (R, Nextgov, Jul 2026, citing Sen. Warner; House testimony Feb 24, 2026, Miami fusion center on sharing via HSIN). Hackers breached "HSIN servers and a SharePoint system used for collaboration" reportedly in late May to early June 2026; DHS called it "a specific, unclassified legacy information sharing environment" (R, Nextgov, Jun 30, 2026).
 - **Vendor / vehicle, PIA/SORN, court:** U. See CIS-09 for HSIN-CI.
 - **Status since Jan 20, 2025:** 2026 breach (R). (I) A plausible operational reason for a new Teams-based exchange in Sept; no source makes the link.
 - **Open questions / records (U):** Breach scope; whether the CISA exchange (CIS-05) replaces HSIN functions for election offices.
@@ -499,7 +499,7 @@ Funding note (corrected Oct 25): every CISA award checked lists funding office "
 ### CIS-01 · CISA Palantir SaaS (70RCSJ26FC0000028)
 Map flows: none documented
 - **Owner:** CISA Office of the Director funds (D).
-- **What it holds:** "Procure Palantir license for software as a service" (D, award text). Use case unstated (U). SiliconANGLE/Wired (Feb 2026) say CISA may order under the BPA for "investigative case management, threat identification, logistics, and operational planning" (R). Possibly CADS-related (K/U); no award is labeled CADS. CADS itself (FY2027 Congressional Justification, read Oct 26, D): "Cyber Analytics and Data System," a Level 1 IT investment, $145.5M in the FY2026 annualized CR and $65.8M in the FY2027 request; a "system-of-systems" for cyber data ingestion, analytics and "information sharing" with partners; FY2025 work integrated datasets into the Cloud Log Aggregation Warehouse (CLAW) and "operationalized unified workflows"; FY2026 plans "modernizing the environment with Data Lakehouse technologies" and integrating "Federal and Critical Infrastructure network visibility" data. It describes network and cloud telemetry, not voter or citizen records (D). Whether the Palantir and Databricks orders sit inside CADS is U.
+- **What it holds:** "Procure Palantir license for software as a service" (D, award text). Use case unstated (U). SiliconANGLE (Feb 19, 2026, citing Wired) says CISA, CBP, ICE and FEMA "will be able to access Palantir services" under the DHS-wide deal, for "investigative case management, threat identification, logistics coordination and operational planning" (R); these are DHS-wide uses, not CISA-specific ones. Possibly CADS-related (K/U); no award is labeled CADS. CADS itself (FY2027 Congressional Justification, read Oct 26, D): "Cyber Analytics and Data System," a Level 1 IT investment, $145.5M in the FY2026 annualized CR and $65.8M in the FY2027 request; a "system-of-systems" for cyber data ingestion, analytics and "information sharing" with partners; FY2025 work integrated datasets into the Cloud Log Aggregation Warehouse (CLAW) and "operationalized unified workflows"; FY2026 plans "modernizing the environment with Data Lakehouse technologies" and integrating "Federal and Critical Infrastructure network visibility" data. It describes network and cloud telemetry, not voter or citizen records (D). Whether the Palantir and Databricks orders sit inside CADS is U.
 - **Vendor / vehicle:** Palantir, $32,106,350, Sept 29, 2026–Sept 29, 2027, under BPA 70RTAC26A00000001; fair opportunity "ONLY ONE SOURCE – OTHER"; Clinger-Cohen planning Yes; P00001 only corrects the period of performance (D). Covered by the BPA LSJ; no order-level justification posted (I).
 - **PIA / SORN:** None found (watch for any new CISA SORN or PIA, or a national-security-system designation).
 - **Feeds:** None documented either way (U).
@@ -519,8 +519,8 @@ Map flows: none documented
 ### CIS-03 · CISA Unified Data Platform and Integration Support (SiloSmashers, 70RCSJ26FC0000039)
 Map flows: none documented
 - **Owner:** CISA (D).
-- **What it holds:** "CISA Unified Data Platform and Integration Support Services" (D). Likely the integration layer for the Palantir and Databricks licenses (I).
-- **Vendor / vehicle:** SiloSmashers, $3,581,901, signed Sept 29–30, 2026 (the FY26 order number settles the year; the 2025 date was the parent BPA) (D). Parent: Digital Transformation Support Services (DTSS) BPA 70RCSJ25A00000026, $500M, awarded Sept 30, 2025, including "enterprise data management"; holders AttainX, Electrosoft, SiloSmashers, SOFITC3 (R).
+- **What it holds:** "CISA Unified Data Platform and Integration Support Services" (D). Possibly the integration layer for the Palantir and Databricks licenses; this rests only on the title and award timing (I).
+- **Vendor / vehicle:** SiloSmashers, $3,581,901, signed Sept 29–30, 2026 (the FY26 order number settles the year; the 2025 date was the parent BPA) (D). Parent: Digital Transformation Support Services (DTSS) BPA 70RCSJ25A00000026, $500M ceiling per Washington Technology (ExecutiveBiz gave an estimate of $200M), awarded around Sept 30, 2025, including "enterprise data management"; holders AttainX, Electrosoft, SiloSmashers, SOFITC3 (R). CIS-07 gives the BPA number as …A00000027; reconciliation pending (U).
 - **PIA / SORN, feeds, court:** U.
 - **Status since Jan 20, 2025:** Sept 2026 order (D).
 - **Open questions / records (U):** SOW; ATO/system boundary documents for the "Unified Data Platform."
@@ -542,20 +542,20 @@ Map flows: none documented
 - **PIA / SORN:** None found (U).
 - **Inbound / outbound feeds:** Undocumented. Predecessor: EI-ISAC cooperative agreement 23CISMSI00003, $70M, Sept 30, 2023–Sept 29, 2025, no successor found (D).
 - **Court mentions:** None.
-- **Status since Jan 20, 2025:** Sept 30, 2026 award; term ends Jan 15, 2027, after certification and Jan 6 (D). Esri + Teams design described in Feb 24, 2026 House testimony on a Super Bowl LX sharing environment (D); DVG lists Super Bowl and Club World Cup deployments (D); FIFA lineage plausible, undocumented (I).
+- **Status since Jan 20, 2025:** Sept 30, 2026 award; term ends Jan 15, 2027, after certification and Jan 6 (D). A GIS-plus-chat/file-sharing design for Super Bowl LX is described in Feb 24, 2026 House testimony, which does not name vendors (D); DVG lists Super Bowl and Club World Cup deployments (D); FIFA lineage plausible, undocumented (I).
 - **Open questions / records (U):** SOW; users and fields; retention; whether DOJ, HSI or NFDC are users; the partner list; the "competitive initial action"; Teams tenant (GCC-High?).
 
 ### CIS-06 · CISA Esri GIS licenses (70RCSJ26FC0000012)
 Map flows: none documented
-- **Owner:** CISA (D). **What it holds:** GIS licenses; CISA's Gateway map view already runs on ArcGIS, so the order may be routine (I).
+- **Owner:** CISA (D). **What it holds:** GIS licenses; CISA's Gateway (formerly IP Gateway) ran on Esri ArcGIS as of 2016 (R, Route Fifty); the current platform is not confirmed, so the order may be routine (I).
 - **Vendor / vehicle:** Esri, $1.01M, Jul 30, 2026; CISA's first real Esri buy (prior: $50K training, 2019) (D). FusionAware runs on Esri (D).
-- **PIA/SORN, feeds, court:** U. Nothing public (R).
+- **PIA/SORN, feeds, court:** U. Nothing public found as of Oct 27, 2026 (U).
 - **Open questions / records (U):** SOW.
 
 ### CIS-07 · NRMC AI orders (SOFITC3, 70RCSJ26FC0000036 and …0038) and National Risk Register support
 Map flows: none documented
 - **Owner:** CISA National Risk Management Center (D).
-- **What it holds:** "AI Digital Solution Development, Automation, and Infrastructure Support Services," …0036, $5,483,119; "NRMC AI Modernization for Risk Analytics," …0038, $4,585,415 (labor services, PSC DD01) (D). IDA "National Risk Register support," $4.6M (Sept 30) (D). A 2024 NRMC risk-analysis PWS covered the 16 sectors "and one subsector, Elections Systems" (R). CISA's strategy has it helping build a White House "National Risk Register" (R, Nextgov Oct 26). "Modernization" means upgrading an existing capability (I). Whether AI work runs on the Palantir/Databricks environment: U.
+- **What it holds:** "AI Digital Solution Development, Automation, and Infrastructure Support Services," …0036, $5,483,119; "NRMC AI Modernization for Risk Analytics," …0038, $4,585,415 (labor services, PSC DD01) (D). IDA "National Risk Register support," $4.6M (Sept 30) (D). A 2024 NRMC risk-analysis PWS covered the 16 sectors "and one subsector, Elections Systems" (R, OrangeSlices quoting the Feb 2024 sources-sought notice). CISA's strategy has it helping build a White House "National Risk Register" (R, Nextgov Oct 26). "Modernization" suggests upgrading an existing capability, which is thin evidence from a title word (I). Whether AI work runs on the Palantir/Databricks environment: U.
 - **Vendor / vehicle:** SOFITC3, LLC (Piscataway, NJ), first calls under DTSS BPA 70RCSJ25A00000027 (Sept 30, 2025–Sept 24, 2030; competed; 37 offers); solicitation 70RCSJ26Q00000057; Sept 30, 2026–Sept 29, 2027 (D).
 - **PIA / SORN, feeds, court:** U.
 - **Status since Jan 20, 2025:** Sept 2026 orders. NRMC history: 2021–24 "mis/dis/mal-information and communication analysis" requirement $14.4M (CyberMedia Technologies) (D).
@@ -577,8 +577,8 @@ Map flows: none on the map
 ### CIS-10 · CISA Stakeholder Engagement Division advisory support (AttainX, 70RCSJ26FR0000055)
 Map flows: none on the map
 - **Owner:** CISA Stakeholder Engagement Division (SED); awarding office DHS OCPO / 70RCSJ; funding office "Off of the Dir CISA" (D, USAspending page read in browser Oct 26; HigherGov's 70PCS1 was a different field).
-- **What it holds:** Not a data system. "Task order for critical infrastructure engagement and advisory support services" for SED: planning, execution, analysis and documentation of engagement, advisory and coordination functions; council advisory and strategic engagement program support; "national-level coordination construct" support; sector risk management engagement support; contract management; "explicitly excluding budget, procurement, or human capital support" (R, HigherGov description). No election, voter or data-platform wording appears in the description (R). Whether it supports the Election Infrastructure Subsector or its coordinating council is U.
-- **Vendor / vehicle:** AttainX (small business; also a holder of DTSS BPA 70RCSJ25A00000026, CIS-03). Delivery order under OASIS+ WOSB IDV 47QRCA24DW109, solicitation 70RCSJ26R00000008. No set-aside coded on USAspending (D); HigherGov said women-owned set-aside (R, conflict, U); "Full and Open Competition After Exclusion of Sources," multiple-award fair opportunity, 18 offers, performance-based, no subcontracts. $7.5M obligated, up to $15,058,542; Sept 30, 2026–Sept 29, 2027, potential end Sept 29, 2028; about 43 FTE; Herndon, VA. Last modified Oct 23, 2026 (R). HigherGov lists NAICS 336611 (shipbuilding), which does not fit the work. Resolved Oct 26 from the parent solicitation (D, 47QRCA23R0005 RFP text and Amendment 0009 of Jul 7, 2026): 336611 Ship Building and Repairing is the first NAICS code listed for orders in the Technical and Engineering Domain (CLIN 50201) and the Logistics Domain (CLIN 50801), size standard 1,300 employees, the broadest in those lists. A second OASIS+ WOSB IDV (47QRCA24DW048) also lists it alone (R, HigherGov). So the code comes from the vehicle's NAICS list, not from CISA (I). Accident, not trail; the one thing it does is give a 1,300-employee size standard.
+- **What it holds:** Not a data system. "Task order for critical infrastructure engagement and advisory support services" for SED: planning, execution, analysis and documentation of engagement, advisory and coordination functions; council advisory and strategic engagement program support; "national-level coordination construct" support; sector risk management engagement support; contract management; "explicitly excluding budget, procurement, or human capital support" (R, HigherGov description; not found in DHS's acquisition forecast text, verification pending). No election, voter or data-platform wording appears in the descriptions checked: HigherGov and DHS APFS forecast 73860 (D/R). Whether it supports the Election Infrastructure Subsector or its coordinating council is U.
+- **Vendor / vehicle:** AttainX (small business; also a holder of DTSS BPA 70RCSJ25A00000026, CIS-03). Delivery order under OASIS+ WOSB IDV 47QRCA24DW109, solicitation 70RCSJ26R00000008. No set-aside coded on USAspending (D); HigherGov said women-owned set-aside (R, conflict, U); "Full and Open Competition After Exclusion of Sources," multiple-award fair opportunity, 18 offers, performance-based, no subcontracts. $7.5M obligated, up to $15,058,542; Sept 30, 2026–Sept 29, 2027, potential end Sept 29, 2028; about 43 FTE; Herndon, VA. Last modified Oct 23, 2026 (D, USAspending). DHS's own acquisition forecast for the requirement (APFS 73860) says Full Small Business, NAICS 541611, $20–50M, which conflicts with the coding above and fits the work better than 336611 (D). HigherGov lists NAICS 336611 (shipbuilding), which does not fit the work. Resolved Oct 26 from the parent solicitation (D, 47QRCA23R0005 RFP text and Amendment 0009 of Jul 7, 2026): 336611 Ship Building and Repairing is the first NAICS code listed for orders in the Technical and Engineering Domain (CLIN 50201) and the Logistics Domain (CLIN 50801), size standard 1,300 employees, the broadest in those lists. A second OASIS+ WOSB IDV (47QRCA24DW048) also lists it alone (R, HigherGov). So the code comes from the vehicle's NAICS list, not from CISA (I). Accident, not trail; the one thing it does is give a 1,300-employee size standard.
 - **PIA / SORN, feeds, court:** None (not a system).
 - **Status since Jan 20, 2025:** Sept 30, 2026 award; part of the year-end CISA cluster. The competition record points to an ordinary buy (I). Same family of work as CIS-09 (HSIN-CI) and the EI-ISAC gap (FUS-01).
 - **Open questions / records (U):** SOW and PWS for 70RCSJ26R00000008; whether SED's council support covers election-sector councils; what the Oct 23 DD254 adds (see below). Budget context (D, FY2027 CISA Congressional Justification, Program Change 26): the request eliminates 120 positions (101 FTE) and about $50.1M of Stakeholder Engagement (council management 35, stakeholder engagement 65, international affairs 20) and cuts the Stakeholder Engagement and Requirements line from about $90.2M to $31.2M. A $15M two-year contractor task order for SED signed Sep 30 against a proposed in-house cut: outsourcing, gap-filler, or expectation that Congress will not enact the cut (U, I).
@@ -604,7 +604,7 @@ Map flows: none on the map
 
 ### DOJ-01 · DOJ state voter-roll holdings
 Map flows: f4, f5
-- **Washington, Oct 26 (R, per Oct 27 watch):** two U.S. Attorneys asked Washington's Secretary of State to sequester ballots of 405 alleged noncitizens and for the full unredacted roll; stated method is interviews of detainees and border crossers cross-referenced with public registration data, not SAVE matching. Letter only; no suit yet. Not tied to a registry system beyond this entry (U).
+- **Washington, Oct 26 (R, per Oct 27 watch):** Charles Neil Floyd and Pete Serrano of the U.S. Attorney's offices asked Secretary of State Hobbs to set aside ballots of 405 alleged noncitizen registrants (R, Washington State Standard, KOMO). Assistant AG Harmeet Dillon had requested the full unredacted roll earlier, and DOJ's suit for the roll was dismissed. No charges yet; Hobbs disputes the data. KOMO reports the names came from agent interviews of detainees and border crossers compared with immigration databases and public registration data; SAVE is not mentioned (our reading that it was not SAVE is an inference from silence, I). Not tied to a registry system beyond this entry (U).
 - **Owner:** DOJ Civil Rights Division (D).
 - **What it holds:** State voter rolls collected through demands and suits; about 50.6M records are reported (R; count not re-verified). Other holdings are U.
 - **Vendor / vehicle:** U.
@@ -616,7 +616,7 @@ Map flows: f4, f5
 
 ### DOJ-02 · National Fraud Enforcement Division / NFDC hub
 Map flows: f42, f43, f44, f45, f46, f47
-- **Owner:** DOJ (D). Launched Aug 24, 2026 (D, DOJ release); related bill H.R. 10326 (R).
+- **Owner:** DOJ (D). Division announced Jan 2026, leader sworn in Apr 1, 2026, formally established by a Federal Register final rule Aug 18, 2026; the National Fraud Detection Center hub launched Aug 24, 2026 (D/R; DOJ release and law-firm summary). Related bills: H.R. 9576 (National Fraud Enforcement Division Act, would make the division permanent) and H.R. 10326 (federal-state fraud-data sharing) (R).
 - **What it holds:** A hub that takes in referrals and data from PRAC, HSI, Treasury and tips, and passes leads to ballot suits (map f47) (D/R split per map).
 - **Vendor / vehicle:** U. **PIA / SORN:** None found (U).
 - **Inbound feeds:** [f42] RAVEn/HSI; [f43–f46] other agency feeds as drawn on the map (flow-level marks live in the map).
@@ -661,13 +661,13 @@ Map flows: f54
 ### TRE-04 · America.gov / Login.gov identity proofing
 Map flows: none on the map
 - **Owner:** GSA (Login.gov) and the America.gov effort (R/U).
-- **What it holds:** Identity-proofing data. Socure holds a $163M Login.gov order (R).
+- **What it holds:** Identity-proofing data. Socure is a subcontractor to Xcelerate Solutions on a five-year, $163M Login.gov identity-proofing call order (R, Biometric Update, Jul 2026). Any tie to a wider America.gov effort is unsourced (U).
 - **Open questions / records (U):** Relation, if any, to CISA's Socure order (CIS-04). Treat as parallel unless a source links them.
 
 ### PRA-01 · PRAC analytics platform
 Map flows: f43, f44 (as drawn)
 - **Owner:** Pandemic Response Accountability Committee (D).
-- **What it holds:** About 622M nodes and more than 1B records (R). Operates under the IG Empowerment Act §6(j) matching exemption (D, mechanism).
+- **What it holds:** About 622M graph nodes and 1.65B relationships, over 1B records from more than 60 sources, as of Feb 2026 (D, PRAC testimony). Operates under the IG Empowerment Act §6(j) matching exemption (D, mechanism).
 - **Vendor / vehicle:** U. **PIA / SORN:** U.
 - **Open questions / records (U):** DUAs (the Oct 26 fusion-center note lists some); the §6(j) basis for any voter-related match.
 
@@ -679,7 +679,7 @@ Map flows: f26, f27 (as drawn)
 
 ### SSA-01 · Numident
 - **Owner:** SSA (K). **What it holds:** Identity and citizenship-at-enrollment data (K, verify). Citizenship accuracy limits are a known issue (K).
-- **Write-back from SAVE (D, SSA press release Oct 20, 2026, opened and read Oct 27):** "Through data received from the Department of Homeland Security's Systematic Alien Verification for Entitlements (SAVE), SSA has updated approximately 25 million records that previously had missing citizenship information," and is correcting 8.5 million more with "inaccurate citizenship status." Same release: SSA has "corrected nearly 15 percent of all active SSNs," calls the database "our country's books and records," and says it strengthens "the foundation of identity data relied upon throughout government"; it also added 17 million death dates using SSA and State Department data; it does not mention voters or elections (D). So SAVE reads SSA data (f2) and SSA now writes SAVE output into its own records. Which SSA system holds the updates, the SORN or matching-agreement basis, and how many changes move a person from citizen to noncitizen are U. A SAVE error written into SSA's file could later return as "SSA confirms" (I).
+- **Write-back from SAVE (D, SSA press release Oct 20, 2026, opened and read Oct 27):** "Through data received from the Department of Homeland Security's Systematic Alien Verification for Entitlements (SAVE), SSA has updated approximately 25 million records that previously had missing citizenship information," and is correcting 8.5 million more with "inaccurate citizenship status." Same release: SSA has "corrected nearly 15 percent of all active SSNs," calls the database "our country's books and records," and says it strengthens "the foundation of identity data relied upon throughout government"; it also added 17 million death dates using SSA and State Department data; it does not mention voters or elections (D). So SAVE reads SSA data (f2) and SSA now writes SAVE output into its own records. Which SSA system holds the updates, the SORN or matching-agreement basis, and how many changes move a person from citizen to noncitizen are U. A SAVE error written into SSA's file could in principle later return as "SSA confirms" (I).
 - **Open questions / records (U):** What DHS/USCIS can query.
 
 ### SSA-02 · Master Earnings File feed
@@ -787,6 +787,7 @@ Method: attachments are downloaded from SAM.gov and read in full (text extractio
 For every new document, article or watch item: (1) find the system by ID; (2) compare each stated fact to the entry; (3) if it adds or conflicts, update the entry with a dated line and a mark; (4) if no system fits, add a row; (5) log the change below. Inherited marks are not re-verified unless stated.
 
 ## J7 · Change log
+- 2026-10-27 (claim re-verification): 131 R/I/U lines re-checked against sources. Corrected: SAVE SSN-lookup dates; ProPublica 25,000/15,000 leads (separate groups); PCQS/PCIS PIA direction; DHS dispute of third-party software; Palantir ELITE quote attribution (WIRED per Biometric Update, not CNN); DASS-to-RAVEn flow (f38) downgraded to inference; DASS purposes source (404 Media); Ninth Circuit Oct 25 wording; ATrac source list; Mobile Fortify PTA/PIA wording and Thompson attribution; Mobile Identify dates are report dates; Clearview license is CBP's; body-cam 'best interests' scope; HSIN World Cup attribution; Palantir/CISA quote; DOJ fraud-division dates and bill numbers (H.R. 9576, H.R. 10326); Washington Oct 26 letter details; Socure is a subcontractor on the Login.gov order; PRAC figures marked D. Unverified items remain labeled.
 - 2026-10-26 (night): CIS-10 checked against USAspending page: PSC R408, Delivery Order label explained, P00001 adds DD254 and updates PWS, funding office confirmed.
 - 2026-10-27 (morning): monitor output checked: SSA write-back added to SSA-01; Washington ballot-hold demand noted at DOJ-01. EICAM and Burris hearing already in.
 - 2026-10-26 (night, 3): Added HUD-01 (EICAM) after the monitor run found tenants and beneficiaries in scope; corrected the workforce-only reading.
