@@ -19,7 +19,11 @@ permalink: /about.html
 
 ## Corrections and tips
 
-Open an [issue on GitHub](https://github.com/good-luck-with-that-ops/Every_Ballot_Counts/issues) with the claim and a source. Verified corrections are logged in the registry's appendices.
+Email [amanda.everyballotcounts@gmail.com](mailto:amanda.everyballotcounts@gmail.com), or open an [issue on GitHub](https://github.com/good-luck-with-that-ops/Every_Ballot_Counts/issues) with the claim and a source. Verified corrections are logged in the registry's appendices.
+
+## Downloads
+
+PDF copies of the overview, registry, phrase trail and map are in the [public Google Drive folder](https://drive.google.com/drive/folders/1flNo25-HOs3o105u02uywLL_iw84vElx).
 
 ## Reuse
 
