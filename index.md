@@ -14,6 +14,7 @@ Independent, citizen research on the federal systems, contracts and data flows t
 - **[System Registry](registry/)**: one entry per system, contract vehicle or data feed: what it holds, how we know, what is still unresolved.
 - **[Phrase Trail](phrase-trail/)**: where the same wording recurs across statutes, directives, procurement documents and reports.
 - **[About and method](about.html)**: how this is built, how to correct it, how to reuse it.
+- **[One-page overview (PDF)](Every_Ballot_Counts_Overview.pdf)** and the [YouTube channel](https://www.youtube.com/@GoodLuckWithThat).
 - **[Updates](updates.html)**: what changed and when.
 
 ## How to use it

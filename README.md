@@ -4,6 +4,8 @@ Independent research on federal election-data systems, contracts and data flows 
 
 Site: https://good-luck-with-that-ops.github.io/Every_Ballot_Counts/
 
+One-page overview: [PDF](Every_Ballot_Counts_Overview.pdf) · YouTube: https://www.youtube.com/@GoodLuckWithThat
+
 Contents: [System Registry](registry.md) · [Phrase Trail](phrase-trail.md) · [Architecture map](map/architecture.html) · [About](about.md)
 
 Corrections with a source: open an issue. Reuse with attribution (CC BY 4.0).
