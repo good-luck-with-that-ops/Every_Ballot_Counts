@@ -455,10 +455,10 @@ Map flows: f36, f37 (platform for ICM/ELITE); CIS-01
 Map flows: f20 (platform for USC-04); CIS-02
 - **Owner:** DHS OCIO (D).
 - **What it holds:** Single-award DHS-wide BPA for Databricks products and services (D); keeps DHS's "enterprise data lakehouse environment and intelligence platform built on Databricks" running, naming USCIS, CBP, FEMA, ICE and the Coast Guard, not CISA (R, Washington Technology, Mar 20, 2026).
-- **Vendor / vehicle:** Databricks Federal LLC. BPA Jul 17, 2026–Jul 16, 2031, 2 offers, $1B ceiling (D). Orders: 70RTAC26FC0000024 $57.0M total ($51,970,518 action dated Jul 30, 2026 plus a $5,029,482 modification dated Jul 31) (Jul 31, 2026–Jul 30, 2027); 70RTAC26FC0000046 $1,491,470 (action date Sept 30, 2026); CISA 70RCSJ26FC0000030 $4,945,573 (Sept 30, 2026; "other statutory authority") (D, USAspending read Oct 27). The BPA's own parent-IDV page could not be opened, so the Jul 16/17 start date stays unresolved (U).
+- **Vendor / vehicle:** Databricks Federal LLC. BPA Jul 17, 2026–Jul 16, 2031, 2 offers, $1B ceiling (D). Orders: 70RTAC26FC0000024 $57.0M total ($51,970,518 action dated Jul 30, 2026 plus a $5,029,482 modification dated Jul 31) (Jul 31, 2026–Jul 30, 2027); 70RTAC26FC0000046 $1,491,470 (action date Sept 30, 2026); CISA 70RCSJ26FC0000030 $4,945,573 (Sept 30, 2026; "other statutory authority") (D, USAspending read Oct 27). The BPA itself is 70RTAC26A00000010 (D, USAspending IDV page, read Oct 27 with the user's help): start date and base action Jul 17, 2026, ordering period ends Jul 16, 2031, solicitation 70RTAC26Q00000022, 2 offers, "full and open competition," parent GSA schedule 47QTCA25D00D3, single award, modification P00001 on Aug 14, 2026. The 0046 order's performance period starts Sept 29, 2026 (action date Sept 30). The Jul 16 start date seen on HigherGov is not on USAspending.
 - **PIA / SORN:** Not a system; U.
 - **Feeds, court:** None names the BPA (U).
-- **Status since Jan 20, 2025:** Jul 17, 2026 award per OrangeSlices; HigherGov shows a Jul 16 start date, so the award date is U (D). The Mar 20 article predates the award, so a precursor vehicle may exist (U).
+- **Status since Jan 20, 2025:** Jul 17, 2026 start and base award action (D, USAspending; OrangeSlices agrees, HigherGov's Jul 16 does not). The Mar 20 article predates the award, so a precursor vehicle may exist (U).
 - **Open questions / records (U):** The precursor arrangement; justification for single award; ICE's Enterprise Lakehouse relationship (ICE-02).
 
 ### DHS-04 · DHS-wide Carahsoft BPA 70RTAC26A00000011 (SSJ FY26-0119)
@@ -788,6 +788,7 @@ Method: attachments are downloaded from SAM.gov and read in full (text extractio
 For every new document, article or watch item: (1) find the system by ID; (2) compare each stated fact to the entry; (3) if it adds or conflicts, update the entry with a dated line and a mark; (4) if no system fits, add a row; (5) log the change below. Inherited marks are not re-verified unless stated.
 
 ## J7 · Change log
+- 2026-10-27 (night, Databricks BPA): BPA 70RTAC26A00000010 start date confirmed as Jul 17, 2026 on USAspending (page found by the user).
 - 2026-10-27 (night, browser checks): SAM notice 70CMSD26Q00000012 (DASS) read, confirming Jul 14 publication and the attachment; USAspending checked for SiloSmashers (Sept 29) and Databricks orders; USCIS SAVE notices of Oct 2 and Oct 22 added. Still open: Databricks BPA start date, the Apr 30 USCIS notice.
 - 2026-10-27 (vault documents): DASS J&A-26-0099 ("Final SSJ for Posting") and ICE LSJ J&A-25-0309 (P00012) read; ICE-10 and ICE-03 updated. The DSS 3.0 BPA SOW and RFI in the vault are DHS desktop-support documents and are not used.
 - 2026-10-27 (Hilton ECF 142, 142-5, 145 read): ICE-02 gained the plaintiffs' ICM/TECS arguments and the sealing dispute; ECF 142-10 and 142-5 not otherwise used.
