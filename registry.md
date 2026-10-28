@@ -66,6 +66,7 @@ One entry per federal system, contract vehicle or data feed that touches the ele
 | DOJ-01 | DOJ state voter-roll holdings |
 | DOJ-02 | National Fraud Enforcement Division / NFDC hub |
 | DOJ-03 | DOJ Reconciliation Working Group |
+| FBI-01 | FBI election-crimes lane and the IC3 tipline |
 | TRE-01 | Treasury Do Not Pay |
 | TRE-02 | Fiscal Service analytics under H.R. 8312 §2 |
 | TRE-03 | Treasury ".032" fraud-tip intake |
@@ -639,6 +640,17 @@ Map flows: none on the map
 
 ---
 
+### FBI-01 · FBI election-crimes lane and the IC3 tipline
+Map flows: none yet (U)
+- **Owner:** FBI (D). Stated in the FBI/CISA PSA I-101626-PSA (Oct 16, 2026): "The FBI is responsible for investigating and prosecuting election crimes, specific to foreign influence and interference operations targeting election infrastructure and other U.S. democratic institutions." Victims are told to report suspicious activity to a local FBI field office or the FBI's Internet Crime Complaint Center (IC3) (D).
+- **What it holds:** IC3 complaints are "maintained and controlled by the FBI"; the IC3 privacy page says entries may go into the FBI Central Records System and the FBI Data Warehouse System, are kept "available for future retrieval and possible referral," may be referred to "federal, state, local or international" law enforcement, and incomplete complaints may still be stored; no retention period is stated; "The IC3 does not decide which complaints will be actively investigated by any agency" (D, ic3.gov/Home/Privacy, read Oct 28). Election-related cyber reports from officials, campaigns and the public therefore land in an FBI-controlled record set that no state, county or CISA process controls (I).
+- **Why it belongs on the map (I):** (1) Custody. An investigator who "owns" a crime can seize and hold the evidence; the FBI seized more than 600 boxes of Fulton County 2020 ballots and records on Jan 28, 2026 (D, per project baseline; the court noted the election was closed and certified), and the documented ballot/equipment seizure route in this project is DOJ/FBI by warrant or grand jury, not DoD. (2) Sequence. Under PPD-41 the FBI leads "threat response" in a Cyber Unified Coordination Group beside CISA's "asset response" (D for the directive; whether it is in force or used for elections is U). The FBI lane can be invoked on its own and earlier than any CISA declaration under 6 U.S.C. 677b. (3) Predicate. The PSA says election officials are targets "due to their access to voter registration data" and lists install-malware messages as the attack path; the same document that tells officials to report to the FBI also supplies the "credential theft and compromise" vocabulary a later foreign-interference claim would use (I). (4) Missing from the map: the registry and the doomsday sequence track CISA, DHS and DOJ Civil Rights but had no FBI node.
+- **What it does not show (D, absence):** The PSA says nothing about voter-roll matching, noncitizen voting, HSI/FDNS, SAVE or any CISA data platform, and it does not say that voter registration data were or were not affected by any incident. It does not use the word "contamination." Its malware language concerns phishing payloads and standard IT hygiene.
+- **PIA / SORN:** FBI Central Records System and Data Warehouse SORNs/PIAs not yet pulled (U).
+- **Court mentions:** None found (U). Fulton County seizure: see baseline notes.
+- **Status since Jan 20, 2025:** Jan 28, 2026 Fulton seizure (D); Oct 16, 2026 PSA (D).
+- **Open questions / records (U):** How many election-tagged IC3 complaints exist and who can query them; whether IC3 election reports feed the Data Warehouse fields used by DOJ's Election Threats or Fraud task forces; FBI role in the DOJ voter-roll and ballot-hold cases (agents interviewing detainees and border crossers for the Washington list are not identified as FBI); whether a Cyber Unified Coordination Group has been stood up for the 2026 election; FBI Data Warehouse and CRS SORN routine uses.
+
 # PART H · Treasury, PRAC, SSA, State, Census, fusion centers
 
 ### TRE-01 · Treasury Do Not Pay
@@ -796,6 +808,7 @@ For every new document, article or watch item: (1) find the system by ID; (2) co
 ## J7 · Change log
 - 2026-10-27 (night): SSA Match #1010 (DHS-SSA CMA) added to SSA-01. DHS/ALL/PIA-098 (supply-chain risk) and S&T biometrics fact sheet reviewed and not used.
 - 2026-10-27 (night): USCIS SAVE bulk-template alert (Apr 30, 2026) read from the browser; claim upgraded from R to D. DHS/ALL/PIA-098 checked for election-hardware content: none.
+- 2026-10-28 (FBI lane): FBI-01 added (PSA role statement; IC3 privacy page read; Fulton seizure and PPD-41 FBI threat-response lead as the custody/sequence hooks). The PSA does not contain 'contamination' language or any statement that voter rolls were unaffected; it names voter registration data as why officials are targeted.
 - 2026-10-28 (FBI/CISA PSA): IC3 PSA I-101626-PSA (Oct 16, 2026) read in full and added to Part F as a stated-role baseline (FBI lane = foreign influence/interference; CISA lane = resilience support). Malware appears only as a phishing payload; no 'contamination' language; no mention of voter-roll matching or DHS/HSI/FDNS (D, absence).
 - 2026-10-27 (Bartell Decl. #2): Dkt. 107-2 in US v. California (Oct 26) read in full. USC-06 gained the FDNS California pipeline (HSI purchase, Accurint, State/SSA screening, two-level review, 20,930-person list, 189 discrepancies, 17,000+ second batch); USC-05, ICE-07, COM-02, SSA-01, STA-01, USC-01 updated. Resolves the 'unnamed third-party software' question for enrichment (Accurint/LexisNexis); identity-pairing tool and Exhibit A vs. ¶15 field list remain U.
 - 2026-10-27 (night, DHS Palantir LSJ): LSJ FY25-00257 checked line by line against the vault OCR and the redacted PDF; all quotes held except one in DHS-01 (NEC), now flagged as partly obscured.
