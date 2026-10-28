@@ -5,7 +5,7 @@ description: What we are watching for around the 2026 midterms, and what has alr
 ---
 # Tripwire board
 
-Last updated: Wed Oct 28, 2026, afternoon ET. Updated as news breaks.
+Last updated: Wed Oct 28, 2026, ~8 pm ET (evening sweep). Updated as news breaks.
 Status: 🔴 FIRED (it happened) · 🟠 ARMED (the pieces are in place or it is pending) · ⚪ NOT YET (nothing seen).
 Marks: D document · R reporting · I our inference.
 
@@ -16,8 +16,8 @@ Foreign-hack claim → federal "who is a real voter" list → ballots held → c
 
 | # | Tripwire | Status | Latest evidence |
 |---|---|---|---|
-| 1 | **Foreign blame for a current hack** | 🟠 ARMED | FEC e-filing down since Oct 26; staff email: "We have a bad actor attempting to breach FEC systems" (R, Reuters). No attribution yet. FEC public page names no cause (D). The old predicate is already on paper: the Jul 16 China voter-data claim and CISA's Sept 24 paper (D). |
-| 2 | **FBI takes over an election "investigation" or seizes ballots/machines** | 🟠 ARMED | FBI/CISA alert, Oct 16: "The FBI is responsible for investigating and prosecuting election crimes, specific to foreign influence and interference" (D). Precedent: FBI seized 600+ Fulton County boxes, Jan 28; a judge let it keep them in May (D/R, Time Oct 28). Allies urging martial law to seize ballots (R, Time). |
+| 1 | **Foreign blame for a current hack** | 🟠 ARMED | FEC e-filing down since Oct 26; staff email: "We have a bad actor attempting to breach FEC systems" (R, Reuters). No attribution yet. FEC public page names no cause (D). The old predicate is already on paper: the Jul 16 China voter-data claim and CISA's Sept 24 paper (D). Earlier incident on the record: election-worker software vendor ElectSure compromised Aug 7; Wake County NC poll-worker names and emails exposed, no attribution (R, WRAL Aug 14). X suspended 13,000+ accounts in China, Russia and Iran influence operations aimed at U.S. candidates (R, Oct 14). The 2025–26 Olsen effort aimed to prove a foreign actor "manipulated votes"; none found (R, Reuters Oct 2). |
+| 2 | **FBI takes over an election "investigation" or seizes ballots/machines** | 🟠 ARMED | FBI/CISA alert, Oct 16: "The FBI is responsible for investigating and prosecuting election crimes, specific to foreign influence and interference" (D). Precedent: FBI seized 600+ Fulton County boxes, Jan 28; a judge let it keep them in May (D/R, Time Oct 28). Allies urging martial law to seize ballots (R, Time). **The written restraint is gone (D/R):** DOJ took down its Election Crimes Manual, which said prosecutors "should not seize voting materials until after an election is certified," and in June 2025 suspended the Justice Manual rule requiring U.S. attorneys to consult the Public Integrity Section on election matters (JM 9-85.210: "suspended while revisions are ongoing"); most Public Integrity lawyers are gone and no Election Day command center was set up as of June (R, KOIN Jun 12; Spotlight PA Jun 2026; senators' letter Oct 15). Reuters (Oct 2): Stephen Miller pushed to bring in the FBI and potentially seize more machines. |
 | 3 | **Emergency declaration** (CISA "significant incident," national emergency, FBI/CISA joint response group) | 🟠 ARMED | Trump told TIME he doesn't "rule anything out," including a federal emergency declaration (R, Oct 28). Corsi draft "national emergency" EO on a China predicate (R, WaPo Feb 2026). Nothing declared (⚪ on the act itself). |
 | 4 | **Federal lists of named voters sent to states** | 🔴 FIRED | California: 20,930 names delivered Oct 13 (D, Bartell Decl. #2). Washington: 400+ names, Oct 26 (R, NBC/WaPo). DHS says 17,000+ more records are being reviewed "on a rolling basis before the election" (D, Bartell ¶24). Built with LexisNexis Accurint, outside SAVE (D). |
 | 5 | **Demands to hold or set aside ballots** | 🔴 FIRED (demands) · 🟠 ARMED (court order) | DOJ asked California and Washington not to count flagged ballots (D/R). Carter (C.D. Cal.) denied a quick hold Oct 27, appointed a special master, written ruling due Oct 28; hearing ~2 weeks after Nov 3; Dec 3 certification is the date that matters (R, AP/ABC). Ninth Circuit dismissed DOJ's request Oct 26 (R, CNN). |
@@ -29,9 +29,11 @@ Foreign-hack claim → federal "who is a real voter" list → ballots held → c
 | 11 | **New data powers switching on** | 🟠 ARMED | State Department passport records open to "federal government verification platforms" for voter eligibility; outside routine uses take effect Nov 23 (D, 91 FR 66906). SAVE revived by the Supreme Court Sept 25 (D). CISA's first Palantir and Databricks buys, Sept 2026 (D). |
 | 12 | **Oversight blinded** | 🔴 FIRED | Required pre-election intelligence reports to Congress (120/60/30 days) not delivered; Foreign Malign Influence Center cut; CISA staff cut (R, CBS, Warner/Himes). Classified threat briefing for election officials postponed Oct 15 for "technical difficulties" (R, CNN). |
 | 13 | **Insurrection Act, Guard or reserve call-up** | ⚪ NOT YET | Gen. Caine: military has "no plan" to deploy to polls (R, Time). Watch for any order. |
+| 14 | **DOJ won't pledge not to seize ballots before certification** | 🟠 ARMED (deadline Oct 29) | Sens. Padilla, Durbin and Whitehouse asked AG Blanche (cc FBI Director Patel) on Oct 15 to commit that DOJ, FBI and Marshals will not remove ballots, materials or equipment from state custody before certification, and to disclose any seizure plans. Answer due **Oct 29** (D, letter). No answer, or a hedged one, is a signal. |
+| 15 | **Enforcement surge on "noncitizen voting"** | 🔴 FIRED | DOJ: 112 people charged in 20 states in seven weeks, 155 total; "literally thousands" under investigation (Dhillon); DOJ has sued 30 states + D.C. for rolls, 26 dismissed (R, Newsweek Oct 19). |
 
 ## Key dates
-Nov 3 Election Day · ~Nov 17 Carter special-master hearing · Nov 18-19 APEC (Trump-Xi) · Nov 23 passport routine uses take effect · Dec 3 California certification · ~Dec 18 DNI foreign-interference assessment due (EO 13848) · Jan 3 House seated.
+Oct 29 DOJ answer due to senators on ballot seizure · Nov 3 Election Day · ~Nov 17 Carter special-master hearing · Nov 18-19 APEC (Trump-Xi) · Nov 23 passport routine uses take effect · Dec 3 California certification · ~Dec 18 DNI foreign-interference assessment due (EO 13848) · Jan 3 House seated.
 
 ## What would mean "it's being switched on" (call people the same hour)
 - Any official sentence tying a current hack (FEC or any county/vendor) to China, Russia or Iran.
@@ -41,6 +43,13 @@ Nov 3 Election Day · ~Nov 17 Carter special-master hearing · Nov 18-19 APEC (T
 - A court ordering ballots held, or DOJ going to the Supreme Court.
 
 ## Sources (newest first)
+- Padilla/Durbin/Whitehouse letter to AG Blanche, Oct 15: https://www.padilla.senate.gov/wp-content/uploads/Padilla-Durbin-Whitehouse-AG-Blanche-Letter-re-Election-Interference-Manual-Follow-Up.pdf
+- KOIN, Jun 12 (manual removed): https://www.koin.com/news/politics/oregon-washington-lawmakers-question-dojs-purge-election-prosecution-manual/amp/
+- Spotlight PA, Jun 2026 (PIN consultation suspended, no command center): https://www.spotlightpa.org/news/2026/06/midterms-command-center-public-integrity-section-trump-federal-government/
+- Reuters, Oct 2 (voting-machine effort): https://www.reuters.com/investigations/how-trumps-obsession-with-rigged-voting-machines-spread-across-us-government-2026-10-02/
+- WRAL, Aug 14 (ElectSure vendor compromise): https://www.wral.com/news/nccapitol/possible-cyberattack-wake-election-system-midterm-elections-august-2026/
+- Newsweek, Oct 19 (charges, "thousands"): https://www.newsweek.com/justice-department-investigating-thousands-of-noncitizen-voters-12587443
+- American Journal Daily, Oct 17 (X suspensions): https://americanjournaldaily.com/x-social-media-voting/
 - Time, Oct 28: https://time.com/article/2026/10/28/Trump-voting-election-interference-ballots-DOJ-fraud-investigation/
 - AP/ABC, Oct 28 (special master): https://abcnews.com/Politics/judge-appoint-special-master-california-voting-case-setback/story?id=137622503
 - Yahoo (Carter ruling due Wed): https://www.yahoo.com/news/politics/articles/federal-judge-promises-wednesday-ruling-022244732.html
