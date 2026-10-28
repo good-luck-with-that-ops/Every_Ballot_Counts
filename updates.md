@@ -19,3 +19,5 @@ The registry's [change log](../registry/#j7--change-log) records entry-level cha
 - **Oct 27, 2026 (third pass):** Re-checked 256 further document-supported claims against primary sources and corrected attributions, dates, quotes and amounts. See the J7 change log in the [registry](registry/).
 
 - **Oct 27, 2026 (map):** The architecture map adds the eleven further systems SAVE queries (flow 57, from the SAVE privacy assessment) and moves each flow number near the start of its line. The YouTube link now points to the new channel.
+
+- **Oct 27, 2026 (evening):** Read the SAM solicitation for the USCIS/FDNS social-media vetting pilot, a Hilton supplemental declaration (ECF 132-40) and the June 2026 SAVE user guide; confirmed several USAspending amounts and corrected the Axon order date.
