@@ -149,8 +149,8 @@ Phrases that state a limit. They show what the paper says is not happening.
 |---|---|---|---|---|
 | Jul 15, 2026 | C | House Oversight subcommittee hearing, Socure witness (Burris) | "make continuous identity verification the standard across the lifecycle of an account"; "identity should be considered critical infrastructure" | D |
 | Jun 10, 2026 | A | H.R. 8312 §2 | screening "relevant cyber activity … to review recipient or payee changes to virtual identity" (continuous in effect, word not used in the quote) | D |
-| (to confirm) | B | ICE DASS "continuous monitoring" (registry ICE-10) | wording to be pulled from the DASS solicitation | U |
-- **Next:** pull the DASS solicitation text and the PCIS and SAVE materials for "continuous" and "ongoing" wording. Note the second hit needs a verbatim "continuous" before it counts.
+| 2026 (date not on the posted copy; SAM notice says Jul 14) | B | ICE DASS J&A-26-0099 (registry ICE-10) | "continuous monitoring of up to one million individuals and entities with real-time alerts"; "continuous vetting"; "Continuous Alerting Batch Solution (CABS)" | D |
+- **Next:** pull the PCIS and SAVE materials for "continuous" and "ongoing" wording. Note the second hit needs a verbatim "continuous" before it counts.
 
 ### PT-13 · "policy direction" / "evolving policy direction"  [G1-leaning, S1]
 | Date | Tier | Document | Exact words | Mark |
@@ -173,6 +173,7 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
+- 2026-10-27 (night): PT-12 DASS row filled from the J&A text read in the vault (D).
 - 2026-10-26 (late night): added HUD EICAM row to PT-02, new PT-12, RGO-2026-01 note in exclusions.
 - 2026-10-26 (evening): EO 14243 read via fetch (PT-03, PT-02 tier A, new PT-11).
 - 2026-10-26: Created. Ten seed entries from texts read in this project; no new searches run beyond those already in the notes.
