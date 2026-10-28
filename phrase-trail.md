@@ -55,7 +55,7 @@ No entry below settles any of these. Vendors stay neutral infrastructure: an ove
 |---|---|---|---|---|
 | (PIA, date U in notes) | B | USCIS PCIS PIA | "a single, trusted source of biographical and biometric information" | D |
 | Sept 4, 2025 (posted May 14, 2026) | B | DHS Palantir LSJ FY25-00257 | "deconfliction of data to ensure each subject has one consolidated record" | D |
-| Nov 3, 2025 | B | USCIS biometrics proposed rule, FR 2025-19747 | "person-centric model" | D (baseline) |
+| Nov 3, 2025 | B | USCIS biometrics proposed rule, FR 2025-19747 (docket USCIS-2025-0205, document -0002) | "person-centric model" | D (baseline) |
 | date U | C | Booz Allen "Public Safety Fusion Platform" (vendor wording, via Oct 26 fusion note) | "a single source of truth for all law enforcement agents" | R |
 - **What it shows (I):** the same concept (resolve many records into one per person) across a USCIS privacy document, a DHS-wide Palantir justification and a vendor product. The words differ, so S3. "Golden record" is master-data-management shorthand for the same idea (confirmed D for the capability in the LSJ).
 - **Tier A (partial):** EO 14243 §3(a) uses "the intra- and inter-agency sharing and consolidation of unclassified agency records" (D, fetch summary). "Consolidation" is the nearest authority-tier word to the LSJ's "consolidated record" (S3). The EO text has no "single" or "interoperab" (fetch summary). Still to check: EO 14248 §2.
