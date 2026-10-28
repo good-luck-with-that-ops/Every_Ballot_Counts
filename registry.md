@@ -681,6 +681,7 @@ Map flows: f26, f27 (as drawn)
 ### SSA-01 · Numident
 - **Owner:** SSA (K). **What it holds:** Identity and citizenship-at-enrollment data (K, verify). Citizenship accuracy limits are a known issue (K).
 - **Write-back from SAVE (D, SSA press release Oct 20, 2026, opened and read Oct 27):** "Through data received from the Department of Homeland Security's Systematic Alien Verification for Entitlements (SAVE), SSA has updated approximately 25 million records that previously had missing citizenship information," and is correcting 8.5 million more with "inaccurate citizenship status." Same release: SSA has "corrected nearly 15 percent of all active SSNs," calls the database "our country's books and records," and says it strengthens "the foundation of identity data relied upon throughout government"; it also added 17 million death dates using SSA and State Department data; it does not mention voters or elections (D). So SAVE reads SSA data (f2) and SSA now writes SAVE output into its own records. Which SSA system holds the updates, the SORN or matching-agreement basis, and how many changes move a person from citizen to noncitizen are U. A SAVE error written into SSA's file could in principle later return as "SSA confirms" (I).
+- **Related agreement (D, vault copy read Oct 27):** SSA Match #1010, a Computer Matching Agreement under which DHS (USCIS and ICE) discloses to SSA the records of noncitizens who leave or are removed (from the Benefits Information System and the Enforcement Integrated Database), so SSA can suspend or stop benefits. Effective Jan 19, 2025 for 18 months, renewable for up to 12 months; the vault file is named as a Jul 29, 2026 renewal. Direction is DHS to SSA, the reverse of the SAVE write-back above, and the agreement concerns benefits, not voting.
 - **Open questions / records (U):** What DHS/USCIS can query.
 
 ### SSA-02 · Master Earnings File feed
@@ -788,6 +789,7 @@ Method: attachments are downloaded from SAM.gov and read in full (text extractio
 For every new document, article or watch item: (1) find the system by ID; (2) compare each stated fact to the entry; (3) if it adds or conflicts, update the entry with a dated line and a mark; (4) if no system fits, add a row; (5) log the change below. Inherited marks are not re-verified unless stated.
 
 ## J7 · Change log
+- 2026-10-27 (night): SSA Match #1010 (DHS-SSA CMA) added to SSA-01. DHS/ALL/PIA-098 (supply-chain risk) and S&T biometrics fact sheet reviewed and not used.
 - 2026-10-27 (night, PCIS PIA): PIA-087 (Dec 2022) read from the vault copy; USC-02 quotes confirmed; no later update found (DHS index unchecked).
 - 2026-10-27 (night, Databricks BPA): BPA 70RTAC26A00000010 start date confirmed as Jul 17, 2026 on USAspending (page found by the user).
 - 2026-10-27 (night, browser checks): SAM notice 70CMSD26Q00000012 (DASS) read, confirming Jul 14 publication and the attachment; USAspending checked for SiloSmashers (Sept 29) and Databricks orders; USCIS SAVE notices of Oct 2 and Oct 22 added. Still open: Databricks BPA start date, the Apr 30 USCIS notice.
