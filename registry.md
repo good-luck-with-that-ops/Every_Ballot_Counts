@@ -827,6 +827,35 @@ Map flows: none on the map
 
 ---
 
+# PART H2 · Election-administration channels (added Oct 29, 2026)
+
+### ELE-01 · ERIC (Electronic Registration Information Center)
+Map flows: e180 (motor-vehicle records → ERIC), e181 (ERIC → state voter rolls); e187 (DHS referral to DOJ)
+- **Owner:** Member states, through a multistate nonprofit (D, DHS Secretary letter to the AG, Sept 2, 2026, pp. 2–4).
+- **What it holds:** Member states' motor-vehicle and voter-registration records, including SSNs and license numbers; records indicating non-citizenship are barred (D, same letter). It produces list-maintenance reports for states: eligible-but-unregistered people and deceased registrants (D).
+- **Status since Jan 20, 2025:** DHS has asked DOJ whether states' sharing of motor-vehicle data with ERIC is lawful under the Driver's Privacy Protection Act (D, e187). ERIC's position, as quoted in the letter, is that the use is permitted (D that the letter quotes it).
+- **Why it matters (I):** A state-run list-maintenance channel the federal government is now questioning. Benign reading: a routine legal referral.
+
+### ELE-02 · DOJ Public Integrity Section concurrence for election cases
+Map flows: e182 (PIN → FBI)
+- **Owner:** DOJ Criminal Division, Public Integrity Section, Election Crimes Branch (D).
+- **What it is:** The requirement that the FBI and U.S. attorneys consult PIN before opening election-crime cases or taking overt steps near an election (D, FBI Michigan release: opening EC Mar 16, 2021; PIN emails 2021–23).
+- **Status since Jan 20, 2025:** The Justice Manual consultation rule (JM 9-85.210) was suspended in June 2025 "while revisions are ongoing" (D/R; see tripwire 2). Whether any concurrence is still sought in 2026 is U.
+- **Why it matters (I):** It was the written check on timing and scope of election investigations. Who controls it now: DOJ leadership alone.
+
+### ELE-03 · 2020 Election Day federal coordination (historical)
+Map flows: e183 (FBI → coordination), e184 (CISA ↔ coordination)
+- **What it was:** On Nov 3, 2020, ODNI ran five intelligence syncs, the NSC three and CISA two partner syncs; an FBI liaison was embedded with the DoD/IC watch team (D, Election Day 2020 watch log, declassified Jul 30, released Aug 6, 2026, pp. 8–13, 17–21, 51–53).
+- **What it recorded:** "we have not observed any new, malicious foreign influence or interference operations"; on Maricopa, a single U.S. IP, "not a foreign IP," and activity "geo-located to China" traced "most likely" to Panama, "not China" (D).
+- **Why it matters (I):** The baseline for how Election Day monitoring worked, and the record the 2026 foreign-hack claims are measured against.
+
+### ELE-04 · Cyber-incident victim notification (CISA and NCIJTF CYWATCH)
+Map flows: e185 (notification → CISA)
+- **What it is:** Contact with U.S. cyber-incident victims by anyone outside the federal cyber centers is deconflicted through CISA and NCIJTF CYWATCH first (D, declassified IC report "US Voter Registration for 6 States," p. 2 n. 1). Who leads NCIJTF is not stated there (U).
+- **Why it matters (I):** It decides who tells a state or county that it was hacked, and when. That is the first step of any "foreign hack" narrative.
+
+---
+
 # PART I · Map nodes without their own row
 
 | Node | Flows | Where it appears |
@@ -906,6 +935,7 @@ Method: attachments are downloaded from SAM.gov and read in full (text extractio
 For every new document, article or watch item: (1) find the system by ID; (2) compare each stated fact to the entry; (3) if it adds or conflicts, update the entry with a dated line and a mark; (4) if no system fits, add a row; (5) log the change below. Inherited marks are not re-verified unless stated.
 
 ## J7 · Change log
+- 2026-10-29 (map polish): New PART H2 with ELE-01 ERIC, ELE-02 DOJ Public Integrity Section concurrence, ELE-03 2020 Election Day coordination, ELE-04 cyber-incident victim notification; map edges e180–e189. Source: DHS Secretary letter to the AG (Sept 2, 2026); FBI Michigan release; Election Day 2020 watch log; IC report "US Voter Registration for 6 States."
 - 2026-10-29 (map redraw): USC-11: delivery of the list to the Secretary of State is now marked U (HSI 62-3 ¶24 says DOJ passed it on; ECF 149 p.3 says the requests were emailed without the list); added LA County's position that its system cannot safely segregate ballots (ECF 149 p.23), Carter's TRO denial (ECF 149) and DOJ's appeal (ECF 152). Source: ECF 149, 152.
 - 2026-10-29 (map redraw): DHS-06: added e179, DHS's own count of >250,000 flagged from public voter files of CA, PA, NJ, NV (D that DHS said it; method U). Source: DHS "Alien Voter Registration Summary" p.1 (White House release).
 - 2026-10-29 (map redraw): Map numbering: f-numbers are the original map flows; e-numbers are documented links added in the Oct 28 rebuild.
