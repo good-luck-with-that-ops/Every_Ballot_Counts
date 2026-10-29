@@ -14,7 +14,7 @@ description: The concern, what happened in the last two weeks, what to watch for
 - **Oct 22:** DOJ sues to block certification of Alaska's Senate race (D/R). The Attorney General won't rule out DOJ stepping in under "some doomsday scenario" (R).
 - **Oct 26:** Trump offers $1M for voter-fraud tips leading to arrests; no agency named (R). DOJ asks Washington to set aside 400+ ballots (R). DHS says 17,000+ more records are under review "on a rolling basis before the election" (D).
 - **Oct 26–27:** FEC e-filing goes offline; staff email: "We have a bad actor attempting to breach FEC systems" (R, Reuters). No attribution.
-- **Oct 27–28:** Judge Carter denies DOJ's request to hold California ballots, saying DOJ likely lacks standing and that "these threats must stop"; a special master will review the list; Dec 3 certification is the key date (R). The Ninth Circuit dismissed DOJ's request Oct 26 (R).
+- **Oct 27–28:** Judge Carter denies DOJ's request to hold California ballots: DOJ likely lacks standing, setting listed ballots aside would likely violate federal voting law, the court "cannot conclude that [DOJ's] process is credible," and "these threats must stop" (D, ECF 149). LA County certifies by Dec 3, the state by Dec 11. The Ninth Circuit dismissed DOJ's request Oct 26 (R).
 - **Oct 28:** Trump tells TIME he doesn't "rule anything out," including a federal emergency declaration (R). Congress has not received required pre-election intelligence reports (R, CBS).
 
 ## Watch for (full board: [tripwires](../tripwires/))
