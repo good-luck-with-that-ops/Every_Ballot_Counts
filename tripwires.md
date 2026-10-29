@@ -32,6 +32,18 @@ Foreign-hack claim → federal "who is a real voter" list → ballots held → c
 | 14 | **DOJ won't pledge not to seize ballots before certification** | 🟠 ARMED (deadline Oct 29) | Sens. Padilla, Durbin and Whitehouse asked AG Blanche (cc FBI Director Patel) on Oct 15 to commit that DOJ, FBI and Marshals will not remove ballots, materials or equipment from state custody before certification, and to disclose any seizure plans. Answer due **Oct 29** (D, letter). No answer, or a hedged one, is a signal. |
 | 15 | **Enforcement surge on "noncitizen voting"** | 🔴 FIRED | DOJ: 112 people charged in 20 states in seven weeks, 155 total; "literally thousands" under investigation (Dhillon); DOJ has sued 30 states + D.C. for rolls, 26 dismissed (R, Newsweek Oct 19). |
 
+## Also watching (smaller signals that would tell us a step is coming)
+- A federal claim that a state's voter database is compromised or unusable, or a demand that states recheck their rolls against a federal list.
+- After Nov 3: any federal request, subpoena or warrant for poll-book check-in files, envelope logs, cast-vote records or ballot images.
+- New privacy notices or court filings saying SAVE, FDNS, person-centric or CISA data "cannot be separated," or labeling them national-security systems.
+- America.gov, Login.gov or vote.gov adding a registration or eligibility check, asking for SSN digits, or adding a voter-eligibility consent statement.
+- Any intelligence finding, AG/DHS report or official statement blaming foreign interference for a state's results before Jan 3.
+- NSPM-7 arrests, searches, designations or grand-jury action against registration, election-protection or get-out-the-vote groups (Oct 28–Jan 6).
+- A USCIS Vetting Center contract, bridge or surge change, or any federal contract to process flagged voter "discrepancies."
+- A CISA advisory naming a voting-system vendor, a Commerce action on voting equipment, or a federal offer of replacement machines, poll books or list data.
+- The PRAC early-warning report (~Oct 31), or any PRAC or fraud-center product naming voters, election offices or registration groups.
+- A DHS/HSI field operation after Oct 23 in a state under a court order, justified by "tips," "referrals" or "multiple sources," or a new data channel opening after a court order.
+
 ## Key dates
 Oct 29 DOJ answer due to senators on ballot seizure · Nov 2 (5 p.m.) DOJ answers due to Morelle/Padilla · Nov 3 Election Day · Nov 18-19 APEC (Trump-Xi) · Nov 23 passport routine uses take effect · Dec 3 LA County certifies; Dec 11 California certifies · ~Dec 18 DNI post-election foreign-interference assessment due (EO 13848 §1(a); the AG/DHS report follows within 45 days, ~Feb 1, but can come earlier) · Jan 3 House seated.
 
