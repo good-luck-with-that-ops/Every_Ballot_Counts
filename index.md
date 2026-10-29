@@ -15,7 +15,7 @@ For voters, it starts with a claim that China hacked state voter rolls, or that 
 ## Start here
 
 - **[Tripwire board](tripwires/)**: what to watch for, what has already happened, updated as news breaks.
-- **Videos:** [The last two weeks (90 sec)](assets/video/Last_Two_Weeks_phone.mp4) · [The worst case (100 sec)](assets/video/Worst_Case_phone.mp4) · [YouTube channel](https://www.youtube.com/@EveryBallotCounts)
+- **Videos:** [The last two weeks (95 sec)](assets/video/Last_Two_Weeks_phone.mp4) · [The worst case (100 sec)](assets/video/Worst_Case_phone.mp4) · [YouTube channel](https://www.youtube.com/@EveryBallotCounts)
 - **[Share card (image)](assets/EBC_Share_Card.png)**: post it, text it, send it to your family.
 - **[One-page brief for reporters and staff](brief/)**
 - **See one of the tripwires?** Call your senators and representative through the Capitol switchboard, **(202) 224-3121**. Ask: What is the source? Who has the list? Will you protect certification?
