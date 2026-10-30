@@ -4,6 +4,7 @@ permalink: /updates.html
 ---
 # Updates
 
+- **2026-10-29:** Site redesign: a shorter homepage with the live tripwire board, upcoming dates, videos you can play in place, three summary cards and a "what to demand" box. Every page now shares one header and menu, and long tripwire entries open on tap. Added the 10-minute overview and the 6-minute worst-case video.
 - **2026-10-28:** The site now leads with the concern and a [tripwire board](tripwires/) of what to watch for. Added two short videos, a share card and a [one-page brief](brief/). Registry: Bartell Declaration #2 (FDNS built the California list with LexisNexis Accurint, outside SAVE), the FBI/CISA election-crimes alert, and a new FBI entry (FBI-01).
 
 - **2026-10-27:** Public site launched with the architecture map (56 numbered flows), the System Registry (63 entries) and the Phrase Trail (13 tracked phrases). Earlier research notes are being re-verified before more are added.

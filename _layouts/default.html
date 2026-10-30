@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/brand/favicon.svg' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/ebc.css' | relative_url }}?v=2">
+<meta property="og:image" content="{{ '/assets/EBC_Share_Card.png' | absolute_url }}">
+</head>
+<body class="{% if page.full %}full{% else %}doc{% endif %}{% if page.url == '/tripwires/' %} tw-page{% endif %}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/brand/lockup.svg' | relative_url }}" alt="Every Ballot Counts" width="150" height="38"></a>
+    <nav aria-label="Main">
+      <a href="{{ '/tripwires/' | relative_url }}"{% if page.url == '/tripwires/' %} aria-current="page"{% endif %}>Tripwires</a>
+      <a href="{{ '/' | relative_url }}#videos">Videos</a>
+      <a href="{{ '/map/architecture.html' | relative_url }}">Map</a>
+      <a href="{{ '/registry/' | relative_url }}"{% if page.url == '/registry/' %} aria-current="page"{% endif %}>Registry</a>
+      <a href="{{ '/brief/' | relative_url }}"{% if page.url == '/brief/' %} aria-current="page"{% endif %}>Brief</a>
+      <a href="{{ '/about.html' | relative_url }}"{% if page.url == '/about.html' %} aria-current="page"{% endif %}>About</a>
+      <a class="call" href="tel:+12022243121">Call Congress</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{% if page.full %}{{ content }}{% else %}<article class="wrap prose">{% unless content contains '<h1' %}<h1>{{ page.title }}</h1>{% endunless %}{{ content }}</article>{% endif %}
+</main>
+<footer class="site">
+  <div class="wrap">
+    <p class="marks"><span class="m">D</span> government document <span class="m">R</span> credible reporting <span class="m">I</span> our inference <span class="m">U</span> unresolved</p>
+    <p>Independent research by a private citizen in a personal capacity, from public records. Not legal advice, not an official source, and not the position of any employer. Vendors are treated as neutral infrastructure; nothing here alleges wrongdoing by any vendor. Reuse with attribution (CC BY 4.0).</p>
+    <p><a href="mailto:amanda.everyballotcounts@gmail.com">amanda.everyballotcounts@gmail.com</a> · <a href="https://www.youtube.com/@EveryBallotCounts">YouTube</a> · <a href="https://drive.google.com/drive/folders/1flNo25-HOs3o105u02uywLL_iw84vElx">PDF downloads</a> · <a href="{{ '/updates.html' | relative_url }}">Updates</a></p>
+  </div>
+</footer>
+{% if page.url == '/tripwires/' %}
+<script>
+document.querySelectorAll('.prose table tbody tr').forEach(function(tr){
+  var td = tr.querySelectorAll('td'); if (td.length < 4) return;
+  // status as pills
+  var st = td[2]; var parts = st.textContent.split(' · ');
+  st.innerHTML = parts.map(function(x){ x = x.trim(); var c = /\u{1F534}/u.test(x) ? 'fired' : (/\u{1F7E0}/u.test(x) ? 'armed' : '');
+    return '<span class="status-pill ' + c + '">' + x.replace(/[\u{1F534}\u{1F7E0}\u26AA\uFE0F]/gu,'').trim() + '</span>'; }).join(' ');
+  // long evidence: preview + expand
+  var ev = td[3]; if (ev.textContent.length < 420) return;
+  var inner = document.createElement('div'); inner.className = 'clamp';
+  while (ev.firstChild) inner.appendChild(ev.firstChild);
+  var btn = document.createElement('button'); btn.className = 'clamp-btn'; btn.type = 'button'; btn.textContent = 'Show all evidence ▾';
+  btn.onclick = function(){ var open = inner.classList.toggle('clamp'); btn.textContent = open ? 'Show all evidence ▾' : 'Show less ▴'; };
+  ev.appendChild(inner); ev.appendChild(btn);
+});
+</script>
+{% endif %}
+</body>
+</html>
