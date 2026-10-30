@@ -1,7 +1,7 @@
 # Every Ballot Counts
 > Independent research on federal election-data systems, contracts and data flows ahead of the Nov 3, 2026 US midterms. Built from public records; claims carry evidence marks (D primary, R reporting, I inference, U unresolved, K verify). Not an investigation with inside sources; no vendor wrongdoing is alleged.
 
-- [System Registry](https://good-luck-with-that-ops.github.io/Every_Ballot_Counts/registry/): one entry per system, vehicle or data feed
-- [Phrase Trail](https://good-luck-with-that-ops.github.io/Every_Ballot_Counts/phrase-trail/): recurring language across statutes, procurement and reports
-- [Architecture map](https://good-luck-with-that-ops.github.io/Every_Ballot_Counts/map/architecture.html)
-- [About and method](https://good-luck-with-that-ops.github.io/Every_Ballot_Counts/about.html)
+- [System Registry](https://everyballotcounts.io/registry/): one entry per system, vehicle or data feed
+- [Phrase Trail](https://everyballotcounts.io/phrase-trail/): recurring language across statutes, procurement and reports
+- [Architecture map](https://everyballotcounts.io/map/architecture.html)
+- [About and method](https://everyballotcounts.io/about.html)

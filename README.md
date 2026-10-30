@@ -2,7 +2,7 @@
 
 Independent research on federal election-data systems, contracts and data flows ahead of the Nov 3, 2026 midterms. Built from public records. Not an investigation with inside sources.
 
-Site: https://good-luck-with-that-ops.github.io/Every_Ballot_Counts/
+Site: https://everyballotcounts.io/
 
 One-page overview: [PDF](Every_Ballot_Counts_Overview.pdf) · YouTube: https://www.youtube.com/@EveryBallotCounts
 
