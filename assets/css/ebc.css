@@ -212,3 +212,4 @@ button.btn{font:inherit;font-weight:700;cursor:pointer}
 .tl-more{text-align:center;padding:18px 0}
 .tl-note{color:var(--mute);font-size:13.5px;max-width:80ch}
 @media (max-width:760px){.ev{grid-template-columns:1fr;gap:4px}.tl .mo{top:0}}
+.tl-controls .btn[aria-pressed="true"]{background:var(--navy);color:#fff}

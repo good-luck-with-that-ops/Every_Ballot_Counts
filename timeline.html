@@ -22,6 +22,7 @@ description: Every dated event behind Every Ballot Counts, from the orders and c
       </select>
       <select id="fy" aria-label="Year"><option value="">All years</option></select>
       <button id="ord" class="btn" type="button">Newest first</button>
+      <button id="fut" class="btn" type="button" aria-pressed="false">Show scheduled</button>
     </div>
     <p class="tl-count" id="count">Loading the timeline…</p>
   </div>
@@ -37,7 +38,7 @@ description: Every dated event behind Every Ballot Counts, from the orders and c
 <script>
 (function(){
   var DATA = "{{ '/assets/data/timeline.json' | relative_url }}";
-  var rows = [], view = [], shown = 0, PAGE = 150, newest = true, TODAY = new Date().toISOString().slice(0, 10);
+  var nFut = 0, rows = [], view = [], shown = 0, PAGE = 150, newest = true, showFut = false, TODAY = new Date().toISOString().slice(0, 10);
   var $ = function(id){ return document.getElementById(id); };
   var esc = function(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };
   var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -70,12 +71,11 @@ description: Every dated event behind Every Ballot Counts, from the orders and c
       if (terms.length) { var hay = (r.e + ' ' + r.a + ' ' + r.w + ' ' + r.sy + ' ' + r.s).toLowerCase(); for (var i = 0; i < terms.length; i++) if (hay.indexOf(terms[i]) < 0) return false; }
       return true;
     });
-    if (newest) {
-      var fut = view.filter(function(r){ return r.d > TODAY; }), past = view.filter(function(r){ return r.d <= TODAY; }).reverse();
-      view = fut.concat(past);
-    }
+    if (!showFut) view = view.filter(function(r){ return r.d <= TODAY; });
+    if (newest) view = view.slice().reverse();
     shown = 0; $('list').innerHTML = ''; more();
-    $('count').textContent = view.length === rows.length ? rows.length.toLocaleString() + ' events' : view.length.toLocaleString() + ' of ' + rows.length.toLocaleString() + ' events';
+    var total = showFut ? rows.length : rows.length - nFut;
+    $('count').textContent = (view.length === total ? total.toLocaleString() + ' events' : view.length.toLocaleString() + ' of ' + total.toLocaleString() + ' events') + (showFut ? ', including ' + nFut + ' scheduled' : ' to date');
   }
   function more(){
     var html = '', lastMonth = shown ? view[shown-1].d.slice(0,7) : '';
@@ -92,9 +92,11 @@ description: Every dated event behind Every Ballot Counts, from the orders and c
   ['fc','fm','fy'].forEach(function(id){ $(id).addEventListener('change', apply); });
   $('ord').addEventListener('click', function(){ newest = !newest; this.textContent = newest ? 'Newest first' : 'Oldest first'; apply(); });
   $('more').addEventListener('click', more);
+  $('fut').addEventListener('click', function(){ showFut = !showFut; this.setAttribute('aria-pressed', showFut); this.textContent = showFut ? 'Hide scheduled' : 'Show scheduled (' + nFut + ')'; apply(); });
   try { var qs = new URLSearchParams(location.search); if (qs.get('q')) $('q').value = qs.get('q'); } catch (e) {}
   fetch(DATA).then(function(r){ return r.json(); }).then(function(d){
     rows = d.rows; if (d.today && d.today > TODAY) TODAY = d.today;
+    nFut = rows.filter(function(r){ return r.d > TODAY; }).length; $('fut').textContent = 'Show scheduled (' + nFut + ')';
     var cats = {}, years = {};
     rows.forEach(function(r){ cats[r.c] = (cats[r.c] || 0) + 1; years[(r.d || '').slice(0, 4)] = 1; });
     Object.keys(cats).sort(function(a, b){ return cats[b] - cats[a]; }).forEach(function(k){ $('fc').insertAdjacentHTML('beforeend', '<option value="' + esc(k) + '">' + esc(LABEL[k] || k) + ' (' + cats[k] + ')</option>'); });
