@@ -1,0 +1,107 @@
+---
+title: The full timeline
+layout: default
+permalink: /timeline/
+full: true
+description: Every dated event behind Every Ballot Counts, from the orders and contracts to the court filings, each with its evidence mark and source.
+---
+<section class="tl-head">
+  <div class="wrap">
+    <p class="eyebrow">The evidence, in order</p>
+    <h1>The full timeline</h1>
+    <p class="sub" id="tl-intro">Every dated event behind this project: orders, contracts, privacy notices, court filings and statements, each with its evidence mark and source. Search it, or filter by type, mark or year.</p>
+    <div class="tl-controls">
+      <input id="q" type="search" placeholder="Search: SAVE, Palantir, California, subpoena…" aria-label="Search the timeline">
+      <select id="fc" aria-label="Type"><option value="">All types</option></select>
+      <select id="fm" aria-label="Evidence mark">
+        <option value="">All marks</option>
+        <option value="D">D · government document</option>
+        <option value="R">R · credible reporting</option>
+        <option value="I">I · our inference</option>
+        <option value="U">U · unresolved</option>
+      </select>
+      <select id="fy" aria-label="Year"><option value="">All years</option></select>
+      <button id="ord" class="btn" type="button">Newest first</button>
+    </div>
+    <p class="tl-count" id="count">Loading the timeline…</p>
+  </div>
+</section>
+<section class="tl-body">
+  <div class="wrap">
+    <ol class="tl" id="list"></ol>
+    <div class="tl-more"><button id="more" class="btn" type="button" hidden>Show more</button></div>
+    <p class="tl-note">Marks: <span class="m">D</span> government document · <span class="m">R</span> credible reporting · <span class="m">I</span> our inference · <span class="m">U</span> unresolved. A mark describes the evidence for the event itself, not whether an official claim in it is true. Spot an error? <a href="mailto:amanda.everyballotcounts@gmail.com">Send a correction</a>.</p>
+  </div>
+</section>
+
+<script>
+(function(){
+  var DATA = "{{ '/assets/data/timeline.json' | relative_url }}";
+  var rows = [], view = [], shown = 0, PAGE = 150, newest = true, TODAY = new Date().toISOString().slice(0, 10);
+  var $ = function(id){ return document.getElementById(id); };
+  var esc = function(s){ var d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };
+  var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  var LABEL = {'STATEMENT':'Statement','DATA-ACCESS/SYSTEM':'Data & systems','COURT':'Court','CONTRACT':'Contract','ENFORCEMENT':'Enforcement','AGENCY-CHANGE':'Agency change','OVERSIGHT/LEAK':'Oversight & leaks','STATE-ACTION':'State action','FOREIGN/PREDICATE':'Foreign claims','CONGRESS':'Congress','EXEC-ORDER/DIRECTIVE':'Order or directive','LAW':'Law','ELECTION-OPS':'Election operations','DIPLOMACY':'Diplomacy','DEADLINE':'Deadline','LETTER':'Letter'};
+  function fmtDate(r){
+    var p = (r.d || '').split('-'); if (p.length < 2) return r.d;
+    var s = (r.p === 'year') ? p[0] : (r.p === 'month' || !p[2]) ? MON[+p[1]-1] + ' ' + p[0] : MON[+p[1]-1] + ' ' + (+p[2]) + ', ' + p[0];
+    if (r.de && r.de !== r.d) { var q = r.de.split('-'); if (q.length === 3) s += ' – ' + MON[+q[1]-1] + ' ' + (+q[2]) + (q[0] !== p[0] ? ', ' + q[0] : ''); }
+    return s;
+  }
+  function linkify(s){
+    return esc(s).replace(/(https?:\/\/[^\s<·;)]+)/g, function(u){ var t = u.replace(/^https?:\/\/(www\.)?/, ''); if (t.length > 48) t = t.slice(0, 46) + '…'; return '<a href="' + u + '" rel="noopener" target="_blank">' + t + '</a>'; });
+  }
+  function item(r){
+    var cat = LABEL[r.c] || r.c;
+    return '<li class="ev"><div class="ev-date">' + esc(fmtDate(r)) + '</div><div class="ev-body">' +
+      '<div class="ev-meta"><span class="m">' + esc(r.m) + '</span><span class="cat">' + esc(cat) + '</span>' + (r.a ? '<span class="who">' + esc(r.a) + '</span>' : '') + '</div>' +
+      '<p class="ev-text">' + esc(r.e) + '</p>' +
+      (r.w ? '<p class="ev-why">' + esc(r.w) + '</p>' : '') +
+      (r.s ? '<details class="ev-src"><summary>Source</summary><p>' + linkify(r.s) + '</p></details>' : '') +
+      '</div></li>';
+  }
+  function apply(){
+    var q = $('q').value.trim().toLowerCase(), c = $('fc').value, m = $('fm').value, y = $('fy').value;
+    var terms = q ? q.split(/\s+/) : [];
+    view = rows.filter(function(r){
+      if (c && r.c !== c) return false;
+      if (m && (r.m || '').indexOf(m) < 0) return false;
+      if (y && (r.d || '').slice(0, 4) !== y) return false;
+      if (terms.length) { var hay = (r.e + ' ' + r.a + ' ' + r.w + ' ' + r.sy + ' ' + r.s).toLowerCase(); for (var i = 0; i < terms.length; i++) if (hay.indexOf(terms[i]) < 0) return false; }
+      return true;
+    });
+    if (newest) {
+      var fut = view.filter(function(r){ return r.d > TODAY; }), past = view.filter(function(r){ return r.d <= TODAY; }).reverse();
+      view = fut.concat(past);
+    }
+    shown = 0; $('list').innerHTML = ''; more();
+    $('count').textContent = view.length === rows.length ? rows.length.toLocaleString() + ' events' : view.length.toLocaleString() + ' of ' + rows.length.toLocaleString() + ' events';
+  }
+  function more(){
+    var html = '', lastMonth = shown ? view[shown-1].d.slice(0,7) : '';
+    view.slice(shown, shown + PAGE).forEach(function(r){
+      var mo = (r.d || '').slice(0, 7);
+      if (mo !== lastMonth) { var p = mo.split('-'); html += '<li class="mo">' + (r.d > TODAY ? 'Scheduled · ' : '') + (p[1] ? MON[+p[1]-1] + ' ' : '') + p[0] + '</li>'; lastMonth = mo; }
+      html += item(r);
+    });
+    $('list').insertAdjacentHTML('beforeend', html); shown = Math.min(view.length, shown + PAGE);
+    $('more').hidden = shown >= view.length;
+    if (!$('more').hidden) $('more').textContent = 'Show more (' + (view.length - shown).toLocaleString() + ' left)';
+  }
+  var t; $('q').addEventListener('input', function(){ clearTimeout(t); t = setTimeout(apply, 180); });
+  ['fc','fm','fy'].forEach(function(id){ $(id).addEventListener('change', apply); });
+  $('ord').addEventListener('click', function(){ newest = !newest; this.textContent = newest ? 'Newest first' : 'Oldest first'; apply(); });
+  $('more').addEventListener('click', more);
+  try { var qs = new URLSearchParams(location.search); if (qs.get('q')) $('q').value = qs.get('q'); } catch (e) {}
+  fetch(DATA).then(function(r){ return r.json(); }).then(function(d){
+    rows = d.rows; if (d.today && d.today > TODAY) TODAY = d.today;
+    var cats = {}, years = {};
+    rows.forEach(function(r){ cats[r.c] = (cats[r.c] || 0) + 1; years[(r.d || '').slice(0, 4)] = 1; });
+    Object.keys(cats).sort(function(a, b){ return cats[b] - cats[a]; }).forEach(function(k){ $('fc').insertAdjacentHTML('beforeend', '<option value="' + esc(k) + '">' + esc(LABEL[k] || k) + ' (' + cats[k] + ')</option>'); });
+    Object.keys(years).sort().reverse().forEach(function(k){ if (k) $('fy').insertAdjacentHTML('beforeend', '<option>' + k + '</option>'); });
+    var u = (d.updated || '').split('-');
+    $('tl-intro').insertAdjacentHTML('beforeend', ' Latest entry: ' + (u.length === 3 ? MON[+u[1]-1] + ' ' + (+u[2]) + ', ' + u[0] : d.updated) + '.');
+    apply();
+  }).catch(function(){ $('count').textContent = 'The timeline could not load. Try refreshing.'; });
+})();
+</script>

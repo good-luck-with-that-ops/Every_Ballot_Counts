@@ -186,3 +186,29 @@ button.btn{font:inherit;font-weight:700;cursor:pointer}
 .status-pill{display:inline-block;font:700 12px var(--mono);letter-spacing:.04em;padding:3px 8px;border-radius:999px;background:#eef0f5;color:var(--navy);white-space:nowrap;margin:2px 0}
 .status-pill.fired{background:var(--red-soft);color:#8f1820}
 .status-pill.armed{background:var(--amber-soft);color:#8a4b00}
+
+/* ---------- timeline page ---------- */
+.tl-head{padding:34px 0 10px;border-bottom:1px solid var(--line);background:#fff}
+.tl-head h1{font-size:clamp(28px,4vw,40px);color:var(--navy);margin:0 0 8px;letter-spacing:-.01em}
+.tl-controls{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 8px}
+.tl-controls input,.tl-controls select{font:inherit;font-size:15px;padding:10px 12px;border:1px solid #c9ced8;border-radius:10px;background:#fff;color:var(--ink)}
+.tl-controls input{flex:1 1 280px;min-width:0}
+.tl-controls .btn{padding:9px 14px;font-size:14.5px}
+.tl-count{color:var(--mute);font-size:14px;margin:4px 0 14px}
+.tl-body{padding:10px 0 20px}
+.tl{list-style:none;margin:0;padding:0}
+.tl .mo{position:sticky;top:62px;z-index:2;background:var(--paper);font:700 13px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--red);padding:16px 0 8px;border-bottom:2px solid var(--navy);margin-bottom:6px}
+.ev{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.ev-date{font:600 13.5px var(--mono);color:var(--navy);padding-top:2px}
+.ev-meta{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin-bottom:4px;font-size:13px}
+.ev-meta .m{margin:0}
+.ev-meta .cat{background:#eef0f5;color:var(--navy);border-radius:999px;padding:2px 9px;font-weight:600}
+.ev-meta .who{color:var(--mute);font-weight:600}
+.ev-text{margin:0;font-size:15.5px;line-height:1.5;max-width:80ch}
+.ev-why{margin:5px 0 0;color:var(--mute);font-size:14px;max-width:80ch}
+.ev-src{margin-top:6px;font-size:13px;color:var(--mute)}
+.ev-src summary{cursor:pointer;font-weight:700;color:var(--navy);width:max-content}
+.ev-src p{margin:4px 0 0;overflow-wrap:anywhere}
+.tl-more{text-align:center;padding:18px 0}
+.tl-note{color:var(--mute);font-size:13.5px;max-width:80ch}
+@media (max-width:760px){.ev{grid-template-columns:1fr;gap:4px}.tl .mo{top:0}}
