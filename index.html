@@ -26,7 +26,7 @@ description: The federal government built itself a way to decide who's a "real" 
     </div>
     <div>
       <div class="hero-video">
-        <video controls preload="none" playsinline poster="{{ v }}posters/feature.jpg" src="{{ v }}EBC_Feature_Overview_v1.mp4"></video>
+        <button class="yt" type="button" data-yt="G9tD0gYd-ts" style="background-image:url({{ v }}posters/feature.jpg)" aria-label="Play video"><span class="play"></span></button>
       </div>
       <p class="hero-cap"><b>Watch this first:</b> Who decides who's a real voter? (13 min) · how it was built, one real case, what to watch for.</p>
     </div>
@@ -49,24 +49,24 @@ description: The federal government built itself a way to decide who's a "real" 
   <div class="wrap">
     <p class="eyebrow">Videos</p>
     <h2>Watch, then share</h2>
-    <p class="sub">Every claim on screen is marked: <span class="m">D</span> document, <span class="m">R</span> reporting, <span class="m">I</span> our inference. More on <a href="https://www.youtube.com/@EveryBallotCounts">YouTube</a>.</p>
+    <p class="sub">Every claim on screen is marked: <span class="m">D</span> document, <span class="m">R</span> reporting, <span class="m">I</span> our inference. Subscribe on <a href="https://www.youtube.com/@EveryBallotCounts">YouTube</a>.</p>
     <div class="vid-main">
       <div class="vcard">
-        <video controls preload="none" playsinline poster="{{ v }}posters/worst_case.jpg" src="{{ v }}EBC_Worst_Case_v3.mp4"></video>
+        <button class="yt" type="button" data-yt="8sdLT64NltQ" style="background-image:url({{ v }}posters/worst_case.jpg)" aria-label="Play video"><span class="play"></span></button>
         <div class="body"><span class="len">7 min</span><h3>The worst case</h3><p>The four pieces already in place, how they could fit together, a clearly labeled "doomsday" hypothetical, and what stops it.</p></div>
       </div>
       <div class="vcard">
-        <video controls preload="none" playsinline poster="{{ v }}posters/feature.jpg" src="{{ v }}EBC_Feature_Overview_v1.mp4"></video>
+        <button class="yt" type="button" data-yt="G9tD0gYd-ts" style="background-image:url({{ v }}posters/feature.jpg)" aria-label="Play video"><span class="play"></span></button>
         <div class="body"><span class="len">13 min</span><h3>Who decides who's a real voter?</h3><p>The full overview: how it used to work, the paper trail since 2025, the California list stop by stop, and what to do.</p></div>
       </div>
     </div>
     <div class="shorts">
-      <div class="short"><video controls preload="none" playsinline poster="{{ v }}posters/S0_Site_Tour.jpg" src="{{ v }}shorts/S0_Site_Tour.mp4"></video><p>Start here: a tour of the site</p></div>
-      <div class="short"><video controls preload="none" playsinline poster="{{ v }}posters/S1_Whats_New.jpg" src="{{ v }}shorts/S1_Whats_New.mp4"></video><p>What's New: v2026.10</p></div>
-      <div class="short"><video controls preload="none" playsinline poster="{{ v }}posters/S2_Privacy_Policy_Fraud_Center.jpg" src="{{ v }}shorts/S2_Privacy_Policy_Fraud_Center.mp4"></video><p>We've updated our Privacy Policy</p></div>
-      <div class="short"><video controls preload="none" playsinline poster="{{ v }}posters/S3_Package_Tracking_California.jpg" src="{{ v }}shorts/S3_Package_Tracking_California.mp4"></video><p>Your voter record is out for delivery</p></div>
-      <div class="short"><video controls preload="none" playsinline poster="{{ v }}posters/S4_Its_A_Match.jpg" src="{{ v }}shorts/S4_Its_A_Match.mp4"></video><p>It's a Match!</p></div>
-      <div class="short"><video controls preload="none" playsinline poster="{{ v }}posters/S5_Forecast_Emergency_Switch.jpg" src="{{ v }}shorts/S5_Forecast_Emergency_Switch.mp4"></video><p>Election-week forecast</p></div>
+      <div class="short"><button class="yt" type="button" data-yt="QbI1CEvJ6_Q" style="background-image:url({{ v }}posters/S0_Site_Tour.jpg)" aria-label="Play video"><span class="play"></span></button><p>Start here: a tour of the site</p></div>
+      <div class="short"><button class="yt" type="button" data-yt="3ebxFy0rkF0" style="background-image:url({{ v }}posters/S1_Whats_New.jpg)" aria-label="Play video"><span class="play"></span></button><p>What's New: v2026.10</p></div>
+      <div class="short"><button class="yt" type="button" data-yt="lcDbH2kaQLc" style="background-image:url({{ v }}posters/S2_Privacy_Policy_Fraud_Center.jpg)" aria-label="Play video"><span class="play"></span></button><p>We've updated our Privacy Policy</p></div>
+      <div class="short"><button class="yt" type="button" data-yt="Y8tx7PmbMCU" style="background-image:url({{ v }}posters/S3_Package_Tracking_California.jpg)" aria-label="Play video"><span class="play"></span></button><p>Your voter record is out for delivery</p></div>
+      <div class="short"><button class="yt" type="button" data-yt="cE-DVjk8tvM" style="background-image:url({{ v }}posters/S4_Its_A_Match.jpg)" aria-label="Play video"><span class="play"></span></button><p>It's a Match!</p></div>
+      <div class="short"><button class="yt" type="button" data-yt="ByPa9ThZiEo" style="background-image:url({{ v }}posters/S5_Forecast_Emergency_Switch.jpg)" aria-label="Play video"><span class="play"></span></button><p>Election-week forecast</p></div>
     </div>
   </div>
 </section>
@@ -217,6 +217,14 @@ description: The federal government built itself a way to decide who's a "real" 
     document.getElementById('tw-dates').hidden = false;
   }).catch(function(){});
 
+  document.querySelectorAll('button.yt').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + btn.dataset.yt + '?autoplay=1&rel=0&playsinline=1';
+      f.title = 'Every Ballot Counts video'; f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; f.allowFullscreen = true;
+      f.className = 'yt-frame'; btn.replaceWith(f);
+    });
+  });
   var b = document.getElementById('share-btn');
   b.addEventListener('click', function(){
     var data = {title: 'Every Ballot Counts', text: 'The federal government built itself a way to decide who\'s a "real" voter. Here\'s the fine print.', url: location.href.split('#')[0]};
