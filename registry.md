@@ -7,7 +7,7 @@ description: One entry per federal system, contract vehicle or data feed touchin
 One entry per federal system, contract vehicle or data feed that touches the election-data picture, with what is known, how we know it, and what is still unresolved. It is a living reference, updated as records are found. Started Oct 26, 2026.
 
 **Marks (every claim):** D primary document · R reporting · I inference · U unresolved · K general knowledge, verify · X a map line or earlier claim that the cited originals do not support (the entry gives the correct version; added Oct 28, 2026).
-**Flow numbers:** numbers such as [3] or "Map flows: 3, 33" are the link numbers on the [architecture map](../map/architecture.html): 1–117 are the drawn lines and 118–166 are rows of its "More documented links" table.
+**Flow numbers:** numbers such as [3] or "Map flows: 3, 33" are the link numbers on the [architecture map](../map/architecture.html): 1–117 are the drawn lines and 118–169 are rows of its "More documented links" table.
 **Entry fields:** Owner · What it holds · Vendor/vehicle · PIA/SORN · Inbound feeds · Outbound feeds · Court mentions · Status since Jan 20, 2025 · Open questions/records (U).
 **Sources:** entries cite the kind of source inline (a justification, a Federal Register notice, a court filing, a news report). Links to the underlying documents are being added over time; the supporting working notes are not published yet. Vendors are shown as infrastructure: a company appears only where a document ties it to a system, and no entry implies wrongdoing by any vendor.
 **Caution:** this is research by an independent individual, not an investigation with inside sources. Inferences (I) and unresolved items (U) are labeled so you can weigh them. Corrections are welcome (see the [about page](../about.html)).
@@ -44,6 +44,7 @@ One entry per federal system, contract vehicle or data feed that touches the ele
 | ICE-15 | Athena / "HSI Tool" (Sandia National Laboratories) |
 | ICE-16 | ICE Enforcement and Removal Operations (ERO): alienage step and ELITE owner |
 | ICE-17 | Unnamed "federal law enforcement systems" HSI used to refine the California list |
+| ICE-18 | "ICE Data Analytics" (named in the LexisNexis requirement; not identified) |
 | COM-01 | Clearview AI (face search) |
 | COM-02 | LexisNexis (RELX) and Thomson Reuters CLEAR (commercial people-search) |
 | COM-03 | OSINT and location tools (Penlink Tangles/Webloc, ShadowDragon, Fivecast, Babel Street, Zignal) |
@@ -404,6 +405,16 @@ Map flows: new (HSI → unnamed LE systems)
 - **What it holds:** McLoughlin Decl. #1 says HSI took FDNS output through intake quality review, prioritization, "additional enrichment using approved analytic capabilities," matching "across multiple authorized data sources" and refinement "with federal law enforcement systems" (D, Dkt. 62-3 ¶¶16–17, 23). HSI describes its role as "data intake (including obtaining bona fide voter rolls), preparation, enrichment, quality review, and routing of leads" and says it is "among several federal departments and agencies" processing state voter files (D, ¶11). The systems are not named (U); the iLab, RAVEn, ICM and ELITE are candidates (I), and none is named in the California declarations.
 - **Open questions / records (U):** Which systems; whether refinement changed or added names; which other agencies process state voter files.
 
+
+### ICE-18 · "ICE Data Analytics" (named in the LexisNexis requirement; not identified)
+Map flows: 169
+- **Owner:** ICE (D for the name only; it appears in the LexisNexis bridge work statement as reported, R).
+- **What it holds:** U. The work statement lists it with Palantir and PenLink as an ICE application that commercial identity data must feed (R). It may be an internal ICE analytics office or platform (I); no PIA, SORN, contract or court filing found under this name.
+- **Vendor / vehicle, PIA / SORN, court:** U.
+- **Inbound feeds:** [169] commercial identity data from the investigative-database subscription (R; COM-02). **Outbound feeds:** U.
+- **Status since Jan 20, 2025:** Named in the Aug–Sept 2026 bridge requirement (R); the Oct 22, 2026 follow-on RFI keeps the requirement open (D).
+- **Open questions / records (U):** What it is, who runs it, what it holds; the full bridge PWS and the follow-on solicitation text.
+
 ---
 
 # PART C · Commercial identity, OSINT and location tools (vendor products, neutral infrastructure)
@@ -421,20 +432,20 @@ Map flows: none on the map
 - **Open questions / records (U):** CBP SOW and CBP justification; NTC Counter Network Division election tasking; the redacted purpose and license counts; the reseller quote.
 
 ### COM-02 · LexisNexis (RELX) and Thomson Reuters CLEAR (commercial people-search)
-Map flows: 8
+Map flows: 8, 167–169
 - **User:** USCIS, ICE/HSI, FDNS (D).
 - **What it holds:** Address history, relatives, utilities and other commercial identity data (K). The LexisNexis requirement describes Palantir/PenLink interfaces and batch identity queries (R).
 - **Vendor / vehicle:** RELX 70SBUR25F00000065, $5.4M (seven obligating actions totaling $5,434,485, Mar 2025–Sept 2026; USAspending), Mar 2025–Mar 2027 "law enforcement research subscriptions" (D). ICE LEIDS 70CMSD26C00000009, ~Aug 31/Sept 1, 2026 (D lead; award not read). TRSS CLEAR via DASS and the FDNS vetting solicitation (see ICE-10, USC-06). Bridge notice 192126FLMURQ0071.
 - **PIA / SORN:** U.
 - **Feeds:** [8] commercial databases used to clear names (D, CNA order). Accurint (LexisNexis) named as the enrichment service for the California voter roll: FDNS sent name and address fields and received SSNs, DOBs, dates of death, phones and addresses (D, Bartell Decl. #2 ¶15, Dkt. 107-2, Oct 26). Contract vehicle for Accurint use by FDNS not identified; RELX 70SBUR25F00000065 is a candidate (I). Accurint now has its own entry (COM-04).
 - **Court mentions:** CNA order notes commercial databases are "typically used for targeted advertising" and include addresses, geolocation, demographics, family structure and vehicle ownership (D).
-- **Status since Jan 20, 2025:** Mar 2025 USCIS buy; Aug–Sept 2026 ICE award (D lead).
+- **Status since Jan 20, 2025:** Mar 2025 USCIS buy; Aug–Sept 2026 ICE award (D lead). **Oct 22, 2026 (D via HigherGov, updated Oct 25, responses due Oct 27):** ICE's Dallas investigations-support office (70CMSD) posted RFI ICERFI10222026 for a follow-on "web-based law enforcement investigative database subscription service," listing LexisNexis and Thomson Reuters incumbents, including the LexisNexis bridge 70CMSD26C00000009 ($2,935,308). The bridge work statement required data feeds into "ICE applications, such as but not limited to, Palantir platform, PenLink, and ICE Data Analytics," plus entity resolution, batch searches and up to 11,200 users (R; map 167–169). Why it matters (I): the commercial layer used to "enrich" voter matches is wired by requirement into ICE's case and targeting platforms and a phone, social-media and location tool.
 - **Open questions / records (U):** Executed award and actual interface records. General API requirements do not establish voter ingestion or ELITE use.
 
 ### COM-03 · OSINT and location tools (Penlink Tangles/Webloc, ShadowDragon, Fivecast, Babel Street, Zignal)
-Map flows: none on the map
+Map flows: 168 (commercial identity data in, from COM-02)
 - **User:** ICE Intelligence, ICE Homeland Security Task Force, USCIS FDNS (D).
-- **What it holds:** Social-media and location analytics. Webloc is location data (K).
+- **What it holds:** Social-media and location analytics. Webloc is location data (K). PenLink's PLX is marketed for "real-time intelligence" from calls, texts and other phone data; leaked DHS access groups show a PLX group of 2,000+ HSI users nationally (R). The LexisNexis bridge work statement requires commercial identity feeds into "PenLink" (R; COM-02, map 168).
 - **Vendor / vehicle:** Pen-Link 70CMSD26FR0000187 $1.87M; …0185 $1.63M; …0181 $1.63M (Sept 25, 2026). ShadowDragon (via ETS) 70CMSD26FR0000166 $132,931 (Sept 21). Fivecast (via ETS) 70CMSD26FR0000093 $777,777 (Sept 15). Babel Street (via Flywheel Data) 70CTD026FR0000025 $10,300,000, 25 Insights licenses, "location and identity" APIs (May 20, 2026). Zignal (Sept 2025). A USCIS FDNS social-media vetting pilot is reported as a $2.8M noncompetitive purchase order to Thomson Reuters Special Services, with CLEAR Risk Inform, CLEAR Batch and Fivecast MATRIX meeting the minimum requirements (R, ExecutiveBiz, Oct 8, 2026, citing G2Xchange); the SAM notice and Amendment 0001 attachment, read Oct 27, confirm the intent to award noncompetitively to TRSS and the required capabilities (D; see USC-06).
 - **PIA / SORN:** ICE IIRS (ICE-006) SORN modified Jul 2025, FR 2025-13613 (D). Others U.
 - **Feeds, court:** U.
@@ -939,6 +950,7 @@ Method: attachments are downloaded from SAM.gov and read in full (text extractio
 For every new document, article or watch item: (1) find the system by ID; (2) compare each stated fact to the entry; (3) if it adds or conflicts, update the entry with a dated line and a mark; (4) if no system fits, add a row; (5) log the change below. Inherited marks are not re-verified unless stated.
 
 ## J7 · Change log
+- 2026-11-01 (ICE data-subscription RFI): COM-02 gains ICE RFI ICERFI10222026 (Oct 22, 2026; D via HigherGov) for a follow-on "web-based law enforcement investigative database subscription service," and the LexisNexis bridge work statement's required feeds into "ICE applications, such as but not limited to, Palantir platform, PenLink, and ICE Data Analytics" (R). COM-03 gains the PenLink link and the PLX access-group count (R). New ICE-18 "ICE Data Analytics" (unidentified, U). Map gains links 167–169 (table rows, not drawn); the numbered range is now 1–169. Source: HigherGov mirror of SAM notice ICERFI10222026 and contract 70CMSD26C00000009; leaked DHS access groups (timeline, Oct 2026).
 - 2026-10-29 (map renumber): Map flows renumbered into one sequence (1–166); old f/e ids mapped in FLOW_CROSSWALK; registry ids shown in map boxes.
 - 2026-10-29 (map polish): New PART H2 with ELE-01 ERIC, ELE-02 DOJ Public Integrity Section concurrence, ELE-03 2020 Election Day coordination, ELE-04 cyber-incident victim notification; map edges e180–e189. Source: DHS Secretary letter to the AG (Sept 2, 2026); FBI Michigan release; Election Day 2020 watch log; IC report "US Voter Registration for 6 States."
 - 2026-10-29 (map redraw): USC-11: delivery of the list to the Secretary of State is now marked U (HSI 62-3 ¶24 says DOJ passed it on; ECF 149 p.3 says the requests were emailed without the list); added LA County's position that its system cannot safely segregate ballots (ECF 149 p.23), Carter's TRO denial (ECF 149) and DOJ's appeal (ECF 152). Source: ECF 149, 152.
