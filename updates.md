@@ -4,6 +4,7 @@ permalink: /updates.html
 ---
 # Updates
 
+- **2026-11-01:** New on the [phrase trail](../phrase-trail/): "What they promised, and what they left room for," the exact wording of federal assurances about agents, troops and ballots, and what each one leaves open.
 - **2026-10-31 (evening):** Both long videos re-recorded in the author's own voice, with commentary, captions off and status as of early Oct 31. New short: a tour of the site.
 - **2026-10-31:** New [full timeline](timeline/) page: all 1,443 dated events, searchable and filterable, each with its mark and source. Tripwire board and one-page brief brought current to Oct 31 (50-state DOJ preservation letters, Ninth Circuit denial, Alaska ballot-segregation request, five-state disclosure). The site moved to everyballotcounts.io; old links still work.
 - **2026-10-29:** Site redesign: a shorter homepage with the live tripwire board, upcoming dates, videos you can play in place, three summary cards and a "what to demand" box. Every page now shares one header and menu, and long tripwire entries open on tap. Added the 10-minute overview and the 6-minute worst-case video.
