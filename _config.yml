@@ -1,9 +1,16 @@
 title: Every Ballot Counts
-description: Independent research tracking federal election-data systems, contracts and data flows ahead of the Nov 3, 2026 midterms.
+description: Independent research tracking federal election-data systems, contracts and data flows, from the 2026 midterms through 2028.
 url: https://everyballotcounts.io
 baseurl: ""
 markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
+permalink: /blog/:year/:month/:day/:title/
+feed:
+  path: feed.xml
+defaults:
+  - scope: {path: "", type: posts}
+    values: {layout: post}
 exclude: [site_build, README.md]

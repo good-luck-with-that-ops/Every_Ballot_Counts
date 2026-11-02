@@ -1,0 +1,12 @@
+---
+title: Presumption of Irregularity
+permalink: /blog/
+description: "A lawyer's notes on the fine print of federal power over elections and data. Commentary, with receipts."
+---
+<h1>Presumption of Irregularity</h1>
+<p class="post-label">A lawyer's notes on the fine print of federal power over elections and data. Commentary, with receipts. New posts a few times a week; the <a href="{{ '/timeline/' | relative_url }}">timeline</a> and <a href="{{ '/tripwires/' | relative_url }}">tripwire board</a> underneath update more often. <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
+<ul class="post-list">
+{% for post in site.posts %}
+  <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.description %}<p>{{ post.description }}</p>{% endif %}</li>
+{% endfor %}
+</ul>

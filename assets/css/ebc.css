@@ -119,7 +119,7 @@ details.why p{margin:0 0 12px;font-size:15px}
 .vcard h3{margin:0 0 4px;font-size:18px;color:var(--navy)}
 .vcard p{margin:0;color:var(--mute);font-size:14.5px}
 .len{font:700 11.5px var(--mono);color:var(--red);letter-spacing:.06em;text-transform:uppercase}
-.shorts{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:22px}
+.shorts{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:22px}
 .short{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
 .short video{width:100%;aspect-ratio:9/16;background:#000;object-fit:cover}
 .short p{margin:0;padding:8px 10px 10px;font-size:13px;line-height:1.3;font-weight:600;color:var(--navy)}
@@ -224,3 +224,16 @@ button.yt:hover .play{background:#97181f}
 .yt-frame{display:block;width:100%;border:0;background:#000}
 .hero-video .yt-frame,.vcard .yt-frame{aspect-ratio:16/9;height:auto}
 .short .yt-frame{aspect-ratio:9/16;height:auto}
+/* blog */
+.post-kicker{font:600 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--red);margin:0 0 8px}
+.post-kicker a{color:inherit;text-decoration:none}
+.post-label{font-style:italic;color:#555b6b;margin:0 0 22px}
+.post-foot{font-size:14px;color:#555b6b}
+.post-list{list-style:none;padding:0}
+.post-list li{padding:16px 0;border-top:1px solid var(--line);margin:0}
+.post-list a{font-weight:700;font-size:20px;color:var(--navy)}
+.post-list p{margin:6px 0 0;color:#444}
+.post-date{display:block;font:600 12px/1.4 var(--mono);color:#666;letter-spacing:.05em;text-transform:uppercase;margin-bottom:4px}
+.embed{position:relative;aspect-ratio:16/9;margin:18px 0;border-radius:10px;overflow:hidden;background:#000}
+.embed.v{aspect-ratio:9/16;max-width:320px}
+.embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}

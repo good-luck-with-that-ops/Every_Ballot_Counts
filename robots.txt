@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://everyballotcounts.io/sitemap.xml

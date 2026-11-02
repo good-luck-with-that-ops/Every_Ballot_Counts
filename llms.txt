@@ -1,7 +1,17 @@
 # Every Ballot Counts
-> Independent research on federal election-data systems, contracts and data flows ahead of the Nov 3, 2026 US midterms. Built from public records; claims carry evidence marks (D primary, R reporting, I inference, U unresolved, K verify). Not an investigation with inside sources; no vendor wrongdoing is alleged.
+> Independent research by a private citizen (an attorney, in a personal capacity) on federal election-data systems, contracts and data flows: voter-roll matching, DHS/ICE/HSI and USCIS data systems (SAVE, FDNS, case management, commercial data brokers), DOJ fraud task forces and grants, emergency authorities, and court cases over voter lists and ballots. Covers the 2026 midterms through certification and continues toward 2028. Built from public records; every claim carries an evidence mark (D government document, R credible reporting, I the author's inference, U unresolved). No vendor wrongdoing is alleged. Text is CC BY 4.0.
 
-- [System Registry](https://everyballotcounts.io/registry/): one entry per system, vehicle or data feed
-- [Phrase Trail](https://everyballotcounts.io/phrase-trail/): recurring language across statutes, procurement and reports
-- [Architecture map](https://everyballotcounts.io/map/architecture.html)
+## Start here
+- [Tripwire board](https://everyballotcounts.io/tripwires/): what to watch for, by route (voter intimidation, voter-roll and ballot challenges, pressure on election officials, candidates and seating, investigations of organizers, emergency declarations, lasting data powers), with status and evidence
+- [Timeline](https://everyballotcounts.io/timeline/): every dated event with its mark and source; machine-readable at https://everyballotcounts.io/assets/data/timeline.json
+- [One-page brief](https://everyballotcounts.io/brief/)
+
+## Reference
+- [System Registry](https://everyballotcounts.io/registry/): one entry per federal system, contract vehicle or data feed (e.g., SAVE, FDNS, ICE case management, HSI analytics tools, PenLink, Thomson Reuters CLEAR, LexisNexis Accurint, the National Fraud Detection Center), with sources
+- [Phrase Trail](https://everyballotcounts.io/phrase-trail/): recurring language and the carve-outs in federal assurances ("what they promised, and what they left room for")
+- [Architecture map](https://everyballotcounts.io/map/architecture.html): numbered data flows between systems
+- [Blog: Presumption of Irregularity](https://everyballotcounts.io/blog/): the author's commentary, with links to the evidence; RSS at https://everyballotcounts.io/feed.xml
 - [About and method](https://everyballotcounts.io/about.html)
+
+## Contact
+Questions, corrections and records requests: amanda.everyballotcounts@gmail.com

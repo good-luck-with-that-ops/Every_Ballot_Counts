@@ -4,6 +4,7 @@ permalink: /updates.html
 ---
 # Updates
 
+- **2026-11-02:** New blog, [Presumption of Irregularity](blog/): commentary with links to the evidence, a few posts a week. First post: why this project exists and why it continues after Election Day. New short: the Election Day field guide.
 - **2026-11-01:** New on the [phrase trail](../phrase-trail/): "What they promised, and what they left room for," the exact wording of federal assurances about agents, troops and ballots, and what each one leaves open.
 - **2026-10-31 (evening):** Both long videos re-recorded in the author's own voice, with commentary, captions off and status as of early Oct 31. New short: a tour of the site.
 - **2026-10-31:** New [full timeline](timeline/) page: all 1,443 dated events, searchable and filterable, each with its mark and source. Tripwire board and one-page brief brought current to Oct 31 (50-state DOJ preservation letters, Ninth Circuit denial, Alaska ballot-segregation request, five-state disclosure). The site moved to everyballotcounts.io; old links still work.
