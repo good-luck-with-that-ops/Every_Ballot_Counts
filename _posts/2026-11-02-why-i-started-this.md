@@ -1,6 +1,6 @@
 ---
 title: "Why I started this, and why I'm not stopping on Nov 4"
-date: 2026-11-02 17:00:00 -0500
+date: 2026-11-02 15:30:00 -0500
 tags: [about, elections, military, data]
 description: "A memo that told the Pentagon's intelligence agencies to use \"every authorized asset\" on our elections, a \"big surprise\" and six weeks of reading the fine print. Here's what this site is for, and what comes next."
 ---
