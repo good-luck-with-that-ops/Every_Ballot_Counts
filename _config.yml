@@ -14,3 +14,12 @@ defaults:
   - scope: {path: "", type: posts}
     values: {layout: post}
 exclude: [site_build, README.md]
+twitter:
+  username: Every_Ballot
+  card: summary_large_image
+social:
+  name: Every Ballot Counts
+  links:
+    - https://x.com/Every_Ballot
+    - https://bsky.app/profile/every-ballot.bsky.social
+    - https://www.youtube.com/@EveryBallotCounts
