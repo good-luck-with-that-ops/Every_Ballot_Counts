@@ -4,6 +4,14 @@ permalink: /registry/
 description: One entry per federal system, contract vehicle or data feed touching the 2026 election-data picture, with evidence marks.
 ---
 
+**How these pages fit together.** One master timeline of dated, sourced events feeds every page; each page shows it a different way.
+- [Tripwire board](../tripwires/): what to watch for now, and what has already happened.
+- [Full timeline](../timeline/): every dated event with its source and evidence mark, searchable. Start here to check a fact.
+- [Architecture map](../map/architecture.html): how data moves between agencies and systems. Its numbered lines match the "Map flows" numbers in the registry.
+- [System registry](../registry/): one entry per federal system, contract or data feed, for looking up a single system in detail.
+- [Phrase trail](../phrase-trail/): wording that travels from orders into contracts and court filings, and what official promises leave open.
+- [One-page brief](../brief/): the short version.
+
 One entry per federal system, contract vehicle or data feed that touches the election-data picture, with what is known, how we know it, and what is still unresolved. It is a living reference, updated as records are found. Started Oct 26, 2026.
 
 **Marks (every claim):** D primary document · R reporting · I inference · U unresolved · K general knowledge, verify · X a map line or earlier claim that the cited originals do not support (the entry gives the correct version; added Oct 28, 2026).

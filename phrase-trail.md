@@ -4,6 +4,14 @@ permalink: /phrase-trail/
 description: Tracks language that recurs across statutes, directives, procurement documents and reports.
 ---
 
+**How these pages fit together.** One master timeline of dated, sourced events feeds every page; each page shows it a different way.
+- [Tripwire board](../tripwires/): what to watch for now, and what has already happened.
+- [Full timeline](../timeline/): every dated event with its source and evidence mark, searchable. Start here to check a fact.
+- [Architecture map](../map/architecture.html): how data moves between agencies and systems. Its numbered lines match the "Map flows" numbers in the registry.
+- [System registry](../registry/): one entry per federal system, contract or data feed, for looking up a single system in detail.
+- [Phrase trail](../phrase-trail/): wording that travels from orders into contracts and court filings, and what official promises leave open.
+- [One-page brief](../brief/): the short version.
+
 Created Oct 26, 2026. Companion to the [System Registry](../registry/). Tracks language that recurs across statutes and directives, procurement documents and reports, so a reader can see where wording first appears and where it resurfaces. A shared phrase can have innocent explanations (shared industry vocabulary, a common template, text copied from an earlier public source); each entry notes the competing explanations.
 
 ## What they promised, and what they left room for

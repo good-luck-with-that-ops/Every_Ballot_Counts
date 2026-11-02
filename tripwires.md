@@ -18,8 +18,15 @@ Marks: D document · R reporting · I our inference.
 - **The White House is planning to govern without Congress if Democrats win (R, Reuters; Telegraph via Daily Beast):** Miller, Vought and the counsel's office have worked since April on executive actions on immigration, tariffs, housing and spending, and "where he could push the limits of his authority."
 - **Checked and not seen as of Monday morning:** a Supreme Court application on the California ballots, a second DHS list to Washington, any warrant for ballots or equipment, an emergency or "significant incident" declaration, or any U.S. official blaming a current hack on a foreign country.
 
-## The sequence we're watching
-Foreign-hack claim → federal "who is a real voter" list → ballots held → cyber incident blamed abroad → FBI takes the "investigation" and the evidence → list used to set aside ballots or block certification before Jan 3.
+## What we're watching for
+The board tracks several ways federal power could reach this election. They overlap, and none needs the others to happen.
+- **Scaring voters away:** armed agents near polls, door-knocks, enforcement surges, threats of prosecution. Tripwires 7, 8, 15.
+- **Challenging voters and their ballots:** federal "noncitizen" lists, demands to remove voters or set ballots aside. Tripwires 4, 5.
+- **Pressuring the people who count:** criminal threats, grand-jury subpoenas and preservation demands aimed at election officials. Tripwires 2, 6, 14.
+- **Targeting candidates and blocking winners:** citizenship and fraud probes of candidates, suits to stop certification, and challenges to seating members when the House convenes Jan 3. Tripwires 9, 10.
+- **Investigating organizers:** domestic-terrorism and fraud investigations of registration, union, observer and protest groups (NSPM-7). See "Also watching."
+- **The worst case, a declared emergency:** foreign-hack claim → federal "who is a real voter" list → ballots held → cyber incident blamed abroad → FBI takes the "investigation" and the evidence → list used to set aside ballots or block certification before Jan 3. Tripwires 1, 3, 13.
+- **What stays after Jan 3:** new data powers and weakened oversight that carry into 2028. Tripwires 11, 12.
 
 ## The board
 
