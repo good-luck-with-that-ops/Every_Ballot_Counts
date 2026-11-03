@@ -19,11 +19,39 @@ Created Oct 26, 2026. Companion to the [System Registry](../registry/). Tracks l
 The trail is how this project finds connections: the same words turning up in an order, then a contract, then a court filing. Every new government document gets checked against it. The ones marked ★ sound like routine paperwork but change who can do what.
 
 - **Who counts as a voter:** "undiluted," "diluting the votes of citizens," "lawful voter"; "likely noncitizen"; "may have subsequently naturalized"; "high confidence"; ★"minor data discrepancies"; "voter eligibility"; ★"verification platforms."
-- **Who counts as law enforcement:** ★"law enforcement organization" and "designated law-enforcement entity"; ★"cross-designated"; ★"Special Attorney"; "coordinate with federal immigration authorities"; "investigative or law enforcement function"; ★"as commonly understood."
+- **Who counts as law enforcement:** ★"law enforcement organization" and "designated law-enforcement entity"; ★"cross-designated"; ★"Special Attorney"; "coordinate with federal immigration authorities"; "investigative or law enforcement function"; ★"as commonly understood"; "administrative or clerical personnel"; ★"law enforcement exception." Full chain: [#1 below](#law-enforcement).
 - **What counts as an emergency or attack:** "foreign malign influence"; "significant incident"; ★"public confidence"; "every authorized asset," "whole of government," "no-fail mission"; ★"Executive direction"; "armed enemies"; "election infrastructure."
 - **What counts as fraud or crime:** "integrity"; "voter fraud organization"; "organized campaigns"; ★"aiders and abettors"; ★"knowingly"; "criminal aliens."
 - **Access to everything:** "single source of truth," "one consolidated record," "person-centric"; "eliminate data silos"; "unfettered access," "any data asset, information, or record"; ★"through subpoena where necessary"; "consistency with Federal requirements"; ★"law enforcement sensitive."
 - **Limits written in, then left open:** "solely on the basis"; "voluntary"; "no plans"; ★"will immediately become effective"; "keeps the function under state control"; "for no other purpose." The promises table further down applies this family to what officials have said.
+
+## #1 · "Law enforcement": the label that opens and closes doors {#law-enforcement}
+
+"Law enforcement" carve-outs exist for good reasons: police need records, and investigators need room to work. That's what makes the label useful. Say it out loud and a door opens. Disclaim it and a limit goes away. This year the label has been used three ways:
+
+- **Added:** give a person, office or contract the label, and powers and data follow.
+- **Disclaimed:** say "not law enforcement" where the label would trigger limits.
+- **Exception:** invoke the label to get past a rule.
+
+Rows are in date order. Each one quotes the source's exact words. The first column is the short label (these will become filters on the timeline).
+
+| Short label | Use | Date | Source | Exact words | Mark |
+|---|---|---|---|---|---|
+| **Armed men at the polls** | Exception | 1948 (from 1865) | 18 U.S.C. 592 ([text](https://www.govinfo.gov/content/pkg/USCODE-2011-title18/html/USCODE-2011-title18-partI-chap29-sec592.htm)) | no "troops or armed men" at the polls "unless such force be necessary to repel armed enemies of the United States." Cross-listed with the emergency family. ([timeline](../timeline/?q=armed+enemies)) | D |
+| **The exception** | Exception | 1974 | Privacy Act, 5 U.S.C. 552a(b)(7), as quoted by Judge Chutkan | sharing for "civil or criminal law enforcement activity if the activity is authorized by law," but only "if the head of the agency or instrumentality has made a written request to the agency which maintains the record specifying the particular portion desired" | D |
+| **Who gets arrest power** | Added | Sept 5, 2025 | DHS rule on USCIS law-enforcement authorities, 90 FR 42797 | the Director may designate individuals "or a class of individuals" to make warrantless arrests, serve warrants and carry firearms ([timeline](../timeline/?q=42797+firearms)) | D |
+| **The badge** | Added | Oct 6, 2025 | USCIS fraud unit (FDNS), per a DHS official's sworn declaration | FDNS became a designated law-enforcement entity "via a delegation of authority." Our read: an old State Department "law enforcement" routine use now reaches FDNS voter checks without a word of it changing. ([timeline](../timeline/?q=law-enforcement+entity)) | D; read I |
+| **Cross-designated** | Added | Apr 22, 2026 | DOJ Special Attorneys grant notice (O-BJA-2026-172587) | local prosecutors serving as federal Special Attorneys must be "willing to coordinate with federal immigration authorities and to investigate and prosecute crimes committed by aliens, including federal immigration offenses" ([timeline](../timeline/?q=172587+coordinate)) | D |
+| **Not law enforcement (on paper)** | Disclaimed | Jun 10, 2026 | H.R. 8312 §2 (passed the House) | the new data program "does not include any investigative or law enforcement function" ([timeline](../timeline/?q=8312+law+enforcement+function)) | D |
+| **The stamp** | Added | Aug 2026 | HSI's weekly election-integrity briefings (ICE FOIA release) | "Law Enforcement Sensitive - For Official Use Only" on every page. The marking is everywhere at ICE, so it's weak alone; it's here because it's on the election briefings. ([timeline](../timeline/?q=cbfcc+weekly)) | D |
+| **The data buy** | Added | Aug 31, 2026 | ICE contract with LexisNexis Risk Solutions (follow-on notice Oct 22) | a "law enforcement investigative database subscription, granting access to public records" ([timeline](../timeline/?q=investigative+database+subscription)) | D |
+| **The warrant exception** | Exception | Sept 1, 2026 | DHS Secretary Mullin, to reporters | "if we're serving a warrant we will be where we need to be" ([timeline](../timeline/?q=serving+a+warrant)) | R |
+| **"As commonly understood"** | Disclaimed | Oct 28, 2026 | DOJ declaration in the NAACP's FOIA suit over poll monitors | "while monitoring, the monitors will not be acting as 'law enforcement personnel,' a 'law enforcement officer,' or a 'law enforcement agent' as commonly understood" ([timeline](../timeline/?q=commonly+understood)) | D |
+| **Clerical, not cops** | Disclaimed (now court-enforced) | Nov 2, 2026 | Judge Walton, *NAACP v. Blanche* (D.D.C.) | DOJ must ensure monitors "are indeed administrative or clerical personnel and not law enforcement officials" and "will not have the power to effectuate arrests" ([timeline](../timeline/?q=clerical+walton)) | D |
+| **The exception, denied** | Exception (rejected) | Nov 2, 2026 | Judge Chutkan, *League of Women Voters v. DHS* (D.D.C.) ([opinion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.297656/gov.uscourts.dcd.297656.31.0.pdf)) | "Defendants are unlikely to be able to rely on the law enforcement exception." "Defendants have not identified any such request." The exception was meant for each request "on a case-by-case basis," not bulk disclosure. ([timeline](../timeline/?q=chutkan+law+enforcement+exception)) | D |
+| **Sworn volunteers pulled** | Disclaimed | Nov 3, 2026 | DOJ's court-ordered status report on monitors | Reported: sworn officers who volunteered were removed after review. We'll quote it once we've read the filing. | R |
+
+**What it shows (our read, I):** on the same day, DOJ said its monitors are *not* law enforcement (to get into polling places) and leaned on law-enforcement purposes to move voter data (the Privacy Act exception). One court made the first an enforceable condition; another rejected the second for now. Watch for a new privacy notice whose "routine use" is phrased around "law enforcement purposes": that's the paperwork fix Chutkan's ruling invites.
 
 ## How the trail works
 
@@ -234,6 +262,7 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
+- 2026-11-03: new entry #1, "law enforcement," at the top of the page: thirteen uses in date order, each tagged by how the label is used (added, disclaimed, or invoked as an exception).
 - 2026-11-02 (late night): new entries PT-14 ("not self-executing" / "at their own legal peril") and PT-15 ("knowingly" / "aiders and abettors") from Chief Judge Boasberg's Nov 2 opinion in CHIRLA v. DHS.
 - 2026-11-02 (night): Phrase families section added at the top; the promises table moved below the ledger. The trail is checked against every new government document again.
 - 2026-10-27 (night): PT-12 DASS row filled from the J&A text, read in full (D).
