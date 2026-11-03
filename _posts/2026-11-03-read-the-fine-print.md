@@ -40,6 +40,8 @@ Every exception is decided by DHS. An administrative immigration warrant is sign
 **DOJ's election monitors "will not be acting as 'law enforcement personnel' ... as commonly understood."** (DOJ court filing, Oct. 28) <span class="m">D</span>
 "While monitoring" describes a role, not who the person is, and "as commonly understood" is a hedge inside a hedge. The "no agents" language covers the FBI and ICE. According to the NAACP, DEA, ATF and Bureau of Prisons staff are named without it.
 
+> **Update, Nov. 3:** A judge closed this gap. On Nov. 2, Judge Reggie Walton ordered DOJ to make sure its monitors "are indeed administrative or clerical personnel and not law enforcement officials," with no uniforms or insignia, no firearms and no "power to effectuate arrests," and that they "not talk with any voter inside the polling place" ([order](https://www.courtlistener.com/?q=%22NAACP%22+%2226-cv-03626%22)). <span class="m">D</span> He also said his view "would differ" if DOJ were sending officers with arrest power. A promise with a hedge became a court order without one.
+
 **"We have no plans to question or investigate people we believe to be U.S. citizens."** (DHS, in court, Oct. 21) <span class="m">D</span>
 It turns on what DHS believes. DHS's own California list treated thousands of people as "likely" noncitizens, and outside researchers found citizens on it.
 
@@ -52,7 +54,7 @@ They're suspended, not withdrawn.
 
 Lawyers hedge by habit. Some of these gaps are probably just careful drafting. But when promise after promise leaves out the same things (other agencies, the counting center, the weeks after Election Day), that's where I'd watch.
 
-The good news so far is that the courts have been the ones closing gaps. As of last night, five courts, including the Supreme Court, have ruled against DOJ's push to hold or set aside ballots before the count. Court orders have edges too, though: the nine-state ban on DHS election field operations ends when polls close tonight.
+The good news so far is that the courts have been the ones closing gaps. As of last night, five courts, including the Supreme Court, have ruled against DOJ's push to hold or set aside ballots before the count. Overnight the list got longer. Judge Chutkan ordered DHS and DOJ to stop sending lists of alleged noncitizen voters to state and local election officials ([opinion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.297656/gov.uscourts.dcd.297656.31.0.pdf)). In her words, the government "collected millions of voting records—including those of U.S. citizens," and no Privacy Act notice covers sharing them. <span class="m">D</span> The full Ninth Circuit also threw out a panel's late-night pause of Judge Thompson's order protecting California election workers. <span class="m">D</span> Court orders have edges too, though: the nine-state ban on DHS election field operations ends when polls close tonight.
 
 The full table, with sources, is on the [phrase trail](/phrase-trail/). What to watch for today is on the [tripwire board](/tripwires/).
 
