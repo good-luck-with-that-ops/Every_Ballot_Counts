@@ -21,7 +21,7 @@ The trail is how this project finds connections: the same words turning up in an
 - **Who counts as a voter:** "undiluted," "diluting the votes of citizens," "lawful voter"; "likely noncitizen"; "may have subsequently naturalized"; "high confidence"; ★"minor data discrepancies"; "voter eligibility"; ★"verification platforms"; "are or were"; "aliens or USCs"; "presumptively valid"; "purporting." Full chain: [#2 below](#who-counts-as-a-voter).
 - **Who counts as law enforcement:** ★"law enforcement organization" and "designated law-enforcement entity"; ★"cross-designated"; ★"Special Attorney"; "coordinate with federal immigration authorities"; "investigative or law enforcement function"; ★"as commonly understood"; "administrative or clerical personnel"; ★"law enforcement exception." Full chain: [#1 below](#law-enforcement).
 - **What counts as an emergency or attack:** "foreign malign influence"; "significant incident"; ★"public confidence" (full chain: [#3 below](#public-confidence)); "every authorized asset," "whole of government," "no-fail mission"; ★"Executive direction"; "armed enemies"; "election infrastructure."
-- **What counts as fraud or crime:** "integrity"; "voter fraud organization"; "organized campaigns"; ★"aiders and abettors"; ★"knowingly"; "criminal aliens."
+- **What counts as fraud or crime:** "integrity"; "voter fraud organization"; "organized campaigns"; ★"aiders and abettors"; ★"knowingly"; "criminal aliens." Full chain: [#4 below](#fraud-or-crime).
 - **Access to everything:** "single source of truth," "one consolidated record," "person-centric"; "eliminate data silos"; "unfettered access," "any data asset, information, or record"; ★"through subpoena where necessary"; "consistency with Federal requirements"; ★"law enforcement sensitive."
 - **Limits written in, then left open:** "solely on the basis"; "voluntary"; "no plans"; ★"will immediately become effective"; "keeps the function under state control"; "for no other purpose." The promises table further down applies this family to what officials have said.
 
@@ -113,6 +113,36 @@ Rows are in date order. Each one quotes the source's exact words.
 | **The report card** | Trigger (pending) | Due about Dec 18, 2026 | EO 13848 §1(a) | the intelligence assessment on foreign interference is due "Not later than 45 days after the conclusion of" the election; the DOJ/DHS report follows about Feb 1, 2027 ([board](../tripwires/)) | D |
 
 **What it shows (our read, I):** "public confidence" is a fine goal and a loaded trigger at the same time. Under the 2018 emergency, which is still in effect, foreign acts that undermine confidence count as interference. Under the 2021 law, harm to confidence can help justify a "significant incident," which can lead to reserve call-ups. The limits matter: the 2021 law still needs an actual cyber incident on an information system, and the 2018 order needs a foreign actor. Rhetoric alone triggers neither. But a claimed foreign hack plus months of "confidence" talk is the shortest path to both, which is why the board watches row 1 and row 3 together.
+
+## #4 · "Fraud," "knowingly," "aiders and abettors": who the crime is aimed at {#fraud-or-crime}
+
+Voting by noncitizens is a real federal crime, and the element that makes it one is that the person votes *knowingly*. This year that word has been on the move: from the voter, to the election official who counts the ballot, to the group that registered the voter. Watch who each threat is aimed at.
+
+- **At voters:** warnings and charges aimed at people who vote.
+- **At officials:** criminal exposure for the people who run and count the election.
+- **At organizers:** "fraud" and "terrorism" framing for groups that register voters or protest.
+- **Checked:** a court or the facts pushing back.
+
+Rows are in date order. Each one quotes the source's exact words.
+
+| Short label | Use | Date | Source | Exact words | Mark |
+|---|---|---|---|---|---|
+| **The tracking codes** | At voters, at organizers | Jan 20, 2025 | HSI arrest tables and definitions (ICE FOIA release; HSI broadcast in a court record) | tables headed "Voter Fraud Criminal/Administrative Arrests (VRO & VFR Program Codes)"; categories "Voter Fraud - Alien" and "Voter Fraud Organizations" ([timeline](../timeline/?q=VRO+VFR)) | D |
+| **Integrity, meet immigration** | At voters | 2025 | ICE talking points (FOIA release) | "HSI advanced election integrity and immigration enforcement through coordinated national voter fraud initiatives" ([timeline](../timeline/?q=systemic+vulnerabilities)) | D |
+| **"Organized" politics** | At organizers | Sept 25, 2025 | NSPM-7, presidential memorandum | title: "Countering Domestic Terrorism and Organized Political Violence" (no election provisions in the text) ([timeline](../timeline/?q=NSPM-7+countering)) | D |
+| **"Knowingly retains"** | At officials | Jul 7, 2026 | DOJ Civil Rights Division letters to all 50 states | an election officer "who knowingly retains noncitizens" could face criminal liability ([timeline](../timeline/?q=knowingly+retains)) | D |
+| **"Hunt you down"** | At voters | Jul 17, 2026 | DHS Secretary Mullin, White House briefing | "If you are an illegal or you are voting illegally, we will hunt you down, we will find you and we will prosecute you" ([timeline](../timeline/?q=hunt+you+down)) | D |
+| **"Aiders and abettors"** | At officials | Oct 16, 2026 | Acting Deputy AG letter to Los Angeles County | officials who count listed voters' ballots after "actual notice" could be "aiders and abettors to a federal crime" ([timeline](../timeline/?q=aiders+and+abettors)) | R |
+| **"Hunt you down," Texas edition** | At voters | Oct 19, 2026 | U.S. Attorney Aaron Reitz, video as early voting opened | "If you violate federal election law, I will hunt you down and prosecute you" ([timeline](../timeline/?q=reitz+hunt)) | D |
+| **"Legal jeopardy"** | At officials | Oct 23, 2026 | U.S. Attorney Essayli, letters to California counties | officials who knowingly tabulate listed ballots "risk becoming aiders and abettors to a federal crime"; "Any election official who knowingly processes the ballot of a noncitizen is opening themselves to legal jeopardy" ([timeline](../timeline/?q=aiders+and+abettors)) | R |
+| **"It is a crime"** | At officials | Oct 29, 2026 | DOJ preservation letters to all 50 states (52 U.S.C. 20701) | "It is a crime to willfully fail to comply with Section 20701" ([timeline](../timeline/?q=willfully+fail)) | R |
+| **"Knowingly sending"** | At officials | Oct 29, 2026 | Washington U.S. Attorney Floyd | the state is "knowingly sending out ballots to non-citizens" ([timeline](../timeline/?q=floyd+knowingly)) | R |
+| **"Integrity" as a lever** | At officials | Oct 22, 2026 | DOJ's suit to block Alaska certification | rests on the voter-registration law's purpose clause, 52 U.S.C. 20501(b)(3): "to protect the integrity of the electoral process" ([timeline](../timeline/?q=integrity+of+the+electoral+process)) | D |
+| **No registrations, still a referral** | At organizers | Oct 30, 2026 | Arizona U.S. Attorney's FBI referral of three registration groups | the videographer behind the undercover videos says "absolutely no voter registrations were submitted" ([timeline](../timeline/?q=courchaine)) | R |
+| **"We will find you"** | At voters | Oct 31, 2026 | DHS General Counsel Percival, TV interview | "we will find you, we will charge you, and we will deport you" ([timeline](../timeline/?q=find+you+charge+deport)) | R |
+| **"A red herring"** | Checked | Nov 2, 2026 | Chief Judge Boasberg, *CHIRLA v. DHS* | DOJ's aiding-and-abetting theory is "a red herring"; officials "likely cannot aid or abet" a violation "by conforming to the letter of state law"; DOJ's role is "limited to prosecuting non-citizens who 'knowingly' cast ballots" ([timeline](../timeline/?q=red+herring)) | D |
+
+**What it shows (our read, I):** the crime belongs to the voter who knowingly votes when they can't. The threats this year moved that word onto the people around the voter: the official who "knowingly retains" or "knowingly processes," the state "knowingly sending out ballots," the group under a "Voter Fraud Organizations" code. One federal court has already called the official-liability theory "a red herring." Watch for it in grand-jury subpoenas and charges against officials after the vote.
 
 ## How the trail works
 
@@ -323,6 +353,7 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
+- 2026-11-03: new entry #4, "fraud," "knowingly," "aiders and abettors": fourteen uses tagged by who the threat is aimed at (voters, officials, organizers) or checked.
 - 2026-11-03: new entry #3, "public confidence": ten uses from 2018 to the pending post-election report, tagged goal, trigger, unlocks or checked.
 - 2026-11-03: new entry #2, "who counts as a voter": nineteen uses in date order, tagged framed, flagged, hedged or checked.
 - 2026-11-03: new entry #1, "law enforcement," at the top of the page: thirteen uses in date order (last row updated the same day with DOJ's status report), each tagged by how the label is used (added, disclaimed, or invoked as an exception).
