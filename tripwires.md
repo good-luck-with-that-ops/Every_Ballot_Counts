@@ -5,7 +5,7 @@ description: What we are watching for around the 2026 midterms, and what has alr
 ---
 # Tripwire board
 
-Last updated: Tuesday Nov 3, 2026, ~2:45 pm ET. Updated as news breaks.
+Last updated: Tuesday Nov 3, 2026, ~5:20 pm ET. Updated as news breaks.
 Status: 🔴 FIRED (it happened) · 🟠 ARMED (the pieces are in place or it is pending) · ⚪ NOT YET (nothing seen).
 Marks: D document · R reporting · I our inference.
 
@@ -17,7 +17,9 @@ Marks: D document · R reporting · I our inference.
 - **Arizona's U.S. Attorney referred three voter-registration groups to the FBI** days before the vote, based on undercover videos in which, the videographer says, "absolutely no voter registrations were submitted" (R, KJZZ).
 - **The FBI's New Haven office told voters the wrong day** (R, Lead Stories, IBTimes): its Nov 2 X post read "Election day is Wednesday and the #FBI is working around the clock to ensure the midterms are safe." A Community Note corrected it; the FBI had not deleted it by early Tuesday.
 - **DOJ announced charges against 63 people on election eve, naming each one and running photos** (D, DOJ release Nov 2). By our count at least 54 are described as lawful permanent residents (green-card holders), and most of the votes described were cast in 2024 or earlier. AG Blanche: "the largest surge of voter-fraud arrests since President Trump returned to office," to "restore confidence in our electoral system." Row 15.
-- **Checked and not seen as of 2 p.m. Tuesday:** a warrant for ballots or equipment, an emergency or "significant incident" declaration, a new list to any state, any U.S. official blaming a current hack on a foreign country, or any armed federal presence at a polling place.
+- **Glitches are already being sold as theft** (R, Straight Arrow News): Westchester County, N.Y., machines rejected ballots, which went into emergency bags; the state blamed a county programming update made after testing. Broward County, Fla., had a 20-minute computer glitch at opening. Commentators posted "This is how the left steals elections." No sitting federal official had amplified the claims as of 5 p.m.
+- **Guam reported first** (R, Newsweek): in final unofficial results, Democrat Alicia Limtiaco leads Republican Del. James Moylan 15,645 to 14,983 for the non-voting House seat; Republican Tony Ada leads for governor. Trump congratulated Ada on an "early call" and wrote "hopefully that's an indication for things to come!" Nothing is certified yet.
+- **Checked and not seen as of 5 p.m. Tuesday:** a warrant for ballots or equipment, an emergency or "significant incident" declaration, a new list to any state, any U.S. official blaming a current hack on a foreign country, or any armed federal presence at a polling place.
 
 ## What we're watching for
 The board tracks several ways federal power could reach this election. They overlap, and none needs the others to happen.
@@ -91,6 +93,7 @@ Passed: Oct 29 DOJ answer to senators, none public · Oct 30 Ninth Circuit, deni
 - A court ordering ballots held, or a court staying Chutkan's or Boasberg's orders. (**Supreme Court denied DOJ on California Nov 2; Alaska dismissed and on appeal.**)
 
 ## Sources (newest first)
+- Straight Arrow News, Nov 3 (glitches and fraud claims): https://san.com/cc/election-day-glitches-prompt-voter-anxiety-conspiracy-theories/ ; Newsweek, Nov 3 (Guam): https://www.newsweek.com/democrats-flip-guam-house-seat-midterm-unofficial-election-results-12658383 ; Anadolu Agency (Trump Guam post): https://www.aa.com.tr/en/americas/trump-celebrates-early-republican-gains-in-guam/4110434
 - DOJ press release, Nov 2 (63 charged): https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-63-individuals-election-related-crimes ; DOJ Civil Rights Division, federal observers page: https://www.justice.gov/crt/about-federal-observers-and-election-monitoring
 - Lead Stories (FBI New Haven post): https://leadstories.com/hoax-alert/2026/11/fact-check-fbi-new-haven-election-day-wednesday.html ; IBTimes UK: https://www.ibtimes.co.uk/fbi-new-haven-office-wrong-election-day-date-1829808 ; Just the News, Nov 3 (63 charged): https://justthenews.com/politics-policy/elections/doj-charges-63-people-including-4-illegal-immigrants-election-related ; KRDO, Nov 3: https://krdo.com/news/2026/11/03/el-paso-county-clerk-says-zero-discussion-of-ice-at-polls-adding-its-against-federal-law/
 - NAACP v. Blanche, D.D.C. 1:26-cv-03626-RBW, ECF 24 (DOJ status report), Nov 3, 2026: https://www.courtlistener.com/docket/74978078/ ; DOJ press release 26-1310, Nov 3: https://www.justice.gov/opa/pr/doj-monitor-elections-all-50-states-first-time
