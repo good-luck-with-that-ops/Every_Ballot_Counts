@@ -19,11 +19,12 @@ Created Oct 26, 2026. Companion to the [System Registry](../registry/). Tracks l
 The trail is how this project finds connections: the same words turning up in an order, then a contract, then a court filing. Every new government document gets checked against it. The ones marked ★ sound like routine paperwork but change who can do what.
 
 - **Who counts as a voter:** "undiluted," "diluting the votes of citizens," "lawful voter"; "likely noncitizen"; "may have subsequently naturalized"; "high confidence"; ★"minor data discrepancies"; "voter eligibility"; ★"verification platforms"; "are or were"; "aliens or USCs"; "presumptively valid"; "purporting." Full chain: [#2 below](#who-counts-as-a-voter).
-- **Who counts as law enforcement:** ★"law enforcement organization" and "designated law-enforcement entity"; ★"cross-designated"; ★"Special Attorney"; "coordinate with federal immigration authorities"; "investigative or law enforcement function"; ★"as commonly understood"; "administrative or clerical personnel"; ★"law enforcement exception." Full chain: [#1 below](#law-enforcement).
+- **Who counts as law enforcement:** ★"law enforcement organization" and "designated law-enforcement entity"; ★"cross-designated"; ★"Special Attorney"; "coordinate with federal immigration authorities"; "investigative or law enforcement function"; ★"as commonly understood"; "administrative or clerical personnel"; ★"law enforcement exception." Full chain: [#1 below](#law-enforcement); ★"law enforcement sensitive" (row "The stamp").
 - **What counts as an emergency or attack:** "foreign malign influence"; "significant incident"; ★"public confidence" (full chain: [#3 below](#public-confidence)); "every authorized asset," "whole of government," "no-fail mission"; ★"Executive direction"; "armed enemies"; "election infrastructure."
 - **What counts as fraud or crime:** "integrity"; "voter fraud organization"; "organized campaigns"; ★"aiders and abettors"; ★"knowingly"; "criminal aliens." Full chain: [#4 below](#fraud-or-crime).
-- **Access to everything:** "single source of truth," "one consolidated record," "person-centric"; "eliminate data silos"; "unfettered access," "any data asset, information, or record"; ★"through subpoena where necessary"; "consistency with Federal requirements"; ★"law enforcement sensitive."
-- **Limits written in, then left open:** "solely on the basis"; "voluntary"; "no plans"; ★"will immediately become effective"; "keeps the function under state control"; "for no other purpose." The promises table further down applies this family to what officials have said.
+- **Access to everything (authority):** "full and prompt access," "unfettered access," "any data asset, information, or record," ★"through subpoena where necessary," "every authorized asset," "whole of government," ★"Executive direction," "presidential mandate." Full chain: [#5 below](#access-to-everything).
+- **One record per person (data):** "a single, trusted source," "one consolidated record," "person-centric," "eliminate data silos," "seamless," ★"enrich," "compiled list of individual profiles," "continuous monitoring." Full chain: [#6 below](#one-record-per-person).
+- **Limits written in, then left open:** for data programs, see the "Limit" rows in #5 and #6; for polling-place promises ("solely on the basis," "no plans," "will not"), see the promises table below and the post [Read the fine print](/blog/2026/11/03/read-the-fine-print/).
 
 ## #1 · "Law enforcement": the label that opens and closes doors {#law-enforcement}
 
@@ -140,9 +141,64 @@ Rows are in date order. Each one quotes the source's exact words.
 | **"Knowingly sending"** | At officials | Oct 29, 2026 | Washington U.S. Attorney Floyd | the state is "knowingly sending out ballots to non-citizens" ([timeline](../timeline/?q=floyd+knowingly)) | R |
 | **No registrations, still a referral** | At organizers | Oct 30, 2026 | Arizona U.S. Attorney's FBI referral of three registration groups | the videographer behind the undercover videos says "absolutely no voter registrations were submitted" ([timeline](../timeline/?q=courchaine)) | R |
 | **"We will find you"** | At voters | Oct 31, 2026 | DHS General Counsel Percival, TV interview | "we will find you, we will charge you, and we will deport you" ([timeline](../timeline/?q=find+you+charge+deport)) | R |
+| **"Not self-executing," but "at their own legal peril"** | At officials | Nov 2, 2026 | DOJ's brief in *CHIRLA v. DHS*, as quoted by the court | DOJ's letters are "not self-executing," yet officials ignore them "at their own legal peril" ([timeline](../timeline/?q=red+herring)) | D |
+| **"Core Executive functions"** | At officials | Nov 2, 2026 | Ninth Circuit panel order in *SEIU v. DOJ* (vacated by the full court hours later) | DOJ's letters, warnings and investigations described as "core Executive functions" ([timeline](../timeline/?q=core+Executive+functions)) | D |
 | **"A red herring"** | Checked | Nov 2, 2026 | Chief Judge Boasberg, *CHIRLA v. DHS* | DOJ's aiding-and-abetting theory is "a red herring"; officials "likely cannot aid or abet" a violation "by conforming to the letter of state law"; DOJ's role is "limited to prosecuting non-citizens who 'knowingly' cast ballots" ([timeline](../timeline/?q=red+herring)) | D |
 
 **What it shows (our read, I):** the crime belongs to the voter who knowingly votes when they can't. The threats this year moved that word onto the people around the voter: the official who "knowingly retains" or "knowingly processes," the state "knowingly sending out ballots," the group under a "Voter Fraud Organizations" code. One federal court has already called the official-liability theory "a red herring." Watch for it in grand-jury subpoenas and charges against officials after the vote.
+
+## #5 · "Access to everything": the authority breadcrumbs {#access-to-everything}
+
+This is the paper trail of permission. Executive orders, bills and memos keep telling agencies and task forces to reach for every record, every database and every asset. Some of these grants stay inside the law; the trail is how you see when the reach gets bigger than the law behind it. Where a document writes in a limit, that's here too, right next to the power it's meant to restrain.
+
+- **Grant:** a text that hands out access to records or data.
+- **Mobilize:** an order to use every asset or act on a mandate.
+- **Limit:** a written restraint on that access.
+- **Checked:** a court testing the reach.
+
+| Short label | Use | Date | Source | Exact words | Mark |
+|---|---|---|---|---|---|
+| **DOGE gets the keys** | Grant | Jan 20, 2025 | Executive Order 14158, §4(b) | agency heads give the DOGE Service "full and prompt access to all unclassified agency records, software systems, and IT systems" ([timeline](../timeline/?q=14158+full+and+prompt)) | D |
+| **"Unfettered access"** | Grant | Mar 20, 2025 | Executive Order 14243 ("Eliminating Information Silos") | "unfettered access" to state program data ([timeline](../timeline/?q=14243+unfettered)) | D |
+| **"Through subpoena where necessary"** | Grant | Mar 25, 2025 | Executive Order 14248, §2(b)(iii) | DHS "shall review each State's publicly available voter registration list and available records ... including through subpoena where necessary" ([timeline](../timeline/?q=subpoena+where+necessary)) | D |
+| **Citizenship lists for every state** | Grant | Mar 31, 2026 | Executive Order 14399 | DHS and SSA compile per-state "State Citizenship Lists" from federal databases for election officials ([timeline](../timeline/?q=State+Citizenship+Lists+14399)) | D |
+| **"Any data asset"** | Grant | Jun 10, 2026 | H.R. 8312 §2 (passed the House) | a program "capable of receiving (including in bulk data formats and through systems that facilitate real-time data access) any data asset, information, or record related to the administration of Federal programs (including federally funded State-administered programs)" ([timeline](../timeline/?q=any+data+asset)) | D |
+| **…"for no other purpose"** | Limit | Jun 10, 2026 | Same bill | the program is "voluntary," "does not include any investigative or law enforcement function," and is "for no other purpose including any policy analysis and enforcement action purpose" | D |
+| **"Presidential mandate"** | Mobilize | Jul 14, 2026 | ICE justification for a $125M data-analytics deal | data access is needed "to support the presidential mandate of the identification of Voters Fraud, Immigration Fraud and National Security" ([timeline](../timeline/?q=presidential+mandate+voters+fraud)) | D |
+| **"Within two (2) weeks"** | Mobilize | Sept 2, 2026 | ICE justification for a Booz Allen task-force data order | work identified "At the request of the White House National Security Council"; the task force "has been directed to execute operations within two (2) weeks" ([timeline](../timeline/?q=National+Security+Council+two+(2)+weeks)) | D |
+| **"Whole of government"** | Mobilize | Sept 17, 2026 | FBI story on DOJ's National Fraud Detection Center | the center stems from the "whole of government" approach "mandated by Executive Order 14395" ([timeline](../timeline/?q=14395+whole+of+government)) | D |
+| **"Every authorized asset"** | Mobilize | Sept 22, 2026 | Defense Secretary Hegseth's memo (also in #3) | "mobilize every authorized asset, capability, and partnership under your command," citing "Executive direction"; "this whole of government effort" ([timeline](../timeline/?q=no-fail+mission)) | D |
+| **"Under state control"** | Limit | Sept 24, 2026 | CISA's 2026 election plan | fusion centers keep the function "under state control" ([timeline](../timeline/?q=CI3+fusion)) | D |
+| **"Immediately become effective"** | Limit (with a trapdoor) | Oct 7, 2026 | FEMA Information Bulletin 587 | grant conditions requiring voter-roll checks are lifted only while a court order stands: "If the Court's order is vacated or extinguished, the election administration conditions and 20% holdback will immediately become effective" ([timeline](../timeline/?q=IB+587+immediately)) | D |
+| **"Bulk transmission"** | Checked | Nov 2, 2026 | Judge Chutkan, *League of Women Voters v. DHS* | without a published privacy notice, "it appears no other exception justifies Defendants' bulk transmission of voter records" ([timeline](../timeline/?q=bulk+transmission)) | D |
+
+**What it shows (our read, I):** the grants run from "all unclassified agency records" (January 2025) to "any data asset, information, or record," in bulk and in real time (June 2026). The mobilizing language runs from a "presidential mandate" to "every authorized asset." The written limits are real but thin: a bill's "for no other purpose," a plan's "under state control," and a grant rescission that snaps back the moment a court order goes away. The one hard stop so far came from a court, not from any of these texts.
+
+## #6 · "One record per person": the data breadcrumbs {#one-record-per-person}
+
+This is the technology side: building one consolidated record per person out of many systems, then enriching it with commercial data. The government describes this as immigration and fraud work; from a voter's side, it's the machinery that produced the "noncitizen" lists. Some of this vocabulary ("source of truth," "seamless") is standard in any IT shop, so a match alone isn't a signal; what matters is what gets merged and who it's pointed at.
+
+- **Merge:** combining many records into one profile per person.
+- **Enrich:** adding commercial or outside data to those records.
+- **Monitor:** keeping watch on the merged records.
+- **Limit:** a written restraint or denial.
+- **Checked:** a court describing what was built.
+
+| Short label | Use | Date | Source | Exact words | Mark |
+|---|---|---|---|---|---|
+| **"A single, trusted source"** | Merge | Dec 7, 2022 | USCIS privacy assessment for its Person Centric Identity Services | "a single, trusted source of biographical and biometric information," built from "approximately one-half billion" historical records ([timeline](../timeline/?q=person+centric+pia-087)) | D |
+| **Not a master database** | Limit | Jun 9, 2025 | Palantir's public blog | "not a vendor on any master database project to unify databases across federal agencies" ([timeline](../timeline/?q=master+database+project)) | D |
+| **"One consolidated record"** | Merge | Sept 4, 2025 | DHS justification for a department-wide Palantir agreement (posted May 2026) | "deconfliction of data to ensure each subject has one consolidated record"; the unified platform "will eliminate data silos" ([timeline](../timeline/?q=one+consolidated+record)) | D |
+| **…"shared as needed"** | Limit | Sept 4, 2025 | Same justification | all data "wholly owned and controlled by DHS" that "can be accessed, managed, and shared as needed" | D |
+| **"Person-centric model"** | Merge | Nov 3, 2025 | DHS proposed biometrics rule | "transitioning to a person-centric model to organize and manage its records, manage unique identities" ([timeline](../timeline/?q=person-centric+model)) | D |
+| **"Continuous monitoring"** | Monitor | Jul 14, 2026 | ICE justification for the $125M data-analytics deal | "continuous monitoring of up to one million individuals and entities" ([timeline](../timeline/?q=continuous+monitoring+one+million)) | D |
+| **"Integrates and shares seamlessly"** | Merge | Aug 17, 2026 | USCIS justification extending its data-lake contract | "a data hub which integrates and shares seamlessly" ([timeline](../timeline/?q=integrates+and+shares+seamlessly)) | D |
+| **"Streamlining the ingestion"** | Enrich | Sept 2, 2026 | ICE justification for a Booz Allen task-force data order | "streamlining the ingestion of public, private sector, and authoritative U.S. Government data" ([timeline](../timeline/?q=streamlining+the+ingestion)) | D |
+| **"A compiled list of individual profiles"** | Enrich | Oct 21, 2026 | Court order, *CNA v. Mullin* | DHS "enriches" data, "using unknown artificial intelligence tools to ingest data from various systems and create a compiled list of individual profiles" ([timeline](../timeline/?q=compiled+list+of+individual+profiles)) | D |
+| **The bought roll** | Enrich | Oct 26, 2026 | DHS official's sworn declaration, *United States v. California* | California's roll was "purchased from the California Secretary of State and provided to HSI," then run through a commercial people-search database (LexisNexis Accurint) outside the SAVE citizenship-check system ([timeline](../timeline/?q=purchased+from+the+California+Secretary+of+State)) | D |
+| **"Millions of voting records"** | Checked | Nov 2, 2026 | Judge Chutkan, *League of Women Voters v. DHS* | DHS and DOJ "have collected millions of voting records—including those of U.S. citizens." The plaintiffs allege, and the court recounts without deciding, that records were "enhance[d]" with "commercially-acquired third-party data" ([timeline](../timeline/?q=collected+millions+of+voting+records)) | D |
+
+**What it shows (our read, I):** the pieces line up: one profile per person (2022), one consolidated record across DHS (2025), a person-centric rule (2025), enrichment with commercial data (2026), and a court finding that millions of voting records, including citizens', were collected. Each document describes immigration or fraud work. Put together, it's the machine that produced the voter lists. The written limits are a vendor's denial and an agency's promise that data stays "owned" by DHS while being "shared as needed."
 
 ## How the trail works
 
@@ -353,7 +409,8 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
-- 2026-11-03: new entry #4, "fraud," "knowingly," "aiders and abettors": fourteen uses tagged by who the threat is aimed at (voters, officials, organizers) or checked.
+- 2026-11-03: new entries #5 "access to everything" (authority) and #6 "one record per person" (data). Written-in limits now sit inside each entry with a "Limit" tag; the polling-place promises stay in the table below and in the blog post "Read the fine print."
+- 2026-11-03: new entry #4, "fraud," "knowingly," "aiders and abettors": sixteen uses (two added later the same day) tagged by who the threat is aimed at (voters, officials, organizers) or checked.
 - 2026-11-03: new entry #3, "public confidence": ten uses from 2018 to the pending post-election report, tagged goal, trigger, unlocks or checked.
 - 2026-11-03: new entry #2, "who counts as a voter": nineteen uses in date order, tagged framed, flagged, hedged or checked.
 - 2026-11-03: new entry #1, "law enforcement," at the top of the page: thirteen uses in date order (last row updated the same day with DOJ's status report), each tagged by how the label is used (added, disclaimed, or invoked as an exception).
