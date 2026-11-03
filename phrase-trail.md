@@ -20,7 +20,7 @@ The trail is how this project finds connections: the same words turning up in an
 
 - **Who counts as a voter:** "undiluted," "diluting the votes of citizens," "lawful voter"; "likely noncitizen"; "may have subsequently naturalized"; "high confidence"; ★"minor data discrepancies"; "voter eligibility"; ★"verification platforms"; "are or were"; "aliens or USCs"; "presumptively valid"; "purporting." Full chain: [#2 below](#who-counts-as-a-voter).
 - **Who counts as law enforcement:** ★"law enforcement organization" and "designated law-enforcement entity"; ★"cross-designated"; ★"Special Attorney"; "coordinate with federal immigration authorities"; "investigative or law enforcement function"; ★"as commonly understood"; "administrative or clerical personnel"; ★"law enforcement exception." Full chain: [#1 below](#law-enforcement).
-- **What counts as an emergency or attack:** "foreign malign influence"; "significant incident"; ★"public confidence"; "every authorized asset," "whole of government," "no-fail mission"; ★"Executive direction"; "armed enemies"; "election infrastructure."
+- **What counts as an emergency or attack:** "foreign malign influence"; "significant incident"; ★"public confidence" (full chain: [#3 below](#public-confidence)); "every authorized asset," "whole of government," "no-fail mission"; ★"Executive direction"; "armed enemies"; "election infrastructure."
 - **What counts as fraud or crime:** "integrity"; "voter fraud organization"; "organized campaigns"; ★"aiders and abettors"; ★"knowingly"; "criminal aliens."
 - **Access to everything:** "single source of truth," "one consolidated record," "person-centric"; "eliminate data silos"; "unfettered access," "any data asset, information, or record"; ★"through subpoena where necessary"; "consistency with Federal requirements"; ★"law enforcement sensitive."
 - **Limits written in, then left open:** "solely on the basis"; "voluntary"; "no plans"; ★"will immediately become effective"; "keeps the function under state control"; "for no other purpose." The promises table further down applies this family to what officials have said.
@@ -87,6 +87,32 @@ Rows are in date order. Each one quotes the source's exact words. The first colu
 | **"Purporting"** | Checked | Nov 2, 2026 | Judge Chutkan's order, *League of Women Voters v. DHS* | no more sharing "data purporting to constitute lists of individual potential or actual non-citizen voters" ([timeline](../timeline/?q=purporting+to+constitute)) | D |
 
 **What it shows (our read, I):** the theory is about protecting citizens' votes. The lists built under it are scored by "confidence," not checked against any citizenship record, because, as one court put it, no such database exists. And at every step the government's own papers hedge: "may include those of U.S. born citizens," "aliens or USCs," "are or were," "may have subsequently naturalized." By November the courts were calling the lists data "purporting" to show noncitizens.
+
+## #3 · "Public confidence": the feeling that counts as harm {#public-confidence}
+
+Everybody wants voters to trust elections. That's what makes "public confidence" a handy phrase. In two federal authorities, damage to public confidence counts the same as damage to systems: one is an emergency that has been running since 2018, and the other is a 2021 "significant incident" power. So when officials keep saying confidence has been damaged, they are describing, on the record, the kind of harm those powers are built to answer.
+
+- **Goal:** confidence as something to protect or rebuild.
+- **Trigger:** legal text where harm to confidence helps switch on a power.
+- **Unlocks:** what a trigger turns on.
+- **Checked:** someone testing the claims.
+
+Rows are in date order. Each one quotes the source's exact words.
+
+| Short label | Use | Date | Source | Exact words | Mark |
+|---|---|---|---|---|---|
+| **Monitors build trust** | Goal | After 2013 (undated) | DOJ fact sheet on enforcement after *Shelby County* | election monitoring helps "deter wrongdoing, defuse tension, promote compliance with the law and bolster public confidence in the electoral process" ([timeline](../timeline/?q=bolster+public+confidence)) | D |
+| **The standing emergency** | Trigger | Sept 12, 2018 | Executive Order 13848, §8(f) | "foreign interference" includes acts with the purpose or effect of "undermining public confidence in election processes" ([timeline](../timeline/?q=13848+sec.+8(f))) | D |
+| **"Impossible to disprove"** | Checked | Jan 15, 2020 | Intelligence community memo on 2020 election infrastructure | adversaries could "link an exaggerated claim ... to actual operations," and such claims "would be difficult ... or impossible" to disprove ([timeline](../timeline/?q=nicm+2020-003)) | D |
+| **No evidence** | Checked | Mar 16, 2021 | DOJ and DHS findings on 2020 (the EO 13848 report) | "no evidence that any foreign government-affiliated actor prevented voting, changed votes ... or otherwise compromised the integrity of voter registration information" ([timeline](../timeline/?q=1(b)+report+key+findings)) | D |
+| **The 2021 switch** | Trigger | Nov 15, 2021 | Cyber Response and Recovery Act, 6 U.S.C. 677a(8) | a "significant incident" is one that causes, or "is likely to result" in, demonstrable harm to "the public confidence, civil liberties, or public health and safety of the people of the United States" ([timeline](../timeline/?q=677a(8))) | D |
+| **What the switch unlocks** | Unlocks | Dec 22, 2023 | 10 U.S.C. 12304(c), added by the FY2024 defense bill | after a declared significant incident, the Defense Secretary may order reserve units to active duty for up to 365 days without their consent ([timeline](../timeline/?q=12304(c)+covered+incident)) | D |
+| **Emergency renewed** | Trigger | Aug 31, 2026 | Presidential notice continuing the EO 13848 emergency | "Continuation of the National Emergency With Respect to Foreign Interference in or Undermining Public Confidence in United States Elections" ([timeline](../timeline/?q=13848+continuing)) | D |
+| **"No-fail mission"** | Goal | Sept 22, 2026 | Defense Secretary Hegseth's memo to the intelligence agencies | "mobilize every authorized asset, capability, and partnership under your command to defend our election infrastructure from foreign malign influence"; "a no-fail mission" ([timeline](../timeline/?q=no-fail+mission)) | D |
+| **"Restore confidence"** | Goal | Nov 2, 2026 | DOJ release on 63 people charged | DOJ "will continue investigating and prosecuting voter fraud to restore confidence in our electoral system" ([timeline](../timeline/?q=restore+confidence)) | D |
+| **The report card** | Trigger (pending) | Due about Dec 18, 2026 | EO 13848 §1(a) | the intelligence assessment on foreign interference is due "Not later than 45 days after the conclusion of" the election; the DOJ/DHS report follows about Feb 1, 2027 ([board](../tripwires/)) | D |
+
+**What it shows (our read, I):** "public confidence" is a fine goal and a loaded trigger at the same time. Under the 2018 emergency, which is still in effect, foreign acts that undermine confidence count as interference. Under the 2021 law, harm to confidence can help justify a "significant incident," which can lead to reserve call-ups. The limits matter: the 2021 law still needs an actual cyber incident on an information system, and the 2018 order needs a foreign actor. Rhetoric alone triggers neither. But a claimed foreign hack plus months of "confidence" talk is the shortest path to both, which is why the board watches row 1 and row 3 together.
 
 ## How the trail works
 
@@ -297,6 +323,7 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
+- 2026-11-03: new entry #3, "public confidence": ten uses from 2018 to the pending post-election report, tagged goal, trigger, unlocks or checked.
 - 2026-11-03: new entry #2, "who counts as a voter": nineteen uses in date order, tagged framed, flagged, hedged or checked.
 - 2026-11-03: new entry #1, "law enforcement," at the top of the page: thirteen uses in date order (last row updated the same day with DOJ's status report), each tagged by how the label is used (added, disclaimed, or invoked as an exception).
 - 2026-11-02 (late night): new entries PT-14 ("not self-executing" / "at their own legal peril") and PT-15 ("knowingly" / "aiders and abettors") from Chief Judge Boasberg's Nov 2 opinion in CHIRLA v. DHS.
