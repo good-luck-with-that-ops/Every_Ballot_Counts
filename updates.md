@@ -4,6 +4,7 @@ permalink: /updates.html
 ---
 # Updates
 
+- **2026-11-03:** New blog post: [Read the fine print](blog/2026/11/03/read-the-fine-print/), what officials promised about Election Day and what the wording leaves open.
 - **2026-11-02 (late):** New blog post: [Two losses in one state, one day](blog/2026/11/02/two-losses-one-state/), on the Supreme Court's and Chief Judge Boasberg's rulings against DOJ on California's ballots.
 - **2026-11-02 (night):** The [phrase trail](phrase-trail/) leads with the phrase families we watch again; the promises table is below the ledger. Supreme Court denial added to the board and timeline.
 - **2026-11-02:** New blog, [Presumption of Irregularity](blog/): commentary with links to the evidence, a few posts a week. First post: why this project exists and why it continues after Election Day. New short: the Election Day field guide.
