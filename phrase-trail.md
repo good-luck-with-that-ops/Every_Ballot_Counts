@@ -180,6 +180,22 @@ Phrases that state a limit. They show what the paper says is not happening.
 | FY2027 (Mar 2026) | B | Same document, CFATS elimination | "realigned in accordance with current legislative and policy direction" | D |
 - The phrase is reused for an unrelated program cut, so it is budget boilerplate (H2), not a signal about elections. Kept as a marker only.
 
+### PT-14 · "not self-executing" / "at their own legal peril" (letters with no force, but a threat)  [G3, S1]
+| Date | Tier | Document | Exact words | Mark |
+|---|---|---|---|---|
+| Nov 1, 2026 | C | DOJ filing in DSCC v. Trump (as reported) | "absent the intervention of a federal court, nothing will change with regard to any election procedures" | R |
+| Nov 2, 2026 | C | DOJ response in CHIRLA v. DHS, as quoted by the court (ECF 48 p.9) | letters "not self-executing"; "states and counties may disregard the government's demands" absent an "order from an Article III court to compel"; yet recipients ignore them "at their own legal peril" | D (quoted in opinion) |
+- **What it shows (I):** the same letters described two ways: no legal force (to defeat standing) and a legal threat (to secure compliance). Boasberg: the "predictable effect" and "expressly intended effect" is compliance. A written-in limit (PT-09 family) paired with its own exception.
+- **H check:** H2 (same DOJ litigating office across both D.D.C. cases).
+
+### PT-15 · "knowingly" / "aiders and abettors" (criminal-liability hooks aimed at officials)  [G2–G3, S1]
+| Date | Tier | Document | Exact words | Mark |
+|---|---|---|---|---|
+| Oct 2026 | C | DOJ letters to California counties (reported) | warning of "aiders and abettors" liability | R |
+| Oct 30, 2026 | C | Washington U.S. Attorney Floyd (reported) | the state is "knowingly sending out ballots to non-citizens" | R |
+| Nov 2, 2026 | C | CHIRLA v. DHS ECF 48 (court) | aiding-and-abetting invocation "a red herring"; officials "likely cannot aid or abet a violation ... by conforming to the letter of state law"; 611(a) role "limited to prosecuting non-citizens who 'knowingly' cast ballots" | D |
+- **What it shows (I):** "knowingly" is the 611(a) element for the voter; DOJ's letters and statements shift it onto officials ("knowingly sending out ballots"). The court rejects that move for California. Watch for it in grand-jury subpoenas or charges against officials elsewhere.
+
 ## What they promised, and what they left room for
 
 Officials have made several promises about federal agents, troops and ballots around the 2026 election. Read the exact words: each one rules out something narrow and leaves the rest open. Armed intimidation at the polls would likely be illegal anyway (18 U.S.C. 592 and 593; Voting Rights Act §11(b)). The point is what the government has gone out of its way not to rule out.
@@ -218,8 +234,9 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
+- 2026-11-02 (late night): new entries PT-14 ("not self-executing" / "at their own legal peril") and PT-15 ("knowingly" / "aiders and abettors") from Chief Judge Boasberg's Nov 2 opinion in CHIRLA v. DHS.
 - 2026-11-02 (night): Phrase families section added at the top; the promises table moved below the ledger. The trail is checked against every new government document again.
-- 2026-10-27 (night): PT-12 DASS row filled from the J&A text read in the vault (D).
+- 2026-10-27 (night): PT-12 DASS row filled from the J&A text, read in full (D).
 - 2026-10-26 (late night): added HUD EICAM row to PT-02, new PT-12, RGO-2026-01 note in exclusions.
 - 2026-10-26 (evening): EO 14243 read via fetch (PT-03, PT-02 tier A, new PT-11).
 - 2026-10-26: Created. Ten seed entries from texts read in this project; no new searches run beyond those already in the notes.
