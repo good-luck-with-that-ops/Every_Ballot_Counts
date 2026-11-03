@@ -9,7 +9,7 @@ description: One entry per federal system, contract vehicle or data feed touchin
 - [Full timeline](../timeline/): every dated event with its source and evidence mark, searchable. Start here to check a fact.
 - [Architecture map](../map/architecture.html): how data moves between agencies and systems. Its numbered lines match the "Map flows" numbers in the registry.
 - [System registry](../registry/): one entry per federal system, contract or data feed, for looking up a single system in detail.
-- [Phrase trail](../phrase-trail/): wording that travels from orders into contracts and court filings, and what official promises leave open.
+- [Phrase trail](../phrase-trail/): wording that travels from orders into contracts and court filings, the trail we use to find connections, plus what official promises leave open.
 - [One-page brief](../brief/): the short version.
 
 One entry per federal system, contract vehicle or data feed that touches the election-data picture, with what is known, how we know it, and what is still unresolved. It is a living reference, updated as records are found. Started Oct 26, 2026.
