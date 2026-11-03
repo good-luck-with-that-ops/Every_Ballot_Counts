@@ -2,6 +2,7 @@ title: Every Ballot Counts
 description: Independent research tracking federal election-data systems, contracts and data flows, from the 2026 midterms through 2028.
 url: https://everyballotcounts.io
 baseurl: ""
+timezone: America/New_York
 markdown: kramdown
 plugins:
   - jekyll-sitemap
