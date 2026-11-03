@@ -18,7 +18,7 @@ Created Oct 26, 2026. Companion to the [System Registry](../registry/). Tracks l
 
 The trail is how this project finds connections: the same words turning up in an order, then a contract, then a court filing. Every new government document gets checked against it. The ones marked ★ sound like routine paperwork but change who can do what.
 
-- **Who counts as a voter:** "undiluted," "diluting the votes of citizens," "lawful voter"; "likely noncitizen"; "may have subsequently naturalized"; "high confidence"; ★"minor data discrepancies"; "voter eligibility"; ★"verification platforms."
+- **Who counts as a voter:** "undiluted," "diluting the votes of citizens," "lawful voter"; "likely noncitizen"; "may have subsequently naturalized"; "high confidence"; ★"minor data discrepancies"; "voter eligibility"; ★"verification platforms"; "are or were"; "aliens or USCs"; "presumptively valid"; "purporting." Full chain: [#2 below](#who-counts-as-a-voter).
 - **Who counts as law enforcement:** ★"law enforcement organization" and "designated law-enforcement entity"; ★"cross-designated"; ★"Special Attorney"; "coordinate with federal immigration authorities"; "investigative or law enforcement function"; ★"as commonly understood"; "administrative or clerical personnel"; ★"law enforcement exception." Full chain: [#1 below](#law-enforcement).
 - **What counts as an emergency or attack:** "foreign malign influence"; "significant incident"; ★"public confidence"; "every authorized asset," "whole of government," "no-fail mission"; ★"Executive direction"; "armed enemies"; "election infrastructure."
 - **What counts as fraud or crime:** "integrity"; "voter fraud organization"; "organized campaigns"; ★"aiders and abettors"; ★"knowingly"; "criminal aliens."
@@ -52,6 +52,41 @@ Rows are in date order. Each one quotes the source's exact words. The first colu
 | **Sworn volunteers pulled** | Disclaimed | Nov 3, 2026 | DOJ's court-ordered status report on monitors | Reported: sworn officers who volunteered were removed after review. We'll quote it once we've read the filing. | R |
 
 **What it shows (our read, I):** on the same day, DOJ said its monitors are *not* law enforcement (to get into polling places) and leaned on law-enforcement purposes to move voter data (the Privacy Act exception). One court made the first an enforceable condition; another rejected the second for now. Watch for a new privacy notice whose "routine use" is phrased around "law enforcement purposes": that's the paperwork fix Chutkan's ruling invites.
+
+## #2 · "Who counts as a voter": the words around the lists {#who-counts-as-a-voter}
+
+Every list this year starts from the same idea: noncitizens are voting, and their votes "dilute" citizens' votes. Read the papers in order and you can watch the words change. The theory talks about citizens. The lists talk about confidence scores. And the fine print, in the government's own documents, keeps admitting that citizens are on the lists.
+
+- **Framed:** the theory. Whose votes count, and what threatens them.
+- **Flagged:** the label a person gets on a list.
+- **Hedged:** the government's own fine print admitting the list catches citizens.
+- **Checked:** a court or a government lawyer testing the list.
+
+Rows are in date order. Each one quotes the source's exact words. The first column is the short label.
+
+| Short label | Use | Date | Source | Exact words | Mark |
+|---|---|---|---|---|---|
+| **Dilution** | Framed | Mar 2025 | Executive Order 14248, §1 | "guard against dilution by illegal voting, discrimination, fraud" ([timeline](../timeline/?q=14248+dilution)) | D |
+| **"U.S. born citizens"** | Hedged | Oct 31, 2025 | USCIS privacy assessment for SAVE, the citizenship-check system | collecting Social Security numbers "which may include those of U.S. born citizens" ([timeline](../timeline/?q=born+citizens+list+processor)) | D |
+| **Votes of citizens** | Framed | Jul 7, 2026 | DOJ Civil Rights Division letter to all 50 states | any "intentional act that is aimed at diluting the votes of citizens" ([timeline](../timeline/?q=diluting)) | D |
+| **Not high confidence** | Hedged | Aug 13, 2026 | DHS to Pennsylvania officials, per a court complaint | DHS "did not have high confidence" in its figure of 14,576 ([timeline](../timeline/?q=high+confidence+pennsylvania)) | R |
+| **"Citizens in this population"** | Hedged | Aug 21, 2026 | USCIS training, per a whistleblower disclosure released by two senators | "there will be U.S. citizens in this population" ([timeline](../timeline/?q=citizens+in+this+population)) | R |
+| **The arrest code** | Flagged | Aug 24, 2026 | HSI arrest records (ICE FOIA release) | lawful permanent residents arrested under the code "UNLAWFUL VOTER" ([timeline](../timeline/?q=unlawful+voter+237(a)(6))) | D |
+| **Undiluted** | Framed | Sept 22, 2026 | Defense Secretary Hegseth's memo to the intelligence agencies | "every lawful voter" ... "entirely undiluted" ([timeline](../timeline/?q=undiluted)) | D |
+| **"Aliens or USCs"** | Hedged | Sept 28, 2026 | HSI declaration in *CNA v. Mullin* | "USCIS transmits lists regarding aliens or USCs to HSI" ([timeline](../timeline/?q=aliens+or+uscs)) | D |
+| **Likely noncitizen** | Flagged | Oct 13, 2026 | DOJ letters to California officials | a list of people DOJ "believes are likely noncitizens" ([timeline](../timeline/?q=mccotter+likely+noncitizens)) | D |
+| **Confidence tiers** | Flagged | Oct 15, 2026 | DOJ's complaint, *United States v. California* | software "to identify high, medium, or low confidence matches" ([timeline](../timeline/?q=medium,+or+low)) | D |
+| **"Presumptively valid"** | Flagged | Oct 21, 2026 | Court order, *CNA v. Mullin* | USCIS was told to treat DHS source data as "presumptively valid" ([timeline](../timeline/?q=presumptively+valid)) | D |
+| **No such database** | Checked | Oct 21, 2026 | Same order | "There is no federal database containing citizenship status of U.S. residents." ([timeline](../timeline/?q=database+containing+citizenship+status)) | D |
+| **Voter eligibility** | Framed | Oct 23, 2026 | State Department passport-records privacy notice | "voter eligibility" added to the purposes; a new use for anyone "utilizing federal government verification platforms" ([timeline](../timeline/?q=verification+platforms)) | D |
+| **"Minor data discrepancies"** | Hedged | Oct 26, 2026 | DHS official's sworn declaration, *United States v. California* | about 189 records on the list had "minor data discrepancies" ([timeline](../timeline/?q=minor+data+discrepancies)) | D |
+| **"Are or were"** | Hedged | Oct 26, 2026 | Federal letter to Washington's Secretary of State | people who, "with a high level of confidence, have voted," and who "are or were noncitizens (i.e., they may have subsequently naturalized)" ([timeline](../timeline/?q=subsequently+naturalized)) | D |
+| **Dilution, again** | Framed | Oct 28, 2026 | U.S. Attorney Essayli, after losing in court | "This ongoing emergency disenfranchises American citizens through dilution." ([timeline](../timeline/?q=through+dilution)) | R |
+| **"Fair" to say** | Checked | Nov 2, 2026 | DOJ's lawyer at a hearing in *SEIU v. DOJ* | agrees it is "fair" to say the California list has a high error rate ([timeline](../timeline/?q=kao+fair)) | R |
+| **The expert** | Checked | Nov 2, 2026 | Chief Judge Boasberg, *CHIRLA v. DHS* | the expert who checked the list is "well qualified and credible" ([timeline](../timeline/?q=boasberg+credible)) | D |
+| **"Purporting"** | Checked | Nov 2, 2026 | Judge Chutkan's order, *League of Women Voters v. DHS* | no more sharing "data purporting to constitute lists of individual potential or actual non-citizen voters" ([timeline](../timeline/?q=purporting+to+constitute)) | D |
+
+**What it shows (our read, I):** the theory is about protecting citizens' votes. The lists built under it are scored by "confidence," not checked against any citizenship record, because, as one court put it, no such database exists. And at every step the government's own papers hedge: "may include those of U.S. born citizens," "aliens or USCs," "are or were," "may have subsequently naturalized." By November the courts were calling the lists data "purporting" to show noncitizens.
 
 ## How the trail works
 
@@ -262,6 +297,7 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
+- 2026-11-03: new entry #2, "who counts as a voter": nineteen uses in date order, tagged framed, flagged, hedged or checked.
 - 2026-11-03: new entry #1, "law enforcement," at the top of the page: thirteen uses in date order, each tagged by how the label is used (added, disclaimed, or invoked as an exception).
 - 2026-11-02 (late night): new entries PT-14 ("not self-executing" / "at their own legal peril") and PT-15 ("knowingly" / "aiders and abettors") from Chief Judge Boasberg's Nov 2 opinion in CHIRLA v. DHS.
 - 2026-11-02 (night): Phrase families section added at the top; the promises table moved below the ledger. The trail is checked against every new government document again.
