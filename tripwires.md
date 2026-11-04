@@ -5,7 +5,7 @@ description: What we are watching for around the 2026 midterms, and what has alr
 ---
 # Tripwire board
 
-Last updated: Tuesday Nov 3, 2026, ~9:15 pm ET (polls closing). Updated as news breaks.
+Last updated: Tuesday Nov 3, 2026, ~11:45 pm ET. Updated as news breaks.
 Status: 🔴 FIRED (it happened) · 🟠 ARMED (the pieces are in place or it is pending) · ⚪ NOT YET (nothing seen).
 Marks: D document · R reporting · I our inference.
 
@@ -18,6 +18,8 @@ Marks: D document · R reporting · I our inference.
 - **The FBI's New Haven office told voters the wrong day** (R, Lead Stories, IBTimes): its Nov 2 X post read "Election day is Wednesday and the #FBI is working around the clock to ensure the midterms are safe." A Community Note corrected it; the FBI had not deleted it by early Tuesday. Connecticut's Secretary of the State (D, Nov 3): "Do not believe it. Election Day is today, Tuesday, November 3." No FBI national press release or alert on the election found today (checked ~6 p.m.).
 - **FBI arrested the suspected powder-letter sender** (R, AP via WBTV): Robin Martin of Oklahoma City, charged with "conveying a hoax and mailing threatening communications"; the affidavit ties 700+ mailings this fall to election officials, members of Congress, media and the FBI director, and says the writer "claimed that President Donald Trump won the 2020 election." Row 6.
 - **DOJ announced charges against 63 people on election eve, naming each one and running photos** (D, DOJ release Nov 2). By our count at least 54 are described as lawful permanent residents (green-card holders), and most of the votes described were cast in 2024 or earlier. AG Blanche: "the largest surge of voter-fraud arrests since President Trump returned to office," to "restore confidence in our electoral system." Row 15.
+- **Networks project a Democratic House** (R, Variety): MS NOW called it shortly before 10 p.m. ET, then CNN, NBC and CBS; the AP had not called it at last report; the Senate is too close to call. No administration reaction, fraud claim or federal action reported by 11:30 p.m. The certification and Jan 3 seating routes (rows 9 and 10) now matter most (I).
+- **Trump's afternoon video** (R, transcript): the RNC's "election integrity team" was "on the ground immediately" in Westchester; on Pennsylvania mail ballots, "I don't believe it's humanly possible" for Democrats to return theirs in time; report problems at protectthevote.com. No explicit fraud claim.
 - **Mullin on Election Day** (R, The Hill): "ICE agents aren't going to be around polling places unless there's a threat"; DHS announced more arrests for 2024 votes (R). The exception ("a threat") is undefined, like the earlier "if we're serving a warrant" (I).
 - **As polls close (9 p.m. sweep):** no federal seizure, emergency declaration, official foreign-hack claim, or court order on ballots found. Fraud claims tonight are coming from commentators and anonymous posts, not federal officials.
 - **FBI agents were seen near an active D.C. polling place, on a different assignment** (R, The Washington Sun, Nov 2): in a hearing before Judge Loren AliKhan, government counsel relayed an FBI statement that agents "may have been observed near an active polling location" while on a neighborhood foot patrol for the D.C. Safe and Beautiful Task Force; the FBI then told D.C. staff to avoid polling locations, with "the only exception" being "if there is an active shooter." DOJ's monitor report excluded FBI staff from the monitor program only, not from other duties (I). Row 8.
@@ -98,6 +100,7 @@ Passed: Oct 29 DOJ answer to senators, none public · Oct 30 Ninth Circuit, deni
 - A court ordering ballots held, or a court staying Chutkan's or Boasberg's orders. (**Supreme Court denied DOJ on California Nov 2; Alaska dismissed and on appeal.**)
 
 ## Sources (newest first)
+- Variety via Yahoo, Nov 3 (House projections): https://www.yahoo.com/news/politics/articles/democrats-win-house-poised-senate-032322528.html ; Trump video transcript, Nov 3: https://www.trumpstruth.org/statuses/43447
 - The Hill via Yahoo, Nov 3 (Mullin): https://www.yahoo.com/news/politics/articles/mullin-slams-hillary-clinton-poll-234016770.html ; Democracy Docket, Sept 20 (DHS list of places with non-English election info): https://www.democracydocket.com/news-alerts/extremely-concerning-democrats-alarmed-by-dhs-document-listing-places-distributing-non-english-election-info/
 - The Washington Sun, Nov 2 (FBI agents near D.C. polling place): https://www.washingtonsun.com/metro/dc/fbi-task-force-polling-locations-dc ; PolitiFact, Nov 3 (Houston raid claim false): https://politifact.com/factchecks/2026/nov/03/social-media/houston-fbi-raid-fraudulent-ballots-warehouse-false/
 - Connecticut Secretary of the State, Nov 3: https://portal.ct.gov/sots/press-releases/2026-press-releases/statement-from-secretary-thomas-on-misinformation-circulating-about-the-date-of-election-day ; WBTV/AP, Nov 3 (powder letters arrest): https://www.wbtv.com/2026/11/03/man-charged-with-mailing-hundreds-letters-containing-powder-officials-ahead-election/
