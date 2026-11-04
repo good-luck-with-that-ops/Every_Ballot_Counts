@@ -5,7 +5,7 @@ description: What we are watching for around the 2026 midterms, and what has alr
 ---
 # Tripwire board
 
-Last updated: Wednesday Nov 4, 2026, ~9:50 am ET. Updated as news breaks.
+Last updated: Wednesday Nov 4, 2026, ~11:30 am ET. Updated as news breaks.
 
 Status: 🔴 FIRED (it happened) · 🟠 ARMED (the pieces are in place or it is pending) · ⚪ NOT YET (nothing seen).
 Marks: D document · R reporting · I our inference.
@@ -15,6 +15,7 @@ Marks: D document · R reporting · I our inference.
 - **DHS says it will collect who voted** (R): Secretary Mullin on Fox, Election Day: "After this election we'll be gathering all the data, we'll be gathering the voting logs." No legal authority named; no demand seen yet.
 - **DOJ's Alaska probe reaches the winning party's campaign committee** (R): about 20 target and preservation letters, including elections lawyer Marc Elias; a grand-jury subpoena to the Democratic Senatorial Campaign Committee; 100+ subpoenas in all. Stephen Miller suggested a federal conspiracy charge (18 U.S.C. 241). AG Blanche: "If it's clear that voters were confused ... that's why you need to preserve these ballots."
 - **Democrats won both chambers; Trump says he accepts the results** (R): "I am absolutely willing to accept those results." He tied the losses partly to the Iran war, not to any hacking claim.
+- **DOJ monitors overstepped in Michigan** (R, Just the News, Michigan Advance): in Dearborn and Flint, monitors pressed poll workers about their training and, in Dearborn, asked for training materials; state law lets monitors observe, not question workers. DOJ's Michigan coordinator called it "not consistent with how the monitors were trained." New Mexico raised concerns about monitors in Bernalillo County. Row 8.
 - **Not seen as of Wednesday morning:** a warrant or seizure of ballots, an emergency declaration, a new federal list sent to a state, or any U.S. official blaming a foreign hack for a result.
 
 ## What we're watching for
@@ -90,6 +91,7 @@ Passed: Oct 29 DOJ answer to senators, none public · Oct 30 Ninth Circuit, deni
 - A court ordering ballots held, or a court staying Chutkan's or Boasberg's orders. (**Supreme Court denied DOJ on California Nov 2; Alaska dismissed and on appeal. The en banc Ninth Circuit stayed Thompson's protective order Nov 3, 6-5.**)
 
 ## Sources (newest first)
+- Just the News, Nov 3 (Michigan monitors): https://justthenews.com/politics-policy/elections/michigan-officials-say-doj-election-monitors-overstepped-dearborn-flint
 - California Globe, Nov 3 (en banc 6-5): https://californiaglobe.com/fl/election-day-whiplash-ninth-circuit-restores-doj-power-to-flag-suspected-noncitizen-ballots/ ; RedState, Nov 3 (order wording): https://redstate.com/jenvanlaar/2026/11/03/ninth-circuit-slaps-down-activist-judge-seiu-doj-california-n2208984 ; Washington Examiner: https://www.washingtonexaminer.com/news/justice/4789608/appeals-court-wipes-out-trump-doj-brief-victory-california/ ; Law & Crime: https://lawandcrime.com/high-profile/full-9th-circuit-caps-whiplash-inducing-series-of-election-orders-by-backing-dojs-core-functions-until-further-notice/
 - Democracy Docket, Nov 3 (Mullin "voting logs"): https://www.democracydocket.com/news-alerts/mullin-says-trump-admin-will-comb-voting-logs-to-hunt-for-noncitizens-after-election/ ; CBS News, Nov 3 (Alaska probe): https://www.cbsnews.com/news/alaska-ballot-investigation-democrats-marc-elias/ ; Newsweek (Blanche): https://www.newsweek.com/todd-blanche-alaska-ballots-doj-target-letters-12658874 ; Al Jazeera/AP, Nov 4: https://www.aljazeera.com/news/2026/11/4/us-department-of-justice-expands-its-probe-into-alaskas-us-senate-election ; Jewish Insider, Nov 4 (Trump on Iran): https://jewishinsider.com/2026/11/trump-midterms-republican-losses-iran-war-oil-prices/ ; Just Security Early Edition, Nov 4: https://www.justsecurity.org/163369/early-edition-november-4-2026/
 - Philadelphia Inquirer, Nov 3 (Alaska target letters): https://www.inquirer.com/politics/election/alaska-senate-race-doj-target-letters-democrats-inquiry-peltola-sullivan-20261103.html ; Fox News: https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe ; Forbes, Nov 4 (AP calls): https://www.forbes.com/sites/saradorn/2026/11/04/midterm-election-results-live-updates-democrats-sweep-house-and-senate-in-stunning-rout/ ; RTE, Nov 4 (Trump accepts): https://www.rte.ie/news/2026/1104/1597896-trump-midterms-reaction/
