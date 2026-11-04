@@ -787,8 +787,8 @@ Map flows: none on the map
 Map flows: 9, 101 (as drawn)
 - **Owner:** Pandemic Response Accountability Committee (D).
 - **What it holds:** About 622M graph nodes and 1.65B relationships, over 1B records from more than 60 sources, as of Feb 2026 (D, PRAC testimony). Operates under the IG Empowerment Act §6(j) matching exemption (D, mechanism).
-- **Vendor / vehicle:** U. **PIA / SORN:** U.
-- **Open questions / records (U):** DUAs (the Oct 26 fusion-center note lists some); the §6(j) basis for any voter-related match.
+- **Vendor / vehicle:** Graph database: Neo4j renewal 9531BL26P0160, $283,750, Sept 24, 2026 (D, USAspending); a graph store fits the node-and-relationship figures above (I). Analytics: Voyager Analytics orders 9531BL26F0007 ($205,485, Sept 7, 2026) and 9531BL25P0167 (D, USAspending). Voyager Labs, the company associated with that product name, markets AI analysis of social-media and open-source data; Meta sued it in January 2023 over alleged scraping with fake accounts, and the suit later settled (R, Meta statement; MediaPost). That the PRAC orders are with the same company is K (verify against the award recipient). Vendors are neutral infrastructure; nothing here implies a vendor knew of any election use. PACE analytics calls with Elder Research (9531BL25F0002) and i3 (9531BL25F0003) end Nov 19–20, 2026; watch for successors (D, USAspending). **PIA / SORN:** U.
+- **Open questions / records (U):** DUAs (the Oct 26 fusion-center note lists some); the §6(j) basis for any voter-related match; what data sources the Voyager orders cover; the order files for both renewals.
 
 ### PRA-02 · SSA "yes/no" agreement
 Map flows: 28; the removed DOGE → target-list line
@@ -958,6 +958,7 @@ Method: attachments are downloaded from SAM.gov and read in full (text extractio
 For every new document, article or watch item: (1) find the system by ID; (2) compare each stated fact to the entry; (3) if it adds or conflicts, update the entry with a dated line and a mark; (4) if no system fits, add a row; (5) log the change below. Inherited marks are not re-verified unless stated.
 
 ## J7 · Change log
+- 2026-11-04 (weekly maintenance): PRA-01 vendor/vehicle filled: Neo4j renewal 9531BL26P0160 and Voyager Analytics orders 9531BL26F0007, 9531BL25P0167 (D, USAspending); Voyager Labs background (R; company match K); PACE successors to watch. Source: USAspending; Meta newsroom Jan 2023; MediaPost.
 - 2026-11-01 (ICE data-subscription RFI): COM-02 gains ICE RFI ICERFI10222026 (Oct 22, 2026; D via HigherGov) for a follow-on "web-based law enforcement investigative database subscription service," and the LexisNexis bridge work statement's required feeds into "ICE applications, such as but not limited to, Palantir platform, PenLink, and ICE Data Analytics" (R). COM-03 gains the PenLink link and the PLX access-group count (R). New ICE-18 "ICE Data Analytics" (unidentified, U). Map gains links 167–169 (table rows, not drawn); the numbered range is now 1–169. Source: HigherGov mirror of SAM notice ICERFI10222026 and contract 70CMSD26C00000009; leaked DHS access groups (timeline, Oct 2026).
 - 2026-10-29 (map renumber): Map flows renumbered into one sequence (1–166); old f/e ids mapped in FLOW_CROSSWALK; registry ids shown in map boxes.
 - 2026-10-29 (map polish): New PART H2 with ELE-01 ERIC, ELE-02 DOJ Public Integrity Section concurrence, ELE-03 2020 Election Day coordination, ELE-04 cyber-incident victim notification; map edges e180–e189. Source: DHS Secretary letter to the AG (Sept 2, 2026); FBI Michigan release; Election Day 2020 watch log; IC report "US Voter Registration for 6 States."
