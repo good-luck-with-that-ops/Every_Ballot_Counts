@@ -4,6 +4,7 @@ permalink: /updates.html
 ---
 # Updates
 
+- **2026-11-05:** New blog post: [Please hold.](blog/2026/11/05/please-hold/), on the preservation letters Congress sent the day after the election and why the turnout made them possible.
 - **2026-11-04 (late morning):** New blog post: [4,158 days of scheming. One day of counting.](blog/2026/11/04/clear-your-calendar/), on turnout, the margins and why we're not stopping.
 - **2026-11-03 (late morning):** New blog post: [Turns out you need paperwork to pass around millions of voter records](blog/2026/11/03/chutkan-paperwork/), on Judge Chutkan's order pausing the federal voter-list pipeline. "Read the fine print" updated with Judge Walton's order on DOJ poll monitors.
 - **2026-11-03:** New blog post: [Read the fine print](blog/2026/11/03/read-the-fine-print/), what officials promised about Election Day and what the wording leaves open.
