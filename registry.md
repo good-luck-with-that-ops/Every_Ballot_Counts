@@ -17,7 +17,7 @@ One entry per federal system, contract vehicle or data feed that touches the ele
 **Marks (every claim):** D primary document · R reporting · I inference · U unresolved · K general knowledge, verify · X a map line or earlier claim that the cited originals do not support (the entry gives the correct version; added Oct 28, 2026).
 **Flow numbers:** numbers such as [3] or "Map flows: 3, 33" are the link numbers on the [architecture map](../map/architecture.html): 1–117 are the drawn lines and 118–171 are rows of its "More documented links" table.
 **Entry fields:** Owner · What it holds · Vendor/vehicle · PIA/SORN · Inbound feeds · Outbound feeds · Court mentions · Status since Jan 20, 2025 · Open questions/records (U).
-**Sources:** entries cite the kind of source inline (a justification, a Federal Register notice, a court filing, a news report). Links to the underlying documents are being added over time; the supporting working notes are not published yet. Vendors are shown as infrastructure: a company appears only where a document ties it to a system, and no entry implies wrongdoing by any vendor.
+**Sources:** entries cite the kind of source inline (a justification, a Federal Register notice, a court filing, a news report). Links to the underlying documents are being added over time; the supporting working notes are not published yet. A company appears where a document or credible reporting ties it to a system; each claim carries its mark.
 **Caution:** this is research by an independent individual, not an investigation with inside sources. Inferences (I) and unresolved items (U) are labeled so you can weigh them. Corrections are welcome (see the [about page](../about.html)).
 
 ## Index
@@ -167,7 +167,7 @@ Map flows: 55
 - **Outbound feeds:** Investigators and FDNS analysts (I). Downstream destinations U.
 - **Court mentions:** None names Senzing (D, absence). US v. California ¶¶33–43 says USCIS used unnamed "third-party software" with high/medium/low tiers; DHS disputed that USCIS used third-party software and said commercial third-party data and other government data were used to supplement public records (R, Newsweek). Senzing is one possible candidate (I); nothing ties it (U). Update Oct 27: Bartell Decl. #2 (Dkt. 107-2 ¶15, filed Oct 26) names the enrichment service as LexisNexis Accurint, not Senzing, and describes no graph or entity-resolution product (D). Who or what did the identity pairing in ¶16 is still U.
 - **Status since Jan 20, 2025:** Renewal order dated Sept 25, 2026 (D, USAspending). Comparable CBP tool: Tamr entity resolution, 70B06C22C00000067, $1.6M, Sept 2022 (D).
-- **Open questions / records (U):** SOWs for both Senzing orders. Data-source configurations. Do FDNS or OCDO run voter files through it? Name and contract of any matching tool beyond Accurint (Accurint named in Bartell Decl. #2 ¶15; see COM-02). Vendors are infrastructure; nothing implies a company knows of any use.
+- **Open questions / records (U):** SOWs for both Senzing orders. Data-source configurations. Do FDNS or OCDO run voter files through it? Name and contract of any matching tool beyond Accurint (Accurint named in Bartell Decl. #2 ¶15; see COM-02).
 
 ### USC-06 · FDNS and FDNS-DS (Fraud Detection and National Security)
 Map flows: 8, 23, 35, 41, 46; the removed TECS → RAVEn line was not supported (see Outbound); the California path that replaces the removed iLab → ballot suits line (see below and USC-11)
@@ -222,7 +222,7 @@ Map flows: none on the map
 Map flows: none numbered (new SAVE source on the rebuilt map)
 - **Owner:** USCIS (D).
 - **What it holds:** Not described. SAVE PIA-006(d) lists "Salesforce Customer Relationship Management" among the USCIS systems SAVE queries (D, p. 8); what records it holds and why SAVE queries it are U.
-- **Vendor / vehicle:** Salesforce platform (D, system name only); contract U. Vendors are infrastructure; nothing implies the company knows of any use.
+- **Vendor / vehicle:** Salesforce platform (D, system name only); contract U.
 - **PIA / SORN:** None specific found (U).
 - **Inbound feeds:** U. **Outbound feeds:** queried by SAVE (D, PIA p. 8).
 - **Court mentions:** None found.
@@ -426,7 +426,7 @@ Map flows: 169
 
 ---
 
-# PART C · Commercial identity, OSINT and location tools (vendor products, neutral infrastructure)
+# PART C · Commercial identity, OSINT and location tools (vendor products)
 
 ### COM-01 · Clearview AI (face search)
 Map flows: none on the map
@@ -467,7 +467,7 @@ Map flows: 8 (now named); FDNS ↔ Accurint (California)
 - **User:** USCIS FDNS; ICE (D).
 - **What it holds:** Commercial identity records. For the California roll FDNS sent first, middle or initial and last name, street, city and state; Accurint returned names and aliases, SSNs, DOBs, dates of death, phones and associated addresses (D, Bartell Decl. #2 ¶15, Ex. A). The confidence scoring is FDNS's own later step (D, ¶18).
 - **Vendor / vehicle:** FDNS contract vehicle not identified; RELX 70SBUR25F00000065 is a candidate (I; see COM-02). ICE public-records subscription 70CMSD26C00000009, Sept 1, 2026–Feb 28, 2027 (D, USAspending), separate from the FDNS use.
-- **Why it matters (I):** The commercial SSN drives every later SSA and State screen, so an error here carries forward, and a citizen with no SSN in Accurint is never screened (the skip itself is D, ¶17). Vendors are infrastructure; nothing implies the company knows of any use.
+- **Why it matters (I):** The commercial SSN drives every later SSA and State screen, so an error here carries forward, and a citizen with no SSN in Accurint is never screened (the skip itself is D, ¶17).
 - **Open questions / records (U):** Contract; query logs; error rates for the California batch.
 
 ---
@@ -712,7 +712,7 @@ Map flows: none on the map
 
 ### DOJ-01 · DOJ state voter-roll holdings
 Map flows: 1, 21
-- **Washington, Oct 26 (R, per Oct 27 watch):** Charles Neil Floyd and Pete Serrano of the U.S. Attorney's offices asked Secretary of State Hobbs to set aside ballots of 405 alleged noncitizen registrants (R, Washington State Standard, KOMO). Assistant AG Harmeet Dillon had requested the full unredacted roll earlier, and DOJ's suit for the roll was dismissed. No charges yet; Hobbs disputes the data. KOMO reports the names came from agent interviews of detainees and border crossers compared with immigration databases and public registration data; SAVE is not mentioned (our reading that it was not SAVE is an inference from silence, I). Not tied to a registry system beyond this entry (U).
+- **Washington, Oct 26 (R, per Oct 27 watch):** Charles Neil Floyd and Pete Serrano of the U.S. Attorney's offices asked Secretary of State Hobbs to set aside ballots of 405 alleged noncitizen registrants (R, Washington State Standard, KOMO). Assistant AG Harmeet Dhillon had requested the full unredacted roll earlier, and DOJ's suit for the roll was dismissed. No charges yet; Hobbs disputes the data. KOMO reports the names came from agent interviews of detainees and border crossers compared with immigration databases and public registration data; SAVE is not mentioned (our reading that it was not SAVE is an inference from silence, I). Not tied to a registry system beyond this entry (U).
 - **Owner:** DOJ Civil Rights Division (D).
 - **What it holds:** State voter rolls collected through demands and suits; about 50.6M records are reported (R; count not re-verified). Other holdings are U.
 - **Vendor / vehicle:** U.
@@ -801,7 +801,7 @@ Map flows: none on the map
 Map flows: 9, 101 (as drawn)
 - **Owner:** Pandemic Response Accountability Committee (D).
 - **What it holds:** About 622M graph nodes and 1.65B relationships, over 1B records from more than 60 sources, as of Feb 2026 (D, PRAC testimony). Operates under the IG Empowerment Act §6(j) matching exemption (D, mechanism).
-- **Vendor / vehicle:** Graph database: Neo4j renewal 9531BL26P0160, $283,750, Sept 24, 2026 (D, USAspending); a graph store fits the node-and-relationship figures above (I). Analytics: Voyager Analytics orders 9531BL26F0007 ($205,485, Sept 7, 2026) and 9531BL25P0167 (D, USAspending). Voyager Labs, the company associated with that product name, markets AI analysis of social-media and open-source data; Meta sued it in January 2023 over alleged scraping with fake accounts, and the suit later settled (R, Meta statement; MediaPost). That the PRAC orders are with the same company is K (verify against the award recipient). Vendors are neutral infrastructure; nothing here implies a vendor knew of any election use. PACE analytics calls with Elder Research (9531BL25F0002) and i3 (9531BL25F0003) end Nov 19–20, 2026; watch for successors (D, USAspending). **PIA / SORN:** U.
+- **Vendor / vehicle:** Graph database: Neo4j renewal 9531BL26P0160, $283,750, Sept 24, 2026 (D, USAspending); a graph store fits the node-and-relationship figures above (I). Analytics: Voyager Analytics orders 9531BL26F0007 ($205,485, Sept 7, 2026) and 9531BL25P0167 (D, USAspending). Voyager Labs, the company associated with that product name, markets AI analysis of social-media and open-source data; Meta sued it in January 2023 over alleged scraping with fake accounts, and the suit later settled (R, Meta statement; MediaPost). That the PRAC orders are with the same company is K (verify against the award recipient). PACE analytics calls with Elder Research (9531BL25F0002) and i3 (9531BL25F0003) end Nov 19–20, 2026; watch for successors (D, USAspending). **PIA / SORN:** U.
 - **Open questions / records (U):** DUAs (the Oct 26 fusion-center note lists some); the §6(j) basis for any voter-related match; what data sources the Voyager orders cover; the order files for both renewals.
 
 ### PRA-02 · SSA "yes/no" agreement
@@ -972,6 +972,7 @@ Method: attachments are downloaded from SAM.gov and read in full (text extractio
 For every new document, article or watch item: (1) find the system by ID; (2) compare each stated fact to the entry; (3) if it adds or conflicts, update the entry with a dated line and a mark; (4) if no system fits, add a row; (5) log the change below. Inherited marks are not re-verified unless stated.
 
 ## J7 · Change log
+- 2026-11-12 (corrections): DOJ-01 spelling corrected to "Dhillon." Removed retired "vendors are infrastructure" wording from the sources note, the PART C heading and USC-05, USC-10, COM-04 and PRA-01, and two internal notes in this log.
 - 2026-11-09: TRE-04 gains "Who ran it": Ehikian (former Salesforce AI vice president) as acting GSA administrator Jan-Jul 2025, the TTS Login.gov "fight fraud" email (Mar 2025), Rigas, Forst, and Corcos holding the TTS, FAS deputy and Login.gov posts since Aug 2026. Source: GSA release Jan 22, 2025; FedScoop Jan 22, 2025 and Aug 24, 2026; Nextgov Mar 4, 2025 and Dec 2025; Federal News Network Sept 2025.
 - 2026-11-08 (weekly maintenance): DOJ-02 gains the Special Attorneys funding channel (OJP 16.076 awards, D, USAspending; map 170). New DOJ-04, the prosecution-warning channel to election officials: statute list and unanswered questions (SEIU v. DOJ ECF 47), delivery by uniformed DHS officers and marshals (Ninth Cir. 26-7303 DktEntry 32.1, dissent), the 11(b) position (ECF 33), Whitehead TRO (W.D. Wash. ECF 21); map 171. ICE-08 gains the CBFCC official named in LWV v. DHS ECF 32. Map range now 1-171.
 - 2026-11-04 (weekly maintenance): PRA-01 vendor/vehicle filled: Neo4j renewal 9531BL26P0160 and Voyager Analytics orders 9531BL26F0007, 9531BL25P0167 (D, USAspending); Voyager Labs background (R; company match K); PACE successors to watch. Source: USAspending; Meta newsroom Jan 2023; MediaPost.
@@ -1045,7 +1046,7 @@ For every new document, article or watch item: (1) find the system by ID; (2) co
 - 2026-10-27 (night, DHS Palantir LSJ): LSJ FY25-00257 checked line by line against the vault OCR and the redacted PDF; all quotes held except one in DHS-01 (NEC), now flagged as partly obscured.
 - 2026-10-27 (night, quote audit): 111 quoted phrases in primary-document claims were machine-matched against the full text of the vault (141 PDFs, 66 text files). 110 appear verbatim somewhere in the vault; the one miss is the USCIS web alert, which was read in the browser, not from a file. The check shows the words exist in the corpus, not that each sits in the document cited.
 - 2026-10-27 (night, PCIS PIA): PIA-087 (Dec 2022) read from the vault copy; USC-02 quotes confirmed; no later update found (DHS index unchecked).
-- 2026-10-27 (night, Databricks BPA): BPA 70RTAC26A00000010 start date confirmed as Jul 17, 2026 on USAspending (page found by the user).
+- 2026-10-27 (night, Databricks BPA): BPA 70RTAC26A00000010 start date confirmed as Jul 17, 2026 on USAspending.
 - 2026-10-27 (night, browser checks): SAM notice 70CMSD26Q00000012 (DASS) read, confirming Jul 14 publication and the attachment; USAspending checked for SiloSmashers (Sept 29) and Databricks orders; USCIS SAVE notices of Oct 2 and Oct 22 added. Still open: Databricks BPA start date, the Apr 30 USCIS notice.
 - 2026-10-27 (vault documents): DASS J&A-26-0099 ("Final SSJ for Posting") and ICE LSJ J&A-25-0309 (P00012) read; ICE-10 and ICE-03 updated. The DSS 3.0 BPA SOW and RFI in the vault are DHS desktop-support documents and are not used.
 - 2026-10-27 (Hilton ECF 142, 142-5, 145 read): ICE-02 gained the plaintiffs' ICM/TECS arguments and the sealing dispute; ECF 142-10 and 142-5 not otherwise used.
@@ -1061,7 +1062,7 @@ For every new document, article or watch item: (1) find the system by ID; (2) co
 - 2026-10-27 (claim re-verification): 131 R/I/U lines re-checked against sources. Corrected: SAVE SSN-lookup dates; ProPublica 25,000/15,000 leads (separate groups); PCQS/PCIS PIA direction; DHS dispute of third-party software; Palantir ELITE quote attribution (WIRED per Biometric Update, not CNN); DASS-to-RAVEn flow (f38) downgraded to inference; DASS purposes source (404 Media); Ninth Circuit Oct 25 wording; ATrac source list; Mobile Fortify PTA/PIA wording and Thompson attribution; Mobile Identify dates are report dates; Clearview license is CBP's; body-cam 'best interests' scope; HSIN World Cup attribution; Palantir/CISA quote; DOJ fraud-division dates and bill numbers (H.R. 9576, H.R. 10326); Washington Oct 26 letter details; Socure is a subcontractor on the Login.gov order; PRAC figures marked D. Unverified items remain labeled.
 - 2026-10-26 (night): CIS-10 checked against USAspending page: PSC R408, Delivery Order label explained, P00001 adds DD254 and updates PWS, funding office confirmed.
 - 2026-10-27 (morning): monitor output checked: SSA write-back added to SSA-01; Washington ballot-hold demand noted at DOJ-01. EICAM and Burris hearing already in.
-- 2026-10-26 (night, 3): Added HUD-01 (EICAM) after the monitor run found tenants and beneficiaries in scope; corrected the workforce-only reading.
+- 2026-10-26 (night, 3): Added HUD-01 (EICAM) after records showed tenants and beneficiaries in scope; corrected the workforce-only reading.
 - 2026-10-26 (night, 2): FY2027 CISA Congressional Justification read: CADS added to CIS-01, SED consolidation to CIS-10, election-security cut to FUS-01.
 - 2026-10-26 (late-night): CIS-10 NAICS resolved from the OASIS+ WOSB solicitation; posting-lag observation added to DHS-02 and DHS-04; Burris hearing text read (CIS-04).
 - 2026-10-26 (late): Added CIS-10 (AttainX SED order, from HigherGov).

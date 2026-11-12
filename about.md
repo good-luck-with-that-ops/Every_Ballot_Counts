@@ -8,7 +8,7 @@ permalink: /about.html
 
 **What this is:** a public, living reference that connects public documents about federal election-data systems. It started Oct 26, 2026 and is updated as records are found.
 
-**What this is not:** not legal advice, not an official source, and not an accusation. Vendors are treated as neutral infrastructure. A company is named only where a public document ties it to a system, and nothing here implies a company knows of or takes part in any use described.
+**What this is not:** not legal advice and not an official source. A company or person is named where a public document or credible reporting ties them to a system or an action, and each claim carries its mark (D, R, I or U).
 
 ## Method
 

@@ -149,7 +149,7 @@ Rows are in date order. Each one quotes the source's exact words.
 | **"A red herring"** | Checked | Nov 2, 2026 | Chief Judge Boasberg, *CHIRLA v. DHS* | DOJ's aiding-and-abetting theory is "a red herring"; officials "likely cannot aid or abet" a violation "by conforming to the letter of state law"; DOJ's role is "limited to prosecuting non-citizens who 'knowingly' cast ballots" ([timeline](../timeline/?q=red+herring)) | D |
 | **"Core executive branch powers"** | At officials | Nov 3, 2026 | U.S. Attorney Essayli, after the full Ninth Circuit reinstated the stay of Judge Thompson's order | "Separation of powers does not allow judges to take control of core executive branch powers"; DOJ "will conduct our criminal investigations without fear or favor" ([timeline](../timeline/?q=core+executive+branch)) | R |
 | **"Look at the individual ballots"** | At officials | Nov 3, 2026 | Attorney General Blanche, on Fox News, about Alaska | "If it's clear that voters were confused, and again, that's why you need to preserve these ballots"; authorities could "look at the individual ballots" ([timeline](../timeline/?q=individual+ballots+preserve)) | R |
-| **"Criminal conspiracy"** | At organizers | Nov 3, 2026 | White House adviser Stephen Miller, on Fox News, about the Alaska probe (DOJ has sent target letters to about 20 Democrats) | called it a "criminal conspiracy" and suggested the federal civil-rights conspiracy law, 18 U.S.C. 241, could apply ([timeline](../timeline/?q=241+conspiracy)) | R |
+| **18 U.S.C. 241** | At organizers | Nov 3, 2026 | White House adviser Stephen Miller, on Fox News, about the Alaska probe (DOJ has sent target letters to about 20 Democrats) | suggested the federal civil-rights conspiracy law, 18 U.S.C. 241, could apply, as reported by [CBS](https://www.cbsnews.com/news/alaska-ballot-investigation-democrats-marc-elias/) | R |
 | **The statute list** | At officials | Nov 2, 2026 | DOJ answers to the judge's questions, *SEIU v. DOJ* (N.D. Cal.) | DOJ's warnings rest on laws including 52 U.S.C. 20511(2)(B) ("tabulation" of fraudulent ballots "by an election official") and 52 U.S.C. 20701-02 ("willful failure to preserve election records"); "Identifying citizens and non-registrants is what the letters asked for" ([timeline](../timeline/?q=20511)) | D |
 | **The unanswered rule** | Checked | Nov 2, 2026 | Same filing: the court asked, DOJ didn't answer | DOJ's own Justice Manual, 9-85.300: prosecutors should "generally avoid interfering or appearing to interfere with election administration, tabulation, validation, or certification" ([timeline](../timeline/?q=9-85.300)) | D |
 | **"Expressing its views"** | At officials | Nov 3, 2026 | Full Ninth Circuit order reinstating the stay, *SEIU v. DOJ*, concurrence by Judge Miller | a district court "does not generally have the authority to enter an injunction prohibiting the Department of Justice from expressing its views about criminal statutes, even if the court determines that those views are incorrect" ([timeline](../timeline/?q=expressing+its+views)) | D |
@@ -222,7 +222,7 @@ This is the technology side: building one consolidated record per person out of 
 
 **Marks:** D primary text read · R reporting · I inference · U unresolved · K general knowledge, verify.
 
-**What an entry is.** One phrase family. Each row in the chain gives the exact quoted words, document, date, tier and mark. Chains are ordered by document date, not by who wrote what. Order of appearance is a lead, not proof that one document drove another.
+**What an entry is.** One phrase family. Each row in the chain gives the exact quoted words, document, date, tier and mark. Chains are ordered by document date, not by who wrote what.
 
 **Strength of a match** (rate every entry)
 - **S1 exact** · identical wording of 4+ words, or 2–3 distinctive words.
@@ -240,7 +240,7 @@ This is the technology side: building one consolidated record per person out of 
 - H3 vendor-supplied capability text copied into a government justification (this one matters most for tier B).
 - H4 borrowed from an earlier public source (advocacy paper, prior EO, think-tank model).
 - H5 deliberate carry-through so the paper trail "fits."
-No entry below settles any of these. Vendors stay neutral infrastructure: an overlap in a procurement document is not evidence that a company knew of or took part in anything.
+No entry below settles any of these.
 
 **Log rule.** When a new document arrives, search 2–3 of its distinctive phrases in quotes against this file, the research corpus. Add a row, or add a new entry. Record "no earlier hit found" when that is the result. Quote verbatim from the source text or do not quote.
 
@@ -346,7 +346,7 @@ Phrases that state a limit. They show what the paper says is not happening.
 |---|---|---|---|---|
 | Mar 20, 2025 | A | EO 14243 §3(a) | "full and prompt access to all unclassified agency records, data, software systems, and information technology systems"; §3(a)(2) "unfettered access to comprehensive data from all State programs that receive Federal funding" | D (fetch summary; verify) |
 | Jun 10, 2026 | A | H.R. 8312 §2(B) | program "capable of receiving (including in bulk data formats and through systems that facilitate real-time data access) any data asset, information, or record related to the administration of Federal programs (including federally funded State-administered programs)" | D |
-| Oct 2026 | A | EO 14399 §4(c), as quoted by the Oct 27 watch (not re-read by me) | SSA to "provide all necessary citizenship and identity data" | R (wording U) |
+| Oct 2026 | A | EO 14399 §4(c), as quoted in reporting (order text not re-read) | SSA to "provide all necessary citizenship and identity data" | R (wording U) |
 | Sept 4, 2025 | B | DHS Palantir LSJ | "unified search capabilities across multiple internal and external systems"; migration of "existing investigative data from legacy systems" | D |
 - **What it shows (I):** the bill's "any data asset, information, or record" plus "federally funded State-administered programs" tracks the EO's "all unclassified agency records" and "all State programs that receive Federal funding." That is the same scope, in new words (S3), and the bill adds bulk and real-time ingestion. Neither the EO nor the bill mentions voters in the quoted text.
 - **H check:** H4 (the bill borrowing the EO's frame) and H1 (program-integrity vocabulary).
@@ -422,8 +422,9 @@ GSAR 509.406-3(a)(2) (GSA class deviation RGO-2026-01, Jan 15, 2026): "Refer pos
 "logical follow-on," "only one source capable," "interest of economy and efficiency," "unique or highly specialized," "fair and reasonable," "posted on SAM.gov within 14 days."
 
 ## Change log
+- 2026-11-12 (corrections): removed a Miller quotation with no text source (the 241 suggestion stays, cited to CBS) and two retired method lines.
 - 2026-11-08 (weekly pass): #1 adds DOJ's Special Attorneys awards ("under the direction of the National Fraud Enforcement Division") and the HSI financial-crimes center named in DOJ's compliance report; #4 adds DOJ's statute list, the unanswered Justice Manual rule, the full Ninth Circuit's "expressing its views" and the dissent's "served at home," Judge Whitehead's "not legal advice," and the President's order to DOJ calling Democrats' oversight plans "extortion."
-- 2026-11-04 (weekly pass): #4 adds Essayli's "core executive branch powers," Blanche's "look at the individual ballots" and Miller's "criminal conspiracy" (18 U.S.C. 241); #6 adds Mullin's "voting logs."
+- 2026-11-04 (weekly pass): #4 adds Essayli's "core executive branch powers," Blanche's "look at the individual ballots" and Miller's suggestion of 18 U.S.C. 241; #6 adds Mullin's "voting logs."
 - 2026-11-03: new entries #5 "access to everything" (authority) and #6 "one record per person" (data). Written-in limits now sit inside each entry with a "Limit" tag; the polling-place promises stay in the table below and in the blog post "Read the fine print."
 - 2026-11-03: new entry #4, "fraud," "knowingly," "aiders and abettors": nineteen uses (later rows added Nov 3 and 4) tagged by who the threat is aimed at (voters, officials, organizers) or checked.
 - 2026-11-03: new entry #3, "public confidence": ten uses from 2018 to the pending post-election report, tagged goal, trigger, unlocks or checked.

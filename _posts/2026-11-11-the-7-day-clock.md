@@ -14,13 +14,13 @@ I write contracts for a living, and there's one fight I have in basically every 
 
 The company holding the data wants the notice clock to start when it **confirms** a breach. The customer wants it to start when the company **suspects** one (or should have known). Same incident, different words ... and whoever wins that sentence controls the timeline. Totally normal lawyering.
 
-So imagine my face when I found the same sentence in federal cyber law, written both ways at once. The government gets to **act** on a suspicion. It only has to **tell Congress** once it "concludes." Here's how that works, in order.
+So imagine my face when I found the same sentence in federal cyber law, written both ways in the same law. The government gets to **act** on a suspicion. It only has to **tell Congress** once it has "a reasonable basis to conclude." Here's how that works, in order.
 
 ## The receipts
 
 **1. The emergency directive.** The Federal Information Security Modernization Act (FISMA) gives the DHS Secretary this power:
 
-> "in response to a known or reasonably suspected information security threat, vulnerability, or incident that represents a substantial threat to the information security of an agency, the Secretary may issue an emergency directive to the head of an agency to take any lawful action with respect to the operation of the information system, including such systems used or operated by another entity on behalf of an agency."
+> "in response to a known or reasonably suspected information security threat, vulnerability, or incident that represents a substantial threat to the information security of an agency, the Secretary may issue an emergency directive to the head of an agency to take any lawful action with respect to the operation of the information system, including such systems used or operated by another entity on behalf of an agency ..."
 
 That's [44 U.S.C. 3553(h)](https://www.govinfo.gov/content/pkg/USCODE-2023-title44/html/USCODE-2023-title44-chap35-subchapII.htm). <span class="m">D</span> Read it again slowly: "reasonably suspected" ... "any lawful action" ... "systems used or operated by another entity," aka contractors. Like, say, the Palantir and Databricks platforms CISA bought in September ([USAspending](https://www.usaspending.gov/award/CONT_AWD_70RCSJ26FC0000028_7001_70RTAC26A00000001_7001)). One signature from the DHS Secretary gets you there, and today that's Markwayne Mullin.
 
@@ -30,13 +30,13 @@ Then, for big breaches, it takes the judgment call off the table entirely: "This
 
 One hour. Hold onto that, because the next part is where it gets interesting.
 
-**3. The domino.** Same memo: "if a cyber incident is a major incident, it is also a 'significant cyber incident.' Thus, a major incident as defined above will also trigger the coordination mechanisms outlined in PPD-41." <span class="m">D</span> [PPD-41](https://obamawhitehouse.archives.gov/the-press-office/2016/07/26/presidential-policy-directive-united-states-cyber-incident) is the 2016 presidential directive that puts the FBI in charge of the threat-response side of a big cyber incident. <span class="m">D</span> And no, it's not gathering dust. ATF declared a "major incident" in August, the day after a ransomware gang claimed it had hacked the agency ([Nextgov](https://www.nextgov.com/cybersecurity/2026/08/atf-investigating-major-cyber-incident-after-ransomware-group-claim/415668/), [TechCrunch](https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/)). <span class="m">R</span>
+**3. The domino.** Same memo: "if a cyber incident is a major incident, it is also a 'significant cyber incident.' Thus, a major incident as defined above will also trigger the coordination mechanisms outlined in PPD-41." <span class="m">D</span> [PPD-41](https://obamawhitehouse.archives.gov/the-press-office/2016/07/26/presidential-policy-directive-united-states-cyber-incident) is the 2016 presidential directive that puts the FBI in charge of the threat-response side of a big cyber incident. <span class="m">D</span> The FISMA "major incident" label itself is in use: ATF declared one in August, the day after a ransomware gang claimed it had hacked the agency. That is a FISMA designation, not a PPD-41 activation ([Nextgov](https://www.nextgov.com/cybersecurity/2026/08/atf-investigating-major-cyber-incident-after-ransomware-group-claim/415668/), [TechCrunch](https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/)). <span class="m">R</span>
 
 **4. The clock.** Congress hears about it last. An agency has to notify the relevant committees "no later than seven days after the date on which the agency determines that it has a reasonable basis to conclude that a major incident ... has occurred" (M-25-04, implementing [44 U.S.C. 3554](https://www.govinfo.gov/content/pkg/USCODE-2023-title44/html/USCODE-2023-title44-chap35-subchapII.htm)). <span class="m">D</span>
 
-So, recap: act on "reasonably suspected." Tell CISA within an hour. Tell Congress within seven days of deciding you're sure. The seven days don't start when something happens - they start when the agency says it has concluded something happened. (And a committee getting a notice is not the same thing as *you* getting a notice.)
+So, recap: act on "reasonably suspected." Tell CISA within an hour. Tell Congress within seven days after there is "a reasonable basis to conclude" a major incident occurred (OMB's memo phrases it as when the agency "determines" that). The seven days don't start when something happens. These are separate provisions, too: 3553(h) lets DHS direct agencies, and 3554(b)(7) makes each agency report its own incident. (And a committee getting a notice is not the same thing as *you* getting a notice.)
 
-**5. And national security?** OMB's memo and these DHS powers "do[] not apply to national security systems." <span class="m">D</span> You'd think that's a limit. It's really a second track: national security systems run through the Pentagon and the intelligence agencies, so a system that gets called both gets both tracks running at once. Guess whose track is already pointed at elections (hint: see Sept. 22 below). <span class="m">I</span>
+**5. And national security?** OMB's memo and these DHS powers "do[] not apply to national security systems." <span class="m">D</span> The statutes say the same: 3553(d) and 3553(h)(1)(B) leave national security systems out of DHS's and OMB's powers, and 6 U.S.C. 677a(8)(B) leaves them out of "significant incident." <span class="m">D</span> So the label works as an exit: a system called a national security system leaves the FISMA, DHS and 677b tracks and is handled by the Pentagon and the intelligence agencies. Guess whose lane is already pointed at elections (hint: see Sept. 22 below). <span class="m">I</span>
 
 ## None of this is new (that's kind of the point)
 
@@ -48,19 +48,19 @@ Which brings us to the part I can't stop staring at.
 
 ## Sound familiar?
 
-That harm list (national security, foreign relations, the economy, "public confidence," public health and safety)? It's word for word the list in the law that lets the DHS Secretary declare a "significant incident" ([6 U.S.C. 677a](https://www.law.cornell.edu/uscode/text/6/677a), row 3 on [our board](/tripwires/)), which covers "an incident or a group of related incidents." <span class="m">D</span> And "public confidence" is the same phrase that defines the national emergency over foreign election interference, renewed every year since 2018 ([our phrase trail](/phrase-trail/)). <span class="m">D</span>
+That harm list (national security, foreign relations, the economy, "public confidence," public health and safety)? It's almost word for word the definition of "significant incident" in [6 U.S.C. 677a(8)](https://www.law.cornell.edu/uscode/text/6/677a), which covers "an incident or a group of related incidents." <span class="m">D</span> The power to declare one is in [6 U.S.C. 677b](https://www.law.cornell.edu/uscode/text/6/677b): the DHS Secretary, after consulting the National Cyber Director, finding that other resources "are likely insufficient," for 120 days unless renewed (tripwire 3 on [our board](/tripwires/)). <span class="m">D</span> And "public confidence" is the same phrase that defines the national emergency over foreign election interference, renewed every year since 2018 ([our phrase trail](/phrase-trail/)). <span class="m">D</span>
 
 In other words, one set of facts can open three doors: a major incident, a significant cyber incident and a "significant incident." Same claim, three badges. <span class="m">I</span>
 
 So what facts are already sitting on the record? Here's the setup, pleading-style ... not every fact, just enough to state the claim (sources are in the notes at the end):
 
-- **Jul. 26, 2016:** FBI in charge of threat response for any "significant cyber incident," with the Pentagon supporting "as needed."[^ppd41] <span class="m">D</span>
+- **Jul. 26, 2016:** FBI in charge of threat response for any "significant cyber incident."[^ppd41] <span class="m">D</span>
 - **Nov. 15, 2021:** Congress lets the DHS Secretary declare a "significant incident."[^677] <span class="m">D</span>
 - **July 2026:** DHS-CISA guide for state election officials opens: "Recently declassified records revealed that China breached multiple state voter registration systems prior to the 2020 election."[^vrdb] <span class="m">D</span>
 - **Jul. 17, 2026:** The White House says China "compromised U.S. voter data on a massive scale" and "obtained the personal data of 220 million American voters."[^wh] <span class="m">D</span>
 - **Aug. 24, 2026:** Mullin writes the White House that China-made parts in voting machines could allow "synchronized attacks across multiple machines and jurisdictions."[^mullin] <span class="m">D</span> Same day, DOJ launches a National Fraud Detection Center with HSI, the FBI, a dozen inspectors general and seven secretaries of state.[^nfdc] <span class="m">D</span>
 - **Sept. 22, 2026:** Hegseth orders Cyber Command, NSA, DIA and NGA to "mobilize every authorized asset" for elections, "a no-fail mission."[^hegseth] <span class="m">D</span>
-- **Sept. 24, 2026:** DHS quotes Mullin: "Election security is national security."[^eisp] <span class="m">D</span>
+- **Sept. 24, 2026:** Mullin, on the plan's release: "Election security is national security."[^eisp] <span class="m">R</span>
 - **Oct. 29, 2026:** DOJ tells election officials in all 50 states to preserve records for 22 months, ballots included.[^preserve] <span class="m">R</span>
 - **Nov. 3, 2026:** Mullin on Election Day: "we'll be gathering the voting logs."[^logs] <span class="m">R</span>
 - **Nov. 9, 2026:** CISA rolls out an incident form built to "identify a larger trend from what otherwise would appear as independent incidents."[^form] <span class="m">D</span>
@@ -73,9 +73,9 @@ That's the China cyber report, and that's the suspicion. Under FISMA, a suspicio
 
 Now put it next to what the government holds today. DHS and DOJ "have collected millions of voting records," per a federal judge ([Chutkan opinion](https://storage.courtlistener.com/recap/gov.uscourts.dcd.297656/gov.uscourts.dcd.297656.31.0.pdf)). <span class="m">D</span> Whole state rolls have been run through SAVE. <span class="m">R</span> All of it is way past 100,000 people.
 
-So the last step is one sentence: that the 2020 breach reached the voter data the government holds now. Accessed, altered, tainted ... pick your verb. Under the government's own memo, that's an automatic major incident, automatically a significant cyber incident, and the FBI is in charge of the evidence. Point the same claim at the machines and it's a "significant incident" too. Call the system a national security system and the Pentagon's lane opens right alongside it. <span class="m">I</span>
+So the last step is one sentence: that the 2020 breach reached the voter data the government holds now. Accessed, altered, tainted ... pick your verb. Under the government's own memo, that's an automatic major incident, automatically a significant cyber incident, and the FBI is in charge of the evidence. Point the same claim at the machines and DHS could declare a "significant incident" too, if the 677b conditions are met. Call a system a national security system and it leaves those tracks for the Pentagon's lane. <span class="m">I</span>
 
-And we wouldn't know the clock was running. The seven-day notice goes to committees. The yearly FISMA reviews go to OMB, and nothing requires them to be made public. <span class="m">D</span>
+And we wouldn't know the clock was running. The seven-day notice goes to committees. Each agency's yearly report, with each major incident, goes to Congress and GAO, and OMB reports to Congress by March 1; the inspector-general evaluations go to OMB, and nothing requires those to be made public. <span class="m">D</span>
 
 Two more things worth knowing before part two:
 
@@ -94,7 +94,9 @@ The tell is out. Anyone know if Secretary Mullin and the newly anointed incoming
 
 — Amanda
 
-*Fine print: D is a document, R is reporting, I is my inference. The statute, memo and government quotes are exact.*
+*Fine print: D is a document, R is reporting, I is my inference. The statute, memo and government quotes are exact; "..." marks a cut.*
+
+*Correction, Nov 12, 2026: An earlier version said a "national security system" label adds a second track; the statutes take those systems out of the DHS, OMB and 677b tracks. It also quoted PPD-41 as saying the Pentagon supports "as needed" (that phrase isn't in the directive about the Pentagon), described the 7-day clock as starting when the agency is sure (the statute says "a reasonable basis to conclude"), cited 677a for the declaration power (it is 677b, with conditions), said no FISMA reports must be made public (only inspector-general evaluations go just to OMB), presented ATF's FISMA designation as PPD-41 in use, and linked the CISA plan instead of the DHS release in footnote 8.*
 
 [^ppd41]: Presidential Policy Directive 41, "United States Cyber Incident Coordination," July 26, 2016. [White House archive](https://obamawhitehouse.archives.gov/the-press-office/2016/07/26/presidential-policy-directive-united-states-cyber-incident)
 [^677]: Cyber Response and Recovery Act, 6 U.S.C. 677-677g (2021). [6 U.S.C. 677a](https://www.law.cornell.edu/uscode/text/6/677a)
@@ -103,7 +105,7 @@ The tell is out. Anyone know if Secretary Mullin and the newly anointed incoming
 [^mullin]: Letter, DHS Secretary Mullin to the White House Transparency Task Force, Aug. 24, 2026, pp. 1-2, in the DHS Election Integrity Memoranda release. [White House file](https://www.whitehouse.gov/wp-content/uploads/2026/08/DHS-Election-Integrity-Memoranda.zip)
 [^nfdc]: DOJ, "Justice Department announces launch of National Fraud Detection Center," Aug. 24, 2026. [DOJ](https://www.justice.gov/opa/pr/department-justice-announces-launch-national-fraud-detection-center-combat-fraud-against)
 [^hegseth]: Secretary of War Hegseth, "Countering Foreign Threats to 2026 Elections," signed Sept. 22, 2026, released Sept. 28. [Defense Dept.](https://media.defense.gov/2026/Sep/28/2004007844/-1/-1/1/COUNTERING-FOREIGN-THREATS-TO-2026-ELECTIONS.PDF)
-[^eisp]: DHS release on CISA's "2026 Election Infrastructure Security Plan," Sept. 24, 2026. [The plan (CISA)](https://www.cisa.gov/sites/default/files/2026-09/2026-CISA-Election-Security-Plan-FINAL-508c.pdf)
+[^eisp]: DHS release on CISA's "2026 Election Infrastructure Security Plan," Sept. 24, 2026. [DHS release](https://www.dhs.gov/news/2026/09/24/dhs-announces-release-2026-election-infrastructure-security-plan); quote as reported by [Nextgov](https://www.nextgov.com/cybersecurity/2026/09/cisa-pledges-election-security-support-after-cuts-weakened-ties-states/416194/). [The plan (CISA)](https://www.cisa.gov/sites/default/files/2026-09/2026-CISA-Election-Security-Plan-FINAL-508c.pdf)
 [^preserve]: Democracy Docket, Oct. 2026. [Democracy Docket](https://www.democracydocket.com/news-alerts/doj-warns-election-officials-in-all-50-states-of-criminal-penalties-days-before-midterms/)
 [^logs]: Democracy Docket, Nov. 3, 2026. [Democracy Docket](https://www.democracydocket.com/news-alerts/mullin-says-trump-admin-will-comb-voting-logs-to-hunt-for-noncitizens-after-election/)
 [^form]: CISA, "CISA Announces Enhanced Reporting Form for Cyber Incidents," Nov. 9, 2026. [CISA](https://www.cisa.gov/news-events/news/cisa-announces-enhanced-reporting-form-cyber-incidents)
